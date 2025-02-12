@@ -14,7 +14,7 @@
 ### PyMol
 
 Download
-[https://pymol.org](https://pymol.org)
+[https://pymol.org/](https://pymol.org/)
 
 
 Get Licence with Student/Teacher
