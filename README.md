@@ -12,3 +12,6 @@
 ## Week 2
 
 ### PyMol
+
+Get Licence with Student/Teacher
+https://pymol.org/edu/
