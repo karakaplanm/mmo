@@ -3,26 +3,27 @@
 
 ## Course Content
 
-@ Basic foundations and applications of molecular modeling.
-@ Visualization of Biomolecules. Calculating physical properties of biomolecules. Theoretical background of molecular simulations.
-@ Computational methods and algorithms of molecular computations. Current trends and software in molecular modeling.
-@ Structure prediction of biomolecules and drug design.
+1. Basic foundations and applications of molecular modeling.
+2. Visualization of Biomolecules. Calculating physical properties of biomolecules. Theoretical background of molecular simulations.
+3. Computational methods and algorithms of molecular computations. Current trends and software in molecular modeling.
+4. Structure prediction of biomolecules and drug design.
 
 ## Weekly Contents
-+ Basic foundations and applications of molecular modeling
-+ Physical foundations of molecular modeling. Statistical mechanics. Quantum Mechanics
-+ Introduction to Nucleic Acids Structure. Visualization of Nucleic Acids. Basic Calculations on Nucleic Acids
-+ Structure of Proteins and Visualization of a Protein. Classification and basic calculations.
-+ Structure prediction: Protein Folding. Homology Modeling
-+ Molecular mechanics. Basic assumptions. Force field models.
-+ Potential Energy Surfaces: Saddle Points, First-Order Methods, Second-Order Methods
-+ Molecular Mechanics Examples. Geometry Optimization. Amino Acids
-+ Electrostatics & Solvation in Biomolecules
-+ Introduction to molecular editing and visualization software
-+ Introduction to Drug Design
-+ Introduction to Monte Carlo Methods
-+ Ab Initio Methods
-+ Applying biomolecular modeling to ongoing research
+
+1. Basic foundations and applications of molecular modeling
+2. Physical foundations of molecular modeling. Statistical mechanics. Quantum Mechanics
+3. Introduction to Nucleic Acids Structure. Visualization of Nucleic Acids. Basic Calculations on Nucleic Acids
+4. Structure of Proteins and Visualization of a Protein. Classification and basic calculations.
+5. Structure prediction: Protein Folding. Homology Modeling
+6. Molecular mechanics. Basic assumptions. Force field models.
+7. Potential Energy Surfaces: Saddle Points, First-Order Methods, Second-Order Methods
+8. Molecular Mechanics Examples. Geometry Optimization. Amino Acids
+9. Electrostatics & Solvation in Biomolecules
+10. Introduction to molecular editing and visualization software
+11. Introduction to Drug Design
+12. Introduction to Monte Carlo Methods
+13. Ab Initio Methods
+14. Applying biomolecular modeling to ongoing research
     
 
 ## Week 1
