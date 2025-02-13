@@ -35,4 +35,5 @@
 + Get AutoDock Vina <a href=https://vina.scripps.edu>https://vina.scripps.edu/</a></li>
 + Install WSL (Windows Subsystem for Linux) to Windows
 + Protein DataBank https://www.rcsb.org
++ Chemical Information Database https://pubchem.ncbi.nlm.nih.gov/
 
