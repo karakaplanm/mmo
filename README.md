@@ -1,5 +1,30 @@
 # Biomolecular Modelling
 
+
+## Course Content
+
++ Basic foundations and applications of molecular modeling.
++ Visualization of Biomolecules. Calculating physical properties of biomolecules. Theoretical background of molecular simulations.
++ Computational methods and algorithms of molecular computations. Current trends and software in molecular modeling.
++ Structure prediction of biomolecules and drug design.
+
+## Weekly Contents
++ Basic foundations and applications of molecular modeling
++ Physical foundations of molecular modeling. Statistical mechanics. Quantum Mechanics
++ Introduction to Nucleic Acids Structure. Visualization of Nucleic Acids. Basic Calculations on Nucleic Acids
++ Structure of Proteins and Visualization of a Protein. Classification and basic calculations.
++ Structure prediction: Protein Folding. Homology Modeling
++ Molecular mechanics. Basic assumptions. Force field models.
++ Potential Energy Surfaces: Saddle Points, First-Order Methods, Second-Order Methods
++ Molecular Mechanics Examples. Geometry Optimization. Amino Acids
++ Electrostatics & Solvation in Biomolecules
++ Introduction to molecular editing and visualization software
++ Introduction to Drug Design
++ Introduction to Monte Carlo Methods
++ Ab Initio Methods
++ Applying biomolecular modeling to ongoing research
+    
+
 ## Week 1
 
 + Do PyMol Installation <a href=https://pymol.org/> https://pymol.org/</a></li>
