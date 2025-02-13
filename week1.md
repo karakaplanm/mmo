@@ -1,4 +1,4 @@
-# Lecture Notes: Basic Foundations and Applications of Molecular Modeling
+# Week 1: Basic Foundations and Applications of Molecular Modeling
 
 ## 1. Introduction to Molecular Modeling
 Molecular modeling is a collection of computational techniques used to mimic and analyze the structure, dynamics, and interactions of molecules at an atomic or molecular level. It is widely applied in chemistry, biochemistry, and drug discovery.
