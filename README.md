@@ -3,10 +3,10 @@
 
 ## Course Content
 
-+ Basic foundations and applications of molecular modeling.
-+ Visualization of Biomolecules. Calculating physical properties of biomolecules. Theoretical background of molecular simulations.
-+ Computational methods and algorithms of molecular computations. Current trends and software in molecular modeling.
-+ Structure prediction of biomolecules and drug design.
+@ Basic foundations and applications of molecular modeling.
+@ Visualization of Biomolecules. Calculating physical properties of biomolecules. Theoretical background of molecular simulations.
+@ Computational methods and algorithms of molecular computations. Current trends and software in molecular modeling.
+@ Structure prediction of biomolecules and drug design.
 
 ## Weekly Contents
 + Basic foundations and applications of molecular modeling
