@@ -78,7 +78,7 @@ Molecular modeling is a collection of computational techniques used to mimic and
 - Designs new materials with specific properties.
 - Used in polymer and nanomaterial research.
 
-## 7. Challenges and Future Perspectives
+## 8. Challenges and Future Perspectives
 - **Computational Cost:** High accuracy models require significant computational power.
 - **Accuracy vs. Speed Trade-off:** Faster methods are often less accurate.
 - **Integration with AI & Machine Learning:** New trends involve using AI to improve modeling accuracy and efficiency.
