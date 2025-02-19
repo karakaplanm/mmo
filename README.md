@@ -9,6 +9,7 @@
 + Avogadro <a href="https://two.avogadro.cc/install/index.html">https://two.avogadro.cc/install/index.html</a>
   or `$ sudo apt install avogadro`
 + NWChem <a href="https://www.nwchem-sw.org">https://www.nwchem-sw.org</a>
+    or `$ sudo apt install nwchem`
 + Get GitHub Repository account like <a href=https://github.com/karakaplanm> https://github.com/karakaplanm</a></li>
 + Visit the github page of this lecture <a href=https://github.com/karakaplanm/mmo>https://github.com/karakaplanm/mmo</a></li>
 + Get Gromacs <a href=https://gromacs.org>https://gromacs.org</a></li>
