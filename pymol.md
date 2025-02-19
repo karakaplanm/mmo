@@ -1,8 +1,11 @@
 # PyMol
 
-Download
+
+## Download
 https://pymol.org
 
+## Install
+   `$ sudo apt install pymol`
 
 Get Licence with Student/Teacher
 https://pymol.org/buy.html
