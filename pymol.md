@@ -10,7 +10,7 @@ https://pymol.org
 Get Licence with Student/Teacher
 https://pymol.org/buy.html
 
-#### Basic PyMOL Interface and Commands
+## Basic PyMOL Interface and Commands
 https://www.rcsb.org/
 
 ```
@@ -22,12 +22,12 @@ PyMOL> fetch 1crn
 > show surface
 ```
 
-### Rotating, Zooming, and Translating:
+## Rotating, Zooming, and Translating:
 
 Use the mouse left button to rotate, middle button to zoom, and right button to translate
 
 
-### Train this commands
+## Train this commands
 ```
 fetch 1crn
 show cartoon
