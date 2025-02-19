@@ -23,26 +23,49 @@ Molecular modeling is a collection of computational techniques used to mimic and
 - A mathematical function that describes the energy of a system based on atomic positions.
 - Used in studying reaction mechanisms and transition states.
 
-## 4. Computational Techniques in Molecular Modeling
+### D. Force Fields (FF)
+  - Empirical models describing interatomic interactions (e.g., CHARMM, AMBER, OPLS).
+
+## 4. Molecular Modeling Techniques
+
+ ### A. Molecular Docking
+   Predicts the binding of small molecules (ligands) to macromolecules (proteins, nucleic acids).
+   Common docking programs: AutoDock, DOCK, Glide.
+### B. Molecular Dynamics (MD) Simulations
+  Simulates the motion of molecules over time.
+  Key software: GROMACS, AMBER, CHARMM.
+### C. Conformational Analysis
+  Studies different molecular conformations to determine stability.
+  Methods include energy minimization and normal mode analysis.
+## D. Quantitative Structure-Activity Relationship (QSAR)
+  Uses statistical models to predict molecular properties based on structural features.
+  Essential for drug discovery and toxicology studies.
+
+## 5. Computational Techniques in Molecular Modeling
 ### A. Classical Mechanics-Based Approaches
+- **Newton’s Laws of Motion:** Governs molecular dynamics simulations.
 - **Molecular Mechanics (MM):** Uses force fields to model molecular systems.
 - **Molecular Dynamics (MD):** Simulates molecular motion over time.
+- **Monte Carlo Simulations:** Stochastic techniques to explore molecular conformations.
 
 ### B. Quantum Mechanics-Based Approaches
 - **Ab Initio Methods:** Solve Schrödinger’s equation for molecular systems.
 - **Density Functional Theory (DFT):** Approximates electronic structure calculations efficiently.
+- **Semi-Empirical Methods:** Hybrid methods using empirical data to simplify quantum calculations (e.g., PM3, AM1).
 
 ### C. Hybrid Approaches
 - **Quantum Mechanics/Molecular Mechanics (QM/MM):** Combines quantum and classical mechanics for better accuracy in complex systems.
 
-## 5. Software Used in Molecular Modeling
+
+
+## 6. Software Used in Molecular Modeling
 - **Gaussian** (Quantum calculations)
 - **GROMACS** (Molecular dynamics simulations)
 - **AutoDock** (Docking studies for drug discovery)
 - **PyMOL** (Molecular visualization)
 - **Chimera** (3D molecular visualization)
 
-## 6. Applications of Molecular Modeling
+## 7. Applications of Molecular Modeling
 ### A. Drug Design and Discovery
 - Predicts binding affinity of drug candidates.
 - Helps in structure-based drug design.
