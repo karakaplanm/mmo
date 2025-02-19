@@ -4,9 +4,13 @@
 
 + OpenBabel http://openbabel.org/index.html
 + PyMol Installation <a href=https://pymol.org/> https://pymol.org/</a></li>
+    or `$ sudo apt install pymol`
++ Avogadro <a href="https://two.avogadro.cc/install/index.html">https://two.avogadro.cc/install/index.html</a>
+  or `$ sudo apt install avogadro`
 + Get GitHub Repository account like <a href=https://github.com/karakaplanm> https://github.com/karakaplanm</a></li>
 + Visit the github page of this lecture <a href=https://github.com/karakaplanm/mmo>https://github.com/karakaplanm/mmo</a></li>
 + Get Gromacs <a href=https://gromacs.org>https://gromacs.org</a></li>
+    or `$ sudo apt install gromacs`
 + Get AutoDock Vina <a href=https://vina.scripps.edu>https://vina.scripps.edu/</a></li>
 + Install WSL (Windows Subsystem for Linux) to Windows https://learn.microsoft.com/en-us/windows/wsl/install
 + Protein DataBank https://www.rcsb.org
