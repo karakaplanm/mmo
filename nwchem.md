@@ -22,3 +22,11 @@ end
 
 task scf optimize
 ```
+
+```
+$ nwchem water.nw
+```
+
+or write output to a file
+
+$ nwchem water.nw > water.out
