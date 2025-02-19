@@ -26,7 +26,7 @@
 
 ## Weekly Contents
 
-1. Basic foundations and applications of molecular modeling
+1. Basic foundations and applications of molecular modeling <a href="https://github.com/karakaplanm/mmo/blob/main/week1.md">Week 1</a>
 2. Physical foundations of molecular modeling. Statistical mechanics. Quantum Mechanics
 3. Introduction to Nucleic Acids Structure. Visualization of Nucleic Acids. Basic Calculations on Nucleic Acids
 4. Structure of Proteins and Visualization of a Protein. Classification and basic calculations.
