@@ -4,8 +4,8 @@
 
 + OpenBabel http://openbabel.org/index.html
    or `$ sudo apt install openbabel openbabel-gui`
-+ PyMol Installation <a href="https://github.com/karakaplanm/mmo/blob/main/pymol.md">PyMol Notes</a>
-   or `$ sudo apt install pymol`
++ PyMol <a href="https://github.com/karakaplanm/mmo/blob/main/pymol.md">PyMol Notes</a>
+
 
 + Avogadro <a href="https://two.avogadro.cc/install/index.html">https://two.avogadro.cc/install/index.html</a>
   or `$ sudo apt install avogadro`
