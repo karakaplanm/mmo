@@ -3,6 +3,7 @@
 ## Tools and Links
 
 + OpenBabel http://openbabel.org/index.html
+   or `$ sudo apt install openbabel openbabel-gui`
 + PyMol Installation <a href=https://pymol.org/> https://pymol.org/</a></li>
     or `$ sudo apt install pymol`
 + Avogadro <a href="https://two.avogadro.cc/install/index.html">https://two.avogadro.cc/install/index.html</a>
