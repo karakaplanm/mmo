@@ -1,5 +1,4 @@
 # PyMol
-What is PyMOL?
 
 PyMOL is an open-source molecular visualization software widely used in structural biology, computational chemistry, and drug design. It allows users to visualize molecular structures, analyze interactions, and create high-quality molecular graphics.
 Key Features of PyMOL
