@@ -43,6 +43,8 @@ Features of NWChem:
 `$ sudo apt install nwchem`
 
 ## Optimization Example
+
+Create a file named water.nw and paste the following code.
 ```
 start water_opt
 
