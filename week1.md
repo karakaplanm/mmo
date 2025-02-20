@@ -64,7 +64,7 @@ Molecular modeling is a collection of computational techniques used to mimic and
 - **AutoDock** (Docking studies for drug discovery)
 - **PyMOL** (Molecular visualization)
 - **Chimera** (3D molecular visualization)
-- **NwChem**
+- **NwChem** <a href="https://github.com/karakaplanm/mmo/blob/main/nwchem.md"> NwChem Notes</a>
 
 ## 7. Applications of Molecular Modeling
 ### A. Drug Design and Discovery
