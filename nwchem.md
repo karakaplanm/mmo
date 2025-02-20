@@ -44,7 +44,7 @@ Features of NWChem:
 
 ## Optimization Example
 
-Create a file named water.nw and paste the following code.
+Step 1: Create a file named water.nw and paste the following code.
 ```
 start water_opt
 
@@ -63,6 +63,7 @@ end
 task scf optimize
 ```
 
+Step 2: Run the water.nw script.
 ```
 $ nwchem water.nw
 ```
