@@ -74,8 +74,11 @@ or write output to a file
 $ nwchem water.nw > water.out
 ```
 
+Step 3: Open the water.out file with the Avogadro.
+
 ## DFT Calculation
 
+Step 1: Create a file water2.nw
 ```
 start water
 memory 500 mb
@@ -92,4 +95,10 @@ dft
   xc b3lyp
 end
 task dft energy
+```
+
+Step 2: Run the script
+
+```bash
+$ nwchem water2.nw > water2.out
 ```
