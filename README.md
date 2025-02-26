@@ -5,8 +5,6 @@
 + OpenBabel http://openbabel.org/index.html
    or `$ sudo apt install openbabel openbabel-gui`
 + PyMol <a href="https://github.com/karakaplanm/mmo/blob/main/pymol.md">PyMol Notes</a>
-
-
 + Avogadro <a href="https://two.avogadro.cc/install/index.html">https://two.avogadro.cc/install/index.html</a>
   or `$ sudo apt install avogadro`
 + NWChem <a href="https://www.nwchem-sw.org">https://www.nwchem-sw.org</a>
@@ -16,6 +14,7 @@
 + Get Gromacs <a href=https://gromacs.org>https://gromacs.org</a></li>
     or `$ sudo apt install gromacs`
 + Get AutoDock Vina <a href=https://vina.scripps.edu>https://vina.scripps.edu/</a></li>
++ VMD <a href=https://www.ks.uiuc.edu/Research/vmd/>https://www.ks.uiuc.edu/Research/vmd/</a>
 + Install WSL (Windows Subsystem for Linux) to Windows https://learn.microsoft.com/en-us/windows/wsl/install
 + Protein DataBank https://www.rcsb.org
 + Chemical Information Database https://pubchem.ncbi.nlm.nih.gov/
