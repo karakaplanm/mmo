@@ -117,11 +117,17 @@ Classical force fields (e.g., Lennard-Jones) cannot model the formation/breaking
 #### **Key Takeaway**  
 > **QM is essential** for modeling electrons, bonds, and reactions, but its high computational cost demands hybrid approaches (e.g., QM/MM) for biomolecular systems.
 
+---
 
 ### 2. Quantum Mechanics Essentials (45–60 mins)  
-- **Schrödinger Equation**: `Ĥψ = Eψ`  
+
+- **Schrödinger Equation**: `Ĥψ = Eψ`
+  The Schrödinger equation is the fundamental equation of **quantum mechanics**, describing how the quantum state of a physical system evolves over time. It was formulated by Austrian physicist **Erwin Schrödinger** in 1926.
+  
 - **Key Concepts**:  
-  - Wavefunctions, orbitals, Born-Oppenheimer approximation.  
+  - Wavefunctions, orbitals, Born-Oppenheimer approximation.
+    The Born-Oppenheimer (BO) approximation is a foundational concept in quantum chemistry and molecular physics. It simplifies the quantum mechanical treatment of molecules by separating the motion of electrons and nuclei, allowing computationally feasible solutions to the Schrödinger equation. Proposed by Max Born and J. Robert Oppenheimer in 1927, it remains a cornerstone of molecular modeling.
+    
 - **Computational Methods**:  
   - Hartree-Fock (mean-field theory).  
   - Density Functional Theory (DFT): `E[ρ]` as a functional of electron density.  
