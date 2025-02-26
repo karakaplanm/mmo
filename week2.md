@@ -32,7 +32,7 @@ The use of computational and theoretical methods to simulate, visualize, and pre
 - Directly tracking every atom in a macroscopic system (e.g., 10²³ particles) is computationally impossible.  
 - **Solution**: Use **statistical mechanics** to link microscopic details to macroscopic observables.  
 
-#### **1. Microscopic vs. Macroscopic Systems**  
+#### **Microscopic vs. Macroscopic Systems**  
 - **Microscopic**:  
   - Describes individual atoms/molecules and their interactions.  
   - Example: Positions, velocities, and energies of all atoms in a protein.  
@@ -42,13 +42,13 @@ The use of computational and theoretical methods to simulate, visualize, and pre
   - Describes bulk properties (e.g., temperature, pressure, entropy).  
   - Example: The melting point of a material or the binding free energy of a drug.  
   - Governed by **thermodynamics**.
-  
-  
+    
 - **Key Equations**:  
   - Boltzmann distribution: `P_i = e^(-E_i / k_B T)` 
   - Partition function: `Q = Σ e^(-E_i / k_B T)`
-  - Free energy: `F = -k_B T ln Q`  
-- **Ensembles**:  
+  - Free energy: `F = -k_B T ln Q`
+
+#### **Ensembles**:  
   - Microcanonical (NVE), Canonical (NVT), Isothermal-Isobaric (NPT).  
 - **Simulation Methods**:  
   - Molecular Dynamics (Newtonian mechanics).  
