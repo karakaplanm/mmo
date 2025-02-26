@@ -13,14 +13,21 @@ The use of computational and theoretical methods to simulate, visualize, and pre
   - Dynamics: Movement over time (e.g., protein folding, conformational changes).
   - Interactions: Forces between atoms/molecules (e.g., hydrogen bonds, van der Waals).
 - Mimics real-world behavior but requires approximations due to computational limits.
-    
-- **Definition**: Simulating molecular systems to predict structure, dynamics, and interactions.
-  
-- **Applications**:  
-  - Drug design, protein folding, material science.  
-- **Key Physical Foundations**:  
-  - Thermodynamics, statistical mechanics, quantum mechanics.  
 
+- Applications:
+  - Drug Design: Rational drug design: Predict how a drug candidate binds to a target protein (e.g., HIV protease inhibitors).
+  - Virtual screening: Test millions of compounds computationally to find potential drugs.
+    Example: Development of oseltamivir (Tamiflu) against influenza neuraminidase.
+  - Protein Folding:
+    - Study how proteins fold into functional 3D structures (e.g., alpha-helices, beta-sheets).
+    - Relevance: Misfolded proteins cause diseases like Alzheimer’s (amyloid plaques).
+      Example: Folding@Home project crowdsources simulations to study folding pathways.
+  - Material Science:
+    - Design new materials (e.g., polymers, catalysts, nanomaterials).
+      Example: Modeling graphene’s electronic properties for battery technology.
+  - Bonus Application:
+    - Enzyme Catalysis: Simulate how enzymes accelerate reactions (e.g., lysozyme breaking bacterial cell walls).
+    
 ### 2. Statistical Mechanics Basics (45–60 mins)  
 - **Microscopic vs. Macroscopic**: Ensemble averages (energy, entropy).  
 - **Key Equations**:  
