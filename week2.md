@@ -6,8 +6,16 @@
 
 ## Part 1: Introduction & Statistical Mechanics Foundations (1–1.5 hours)  
 
-### 1. Introduction to Molecular Modeling (15 mins)  
-- **Definition**: Simulating molecular systems to predict structure, dynamics, and interactions.  
+### 1. Introduction to Molecular Modeling (15 mins) 
+The use of computational and theoretical methods to simulate, visualize, and predict the behavior of molecules and biomolecular systems (e.g., proteins, DNA, ligands) at atomic or molecular scales. The molecular modeling is "computational microscope" that reveals atomic details invisible to lab experiments.
+- Simulates:
+  - Structure: 3D arrangement of atoms (e.g., protein-ligand binding sites).
+  - Dynamics: Movement over time (e.g., protein folding, conformational changes).
+  - Interactions: Forces between atoms/molecules (e.g., hydrogen bonds, van der Waals).
+- Mimics real-world behavior but requires approximations due to computational limits.
+    
+- **Definition**: Simulating molecular systems to predict structure, dynamics, and interactions.
+  
 - **Applications**:  
   - Drug design, protein folding, material science.  
 - **Key Physical Foundations**:  
