@@ -60,10 +60,65 @@ The use of computational and theoretical methods to simulate, visualize, and pre
 
 ## Part 2: Quantum Mechanics Basics (1–1.5 hours)  
 
-### 1. Why QM in Molecular Modeling? (15 mins)  
-- **Classical Mechanics Limitations**: Covalent bonds, electron transfer.  
-- **Applications**:  
-  - Chemical reactions (enzyme catalysis), electronic structure (DFT), QM/MM hybrid methods.  
+#### 1. Why QM in Molecular Modeling? (15 mins) 
+#### **1. Limitations of Classical Mechanics**  
+Classical (Newtonian) mechanics fails to describe:  
+- **Covalent bonds**: Electrons exhibit wave-like behavior and delocalization.  
+- **Electron transfer**: Redox reactions (e.g., in photosynthesis).  
+- **Charge distributions**: Polarization and partial charges in molecules.  
+- **Reaction pathways**: Bond breaking/formation (e.g., enzyme catalysis).  
+
+**Example**:  
+Classical force fields (e.g., Lennard-Jones) cannot model the formation/breaking of a C-C bond.  
+
+---
+
+#### **2. Key Applications of QM**  
+##### **Modeling Electronic Structure**  
+- Predict electron density, orbitals, and bonding.  
+- **Example**: Density Functional Theory (DFT) calculates molecular orbitals for drug-receptor interactions.  
+
+##### **Chemical Reactions**  
+- Simulate transition states and reaction mechanisms.  
+- **Example**: QM reveals how **lysozyme** cleaves bacterial cell walls.  
+
+##### **Hybrid QM/MM Methods**  
+- Combine QM (for reactive regions) with molecular mechanics (MM) for the rest of the system.  
+- **Example**: Modeling ATP hydrolysis in a solvated protein.  
+
+##### **Spectroscopic Properties**  
+- Predict UV-Vis, IR, or NMR spectra.  
+- **Example**: Simulating chlorophyll’s absorption spectrum in photosynthesis.  
+
+---
+
+#### **3. Computational Trade-offs**  
+| **Method**       | Accuracy | Computational Cost | Use Case |  
+|-------------------|----------|---------------------|----------|  
+| **Ab Initio QM**  | High     | Very High           | Small molecules, reaction paths |  
+| **DFT**           | High     | High                | Medium systems (100s of atoms) |  
+| **Semi-Empirical**| Moderate | Low                 | Large systems (e.g., QM/MM) |  
+| **Classical MM**  | Low      | Very Low            | Non-reactive bulk systems |  
+
+---
+
+#### **4. Example Workflow: Drug Design**  
+1. **QM**: Optimize ligand geometry and calculate partial charges.  
+2. **QM/MM**: Simulate ligand binding to a protein’s active site.  
+3. **MD**: Refine binding dynamics using classical force fields.  
+
+---
+
+#### **5. Challenges & Future Directions**  
+- **Scalability**: QM methods struggle with systems >1,000 atoms.  
+- **Machine Learning**: Training neural networks to approximate QM potentials (e.g., AlphaFold).  
+- **Quantum Computing**: Potential to solve Schrödinger equations exponentially faster.  
+
+---
+
+#### **Key Takeaway**  
+> **QM is essential** for modeling electrons, bonds, and reactions, but its high computational cost demands hybrid approaches (e.g., QM/MM) for biomolecular systems.
+
 
 ### 2. Quantum Mechanics Essentials (45–60 mins)  
 - **Schrödinger Equation**: `Ĥψ = Eψ`  
