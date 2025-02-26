@@ -16,7 +16,7 @@
 ### 2. Statistical Mechanics Basics (45–60 mins)  
 - **Microscopic vs. Macroscopic**: Ensemble averages (energy, entropy).  
 - **Key Equations**:  
-  - Boltzmann distribution: `P_i ∝ e^(-E_i / k_B T)`  
+  - Boltzmann distribution: $ P_i = e^(-E_i / k_B T) $  
   - Partition function: `Q = Σ e^(-E_i / k_B T)`  
   - Free energy: `F = -k_B T ln Q`  
 - **Ensembles**:  
