@@ -71,7 +71,6 @@ Classical (Newtonian) mechanics fails to describe:
 **Example**:  
 Classical force fields (e.g., Lennard-Jones) cannot model the formation/breaking of a C-C bond.  
 
----
 
 #### **2. Key Applications of QM**  
 ##### **Modeling Electronic Structure**  
@@ -90,7 +89,7 @@ Classical force fields (e.g., Lennard-Jones) cannot model the formation/breaking
 - Predict UV-Vis, IR, or NMR spectra.  
 - **Example**: Simulating chlorophyll’s absorption spectrum in photosynthesis.  
 
----
+
 
 #### **3. Computational Trade-offs**  
 | **Method**       | Accuracy | Computational Cost | Use Case |  
@@ -100,21 +99,20 @@ Classical force fields (e.g., Lennard-Jones) cannot model the formation/breaking
 | **Semi-Empirical**| Moderate | Low                 | Large systems (e.g., QM/MM) |  
 | **Classical MM**  | Low      | Very Low            | Non-reactive bulk systems |  
 
----
+
 
 #### **4. Example Workflow: Drug Design**  
 1. **QM**: Optimize ligand geometry and calculate partial charges.  
 2. **QM/MM**: Simulate ligand binding to a protein’s active site.  
 3. **MD**: Refine binding dynamics using classical force fields.  
 
----
 
 #### **5. Challenges & Future Directions**  
 - **Scalability**: QM methods struggle with systems >1,000 atoms.  
 - **Machine Learning**: Training neural networks to approximate QM potentials (e.g., AlphaFold).  
 - **Quantum Computing**: Potential to solve Schrödinger equations exponentially faster.  
 
----
+
 
 #### **Key Takeaway**  
 > **QM is essential** for modeling electrons, bonds, and reactions, but its high computational cost demands hybrid approaches (e.g., QM/MM) for biomolecular systems.
