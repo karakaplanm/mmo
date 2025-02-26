@@ -29,7 +29,21 @@ The use of computational and theoretical methods to simulate, visualize, and pre
     - Enzyme Catalysis: Simulate how enzymes accelerate reactions (e.g., lysozyme breaking bacterial cell walls).
     
 ### 2. Statistical Mechanics Basics (45–60 mins)  
-- **Microscopic vs. Macroscopic**: Ensemble averages (energy, entropy).  
+- Directly tracking every atom in a macroscopic system (e.g., 10²³ particles) is computationally impossible.  
+- **Solution**: Use **statistical mechanics** to link microscopic details to macroscopic observables.  
+
+#### **1. Microscopic vs. Macroscopic Systems**  
+- **Microscopic**:  
+  - Describes individual atoms/molecules and their interactions.  
+  - Example: Positions, velocities, and energies of all atoms in a protein.  
+  - Governed by **Newtonian mechanics** (MD) or **quantum mechanics** (for electrons).  
+
+- **Macroscopic**:  
+  - Describes bulk properties (e.g., temperature, pressure, entropy).  
+  - Example: The melting point of a material or the binding free energy of a drug.  
+  - Governed by **thermodynamics**.
+  
+  
 - **Key Equations**:  
   - Boltzmann distribution: `P_i = e^(-E_i / k_B T)` 
   - Partition function: `Q = Σ e^(-E_i / k_B T)`
