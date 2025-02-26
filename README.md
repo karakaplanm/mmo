@@ -20,6 +20,15 @@
 + Protein DataBank https://www.rcsb.org
 + Chemical Information Database https://pubchem.ncbi.nlm.nih.gov/
 
+## Objectives
+
++ The student is able to characterize the structure of proteins and nucleic acids.
++ The student is able to describe the principles of molecular dynamics.
++ The student is able to list the relevant interactions that are required to model a biomolecular system.
++ The student is able to perform a molecular dynamics simulation on a biomolecular system.
++ The student is able to construct structural models of proteins and nucleic acids.
++ The student is able to describe the principles of docking.
+
 ## Course Content
 
 1. Basic foundations and applications of molecular modeling.
