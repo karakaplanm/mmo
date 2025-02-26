@@ -85,16 +85,5 @@
 
 ---
 
-## Recommended Resources  
-- **Books**:  
-  - *Molecular Modelling: Principles and Applications* (Leach).  
-  - *Introduction to Quantum Mechanics* (Griffiths).  
-- **Papers**:  
-  - *"Perspective: Alchemical free energy calculations for drug discovery"* (J. Chem. Phys., 2021).  
 
----
 
-## Teaching Tips  
-- Use **visuals**: Energy landscapes, simulation snapshots.  
-- **Analogies**: Ensembles as "snapshots" under different conditions.  
-- **Simplify math**: Partition function = "sum over states".  
