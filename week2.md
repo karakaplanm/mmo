@@ -61,7 +61,7 @@ The use of computational and theoretical methods to simulate, visualize, and pre
 
 ---
 
-## Part 2: Quantum Mechanics Basics (1–1.5 hours)  
+## Part 3: Quantum Mechanics Basics (1–1.5 hours)  
 
 #### 1. Why QM in Molecular Modeling? (15 mins) 
 #### **1. Limitations of Classical Mechanics**  
@@ -140,7 +140,7 @@ Classical force fields (e.g., Lennard-Jones) cannot model the formation/breaking
 
 ---
 
-## Part 3: Bridging Theory to Practice (30–45 mins)  
+## Part 4: Bridging Theory to Practice (30–45 mins)  
 
 ### 1. Case Study: Drug Binding (20 mins)  
 - **Workflow**:  
