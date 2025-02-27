@@ -56,8 +56,8 @@ The use of computational and theoretical methods to simulate, visualize, and pre
   - Monte Carlo (random sampling + Boltzmann weights).  
 
 **Example**: MD simulation video of a protein in water.  
-  - <a href=https://www.youtube.com/watch?v=oje_Y2gGv7I>01 GROMACS Simulation: Lysozyme in Water 1 ns </a>
-  - <a href=https://www.youtube.com/watch?v=gzBE5Ry7Fxg>Lysozyme in Water - gromacs </a>
+  - <a href="https://www.youtube.com/watch?v=oje_Y2gGv7I">01 GROMACS Simulation: Lysozyme in Water 1 ns </a>
+  - <a href="https://www.youtube.com/watch?v=gzBE5Ry7Fxg">Lysozyme in Water - gromacs </a>
 
 ---
 
