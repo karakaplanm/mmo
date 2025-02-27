@@ -26,7 +26,8 @@ The use of computational and theoretical methods to simulate, visualize, and pre
       Example: Modeling graphene’s electronic properties for battery technology.
   - Bonus Application:
     - Enzyme Catalysis: Simulate how enzymes accelerate reactions (e.g., lysozyme breaking bacterial cell walls).
-    
+---
+
 ## Part 2: Introduction & Statistical Mechanics Foundations (1–1.5 hours)  
 
 ### Statistical Mechanics Basics (45–60 mins)  
