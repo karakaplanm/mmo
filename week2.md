@@ -160,7 +160,7 @@ Classical force fields (e.g., Lennard-Jones) cannot model the formation/breaking
 
 ---
 
-## Interactive Elements  
+## Part 5: Interactive Elements  
 - **Live Demo**: Energy minimization/MD setup (if possible).  
 - **Conceptual Questions**:  
   - *Why can’t we model electrons classically?*  
