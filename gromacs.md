@@ -19,5 +19,6 @@
   ```console
   $ gmx pdb2gmx -f 1AKI_clean.pdb -o 1AKI_processed.gro -water spce
   ```
+  type 15 at the command prompt, followed by 'Enter'.
 
   
