@@ -15,5 +15,9 @@
   ```console
   PyMOL> save 1AKI_clean.pdb, 1AKI
   ```
+- Execute pdb2gmx by issuing the following command:
+  ```console
+  $ gmx pdb2gmx -f 1AKI_clean.pdb -o 1AKI_processed.gro -water spce
+  ```
 
   
