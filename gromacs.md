@@ -13,7 +13,7 @@
   ```
 - Save clean 1AKI molecule
   ```console
-  PyMOL> save clean_1AKI.pdb, 1AKI
+  PyMOL> save 1AKI_clean.pdb, 1AKI
   ```
 
   
