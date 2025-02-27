@@ -91,15 +91,49 @@ $ gmx mdrun -deffnm npt
 Plot
 ```console
 $ gmx energy -f npt.edr -o pressure.xvg
+Type "18 0"
+
 $ xmgrace pressure.xvg
+
 $ gmx energy -f npt.edr -o density.xvg
+Type "24 0"
 $ xmgrace density.xvg
 ```
 
+### Step 8: Production MD
 
+```console
+$ wget http://www.mdtutorials.com/gmx/lysozyme/Files/md.mdp
+$ gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
+$ gmx mdrun -deffnm md_0_1
+```
 
+### Step 9: Analysis
 
-  
-  
+```console
+$ gmx trjconv -s md_0_1.tpr -f md_0_1.xtc -o md_0_1_noPBC.xtc -pbc mol -center
+```
+
+```console
+$ gmx rms -s md_0_1.tpr -f md_0_1_noPBC.xtc -o rmsd.xvg -tu ns
+```
+Choose 4 ("Backbone")
+```console
+$ xmgrace rmsd.xvg
+```
+
+```console
+$ gmx rms -s em.tpr -f md_0_1_noPBC.xtc -o rmsd_xtal.xvg -tu ns
+```
+
+```console
+$ xmgrace rmsd_xtal.xvg
+```
+
+```console
+$ gmx gyrate -s md_0_1.tpr -f md_0_1_noPBC.xtc -o gyrate.xvg
+```
+Choose group 1 (Protein) for analysis.
+
   
   
