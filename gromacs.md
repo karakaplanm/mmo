@@ -25,6 +25,9 @@
   ```console
   $ ls
   ```
+### Examine the Topology
+
+### Step 3: Defining the Unit Cell & Adding Solvent
 - Creating a 1.0 nm box
   ```console
   $ gmx editconf -f 1AKI_processed.gro -o 1AKI_newbox.gro -c -d 1.0 -bt cubic
@@ -33,7 +36,7 @@
   ```console
   $ gmx solvate -cp 1AKI_newbox.gro -cs spc216.gro -o 1AKI_solv.gro -p topol.top
   ```
-- Add Ions for neutralize
+### Step 4: Add Ions for neutralize
   ```console
   $ wget http://www.mdtutorials.com/gmx/lysozyme/Files/ions.mdp
   $ gmx grompp -f ions.mdp -c 1AKI_solv.gro -p topol.top -o ions.tpr
