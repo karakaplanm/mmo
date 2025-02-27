@@ -123,7 +123,7 @@ Classical force fields (e.g., Lennard-Jones) cannot model the formation/breaking
 
 ---
 
-### 2. Quantum Mechanics Essentials (45–60 mins)  
+## Part 4. Quantum Mechanics Essentials (45–60 mins)  
 
 - **Schrödinger Equation**: `Ĥψ = Eψ`
   The Schrödinger equation is the fundamental equation of **quantum mechanics**, describing how the quantum state of a physical system evolves over time. It was formulated by Austrian physicist **Erwin Schrödinger** in 1926.
@@ -141,7 +141,7 @@ Classical force fields (e.g., Lennard-Jones) cannot model the formation/breaking
 
 ---
 
-## Part 4: Bridging Theory to Practice (30–45 mins)  
+## Part 5: Bridging Theory to Practice (30–45 mins)  
 
 ### 1. Case Study: Drug Binding (20 mins)  
 - **Workflow**:  
