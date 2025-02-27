@@ -25,7 +25,8 @@
   ```console
   $ ls
   ```
-### Examine the Topology
+  
+### Step 2: Examine the Topology
 
 ### Step 3: Defining the Unit Cell & Adding Solvent
 - Creating a 1.0 nm box
