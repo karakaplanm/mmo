@@ -4,9 +4,8 @@
 
 ---
 
-## Part 1: Introduction & Statistical Mechanics Foundations (1–1.5 hours)  
 
-### 1. Introduction to Molecular Modeling (15 mins) 
+## 1. Introduction to Molecular Modeling (15 mins) 
 The use of computational and theoretical methods to simulate, visualize, and predict the behavior of molecules and biomolecular systems (e.g., proteins, DNA, ligands) at atomic or molecular scales. The molecular modeling is "computational microscope" that reveals atomic details invisible to lab experiments.
 - Simulates:
   - Structure: 3D arrangement of atoms (e.g., protein-ligand binding sites).
@@ -28,7 +27,9 @@ The use of computational and theoretical methods to simulate, visualize, and pre
   - Bonus Application:
     - Enzyme Catalysis: Simulate how enzymes accelerate reactions (e.g., lysozyme breaking bacterial cell walls).
     
-### 2. Statistical Mechanics Basics (45–60 mins)  
+## Part 2: Introduction & Statistical Mechanics Foundations (1–1.5 hours)  
+
+### Statistical Mechanics Basics (45–60 mins)  
 - Directly tracking every atom in a macroscopic system (e.g., 10²³ particles) is computationally impossible.  
 - **Solution**: Use **statistical mechanics** to link microscopic details to macroscopic observables.  
 
@@ -55,6 +56,8 @@ The use of computational and theoretical methods to simulate, visualize, and pre
   - Monte Carlo (random sampling + Boltzmann weights).  
 
 **Example**: MD simulation video of a protein in water.  
+  - <a href=https://www.youtube.com/watch?v=oje_Y2gGv7I>01 GROMACS Simulation: Lysozyme in Water 1 ns </a>
+  - <a href=https://www.youtube.com/watch?v=gzBE5Ry7Fxg>Lysozyme in Water - gromacs </a>
 
 ---
 
