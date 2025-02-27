@@ -8,5 +8,7 @@
   PyMOL > fetch 1AKI
   ```
 - Remove water molecules<br>
-  `PyMOL > remove solvent`
+  ```console
+  PyMOL > remove solvent
+  ```
   
