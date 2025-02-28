@@ -31,6 +31,7 @@ Add following options for typical installation
 Example cmake command
 ```console
 $ cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON -DGMX_GPU=CUDA -DCMAKE_CXX_COMPILER=gcc-12 -DCMAKE_C_COMPILER=gcc-12
+$ make -j8
 ```
 
 ## Lysozyme In Water
