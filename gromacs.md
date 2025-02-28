@@ -2,12 +2,13 @@
 
 ## Installation
 
+### with apt from Ubuntu repos
 ```console
 $ sudo apt update
 $ sudo apt install gromacs
 ```
 
-Or from Source
+### Installation from Source
 
 ```console
 $ tar xfz gromacs-2025.0.tar.gz
