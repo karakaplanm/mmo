@@ -1,24 +1,27 @@
 # Gromacs
 
 ## Installation
+
 ```console
 $ sudo apt update
-# sudo apt install gromacs
+$ sudo apt install gromacs
 ```
 
 Or from Source
+
 ```console
 $ tar xfz gromacs-2025.0.tar.gz
 $ cd gromacs-2025.0
 $ mkdir build
+$ sudo apt install libopenmpi-dev
 $ cd build
 $ cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
 $ make
 $ make check
 $ sudo make install
 $ source /usr/local/gromacs/bin/GMXRC
-
 ```
+
 Add following options for typical installation
 
 `-DGMX_MPI=on` to build using MPI support
