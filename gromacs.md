@@ -13,7 +13,7 @@ Or from Source
 $ tar xfz gromacs-2025.0.tar.gz
 $ cd gromacs-2025.0
 $ mkdir build
-$ sudo apt install libopenmpi-dev
+$ sudo apt install cmake build-essential
 $ cd build
 $ cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
 $ make
@@ -28,7 +28,10 @@ Add following options for typical installation
 
 `-DGMX_GPU=CUDA` to build with NVIDIA CUDA support enabled.
 
-
+Example cmake command
+```console
+$ cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON -DGMX_GPU=CUDA -DCMAKE_CXX_COMPILER=gcc-12 -DCMAKE_C_COMPILER=gcc-12
+```
 
 ## Lysozyme In Water
 
