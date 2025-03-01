@@ -1,4 +1,4 @@
-# Lecture Notes: Structure of Proteins and Visualization of a Protein. Classification and Basic Calculations
+# Week3: Structure of Proteins and Visualization of a Protein. Classification and Basic Calculations
 
 ---
 
