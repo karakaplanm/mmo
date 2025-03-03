@@ -5,7 +5,7 @@
 ## 1. Introduction to Proteins
 - **Definition**: Proteins are large, complex biomolecules composed of amino acids, essential for the structure, function, and regulation of the body's tissues and organs.
 - **Functions**:
-  - Enzymes (catalyze biochemical reactions).
+  - Enzymes (catalyze biochemical reactions).<br>
     Well-Known Enzymes and Their RCSB PDB Codes
     1. **DNA Polymerase** – [1TAQ](https://www.rcsb.org/structure/1TAQ) (Taq DNA Polymerase)
     2. **RNA Polymerase** – [4JKR](https://www.rcsb.org/structure/4JKR) (Bacterial RNA Polymerase)
@@ -19,7 +19,7 @@
     10. **Carbonic Anhydrase** – [1CA2](https://www.rcsb.org/structure/1CA2) (Human Carbonic Anhydrase II)
     11. **ATP Synthase** – [1QO1](https://www.rcsb.org/structure/1QO1) (F1 ATP Synthase)
 
-  - Structural components (e.g., collagen, keratin).
+  - Structural components (e.g., collagen, keratin).<br>
     Structural Components of Proteins and Their PDB Codes
     1. **Alpha-Helix (Myoglobin as an example)** – [1MBN](https://www.rcsb.org/structure/1MBN) (Sperm Whale Myoglobin)
     2. **Beta-Sheet (Concanavalin A as an example)** – [3CNA](https://www.rcsb.org/structure/3CNA) (Jack Bean Concanavalin A)
