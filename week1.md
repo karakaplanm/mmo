@@ -61,7 +61,7 @@ Molecular modeling is a collection of computational techniques used to mimic and
 ## 6. Software Used in Molecular Modeling
 - **Gaussian** (Quantum calculations)
 - **GROMACS** (Molecular dynamics simulations) <a href="https://github.com/karakaplanm/mmo/blob/main/gromacs.md">Gromacs Notes</a>
-- **AutoDock** (Docking studies for drug discovery) <a href="https://github.com/karakaplanm/mmo/blob/main/autodoc.md">AutoDock Notes</a>
+- **AutoDock** (Docking studies for drug discovery) <a href="https://github.com/karakaplanm/mmo/blob/main/autodock.md">AutoDock Notes</a>
 - **PyMOL** (Molecular visualization) <a href="https://github.com/karakaplanm/mmo/blob/main/pymol.md"> PyMol Notes</a>
 - **Chimera** (3D molecular visualization)
 - **NwChem** <a href="https://github.com/karakaplanm/mmo/blob/main/nwchem.md"> NwChem Notes</a>
