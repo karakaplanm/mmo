@@ -6,18 +6,19 @@
 - **Definition**: Proteins are large, complex biomolecules composed of amino acids, essential for the structure, function, and regulation of the body's tissues and organs.
 - **Functions**:
   - Enzymes (catalyze biochemical reactions).
-    Here are the RCSB PDB (Protein Data Bank) codes for these well-known enzymes:
-    DNA Polymerase – 1TAQ (Taq DNA Polymerase)
-    RNA Polymerase – 4JKR (Bacterial RNA Polymerase)
-    Amylase – 1SMD (Human Salivary Amylase)
-    Lipase – 1LPB (Pancreatic Lipase)
-    Protease (Trypsin) – 2PTN (Bovine Trypsin)
-    Lactase – 3OBA (Beta-Galactosidase, Lactase-related)
-    Catalase – 1DGF (Bovine Catalase)
-    Hexokinase – 1HKC (Rat Hexokinase)
-    Trypsin – 3TGI (Human Trypsin)
-    Carbonic Anhydrase – 1CA2 (Human Carbonic Anhydrase II)
-    ATP Synthase – 1QO1 (F1 ATP Synthase)
+    Well-Known Enzymes and Their RCSB PDB Codes
+    1. **DNA Polymerase** – [1TAQ](https://www.rcsb.org/structure/1TAQ) (Taq DNA Polymerase)
+    2. **RNA Polymerase** – [4JKR](https://www.rcsb.org/structure/4JKR) (Bacterial RNA Polymerase)
+    3. **Amylase** – [1SMD](https://www.rcsb.org/structure/1SMD) (Human Salivary Amylase)
+    4. **Lipase** – [1LPB](https://www.rcsb.org/structure/1LPB) (Pancreatic Lipase)
+    5. **Protease (Trypsin)** – [2PTN](https://www.rcsb.org/structure/2PTN) (Bovine Trypsin)
+    6. **Lactase** – [3OBA](https://www.rcsb.org/structure/3OBA) (Beta-Galactosidase, Lactase-related)
+    7. **Catalase** – [1DGF](https://www.rcsb.org/structure/1DGF) (Bovine Catalase)
+    8. **Hexokinase** – [1HKC](https://www.rcsb.org/structure/1HKC) (Rat Hexokinase)
+    9. **Trypsin** – [3TGI](https://www.rcsb.org/structure/3TGI) (Human Trypsin)
+    10. **Carbonic Anhydrase** – [1CA2](https://www.rcsb.org/structure/1CA2) (Human Carbonic Anhydrase II)
+    11. **ATP Synthase** – [1QO1](https://www.rcsb.org/structure/1QO1) (F1 ATP Synthase)
+
   - Structural components (e.g., collagen, keratin).
   - Transport and storage (e.g., hemoglobin, ferritin).
   - Signaling (e.g., hormones like insulin).
