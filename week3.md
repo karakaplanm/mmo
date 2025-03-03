@@ -51,10 +51,10 @@
   - Signaling (e.g., hormones like insulin).<br>
     Signaling Proteins and Their PDB Codes
     - G Protein-Coupled Receptors (GPCRs)
-      1. **Beta-2 Adrenergic Receptor (GPCR for Epinephrine Signaling)** – [2RH1](https://www.rcsb.org/structure/2RH1)
-      2. **Rhodopsin (Light-Sensitive GPCR in Vision)** – [1F88](https://www.rcsb.org/structure/1F88)
-      3. **Muscarinic Acetylcholine Receptor (GPCR for Neurotransmission)** – [4MQS](https://www.rcsb.org/structure/4MQS)
-      4. **Adenosine A2A Receptor (GPCR for Cardiovascular Function)** – [2YDV](https://www.rcsb.org/structure/2YDV)
+      - **Beta-2 Adrenergic Receptor (GPCR for Epinephrine Signaling)** – [2RH1](https://www.rcsb.org/structure/2RH1)
+      - **Rhodopsin (Light-Sensitive GPCR in Vision)** – [1F88](https://www.rcsb.org/structure/1F88)
+      - **Muscarinic Acetylcholine Receptor (GPCR for Neurotransmission)** – [4MQS](https://www.rcsb.org/structure/4MQS)
+      - **Adenosine A2A Receptor (GPCR for Cardiovascular Function)** – [2YDV](https://www.rcsb.org/structure/2YDV)
     - Kinases (Protein Phosphorylation Signaling)
       - **Protein Kinase A (PKA, cAMP-Dependent Signaling)** – [1ATP](https://www.rcsb.org/structure/1ATP)
       - **Tyrosine Kinase (Src Kinase, Signal Transduction in Growth Control)** – [2SRC](https://www.rcsb.org/structure/2SRC)
