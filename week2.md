@@ -1,4 +1,4 @@
-# Lecture Plan: Physical Foundations of Molecular Modeling  
+# Week 2: Physical Foundations of Molecular Modeling  
 **Topic**: Statistical Mechanics & Quantum Mechanics  
 **Duration**: 3 hours  
 
