@@ -54,3 +54,11 @@ Show Surface
 show surface
 set transparency, 0.3
 ```
+
+## Stereo
+
+```
+PyMol> set stereo_mode,10
+PyMol> stereo on
+PyMol> set anaglyph_mode,4
+```
