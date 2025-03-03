@@ -20,6 +20,17 @@
     11. **ATP Synthase** – [1QO1](https://www.rcsb.org/structure/1QO1) (F1 ATP Synthase)
 
   - Structural components (e.g., collagen, keratin).
+    Structural Components of Proteins and Their PDB Codes
+    1. **Alpha-Helix (Myoglobin as an example)** – [1MBN](https://www.rcsb.org/structure/1MBN) (Sperm Whale Myoglobin)
+    2. **Beta-Sheet (Concanavalin A as an example)** – [3CNA](https://www.rcsb.org/structure/3CNA) (Jack Bean Concanavalin A)
+    3. **Beta-Turn (Bovine Pancreatic Trypsin Inhibitor as an example)** – [5PTI](https://www.rcsb.org/structure/5PTI) (BPTI)
+    4. **Coiled-Coil (GCN4 Leucine Zipper as an example)** – [2ZTA](https://www.rcsb.org/structure/2ZTA) (GCN4 Leucine Zipper)
+    5. **Collagen Triple Helix** – [1BKV](https://www.rcsb.org/structure/1BKV) (Collagen-like Peptide)
+    6. **Zinc Finger (Zif268 as an example)** – [1ZAA](https://www.rcsb.org/structure/1ZAA) (Zif268 Zinc Finger Protein)
+    7. **Immunoglobulin Fold (Antibody Fab Fragment)** – [1IGT](https://www.rcsb.org/structure/1IGT) (Human Immunoglobulin G1 Fab Fragment)
+    8. **TIM Barrel (Triosephosphate Isomerase as an example)** – [1TIM](https://www.rcsb.org/structure/1TIM) (Triosephosphate Isomerase)
+    9. **Rossmann Fold (Lactate Dehydrogenase as an example)** – [6LDH](https://www.rcsb.org/structure/6LDH) (Lactate Dehydrogenase)
+    10. **Ferritin (Iron Storage Protein with Alpha-Helices)** – [1FHA](https://www.rcsb.org/structure/1FHA) (Human Ferritin)
   - Transport and storage (e.g., hemoglobin, ferritin).
   - Signaling (e.g., hormones like insulin).
   - Immune response (e.g., antibodies).
