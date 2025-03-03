@@ -5,53 +5,48 @@
 ## 1. Introduction to Proteins
 - **Definition**: Proteins are large, complex biomolecules composed of amino acids, essential for the structure, function, and regulation of the body's tissues and organs.
 - **Functions**:
-  - Enzymes (catalyze biochemical reactions).<br>
-    Well-Known Enzymes and Their RCSB PDB Codes
-    1. **DNA Polymerase** – [1TAQ](https://www.rcsb.org/structure/1TAQ) (Taq DNA Polymerase)
-    2. **RNA Polymerase** – [4JKR](https://www.rcsb.org/structure/4JKR) (Bacterial RNA Polymerase)
-    3. **Amylase** – [1SMD](https://www.rcsb.org/structure/1SMD) (Human Salivary Amylase)
-    4. **Lipase** – [1LPB](https://www.rcsb.org/structure/1LPB) (Pancreatic Lipase)
-    5. **Protease (Trypsin)** – [2PTN](https://www.rcsb.org/structure/2PTN) (Bovine Trypsin)
-    6. **Lactase** – [3OBA](https://www.rcsb.org/structure/3OBA) (Beta-Galactosidase, Lactase-related)
-    7. **Catalase** – [1DGF](https://www.rcsb.org/structure/1DGF) (Bovine Catalase)
-    8. **Hexokinase** – [1HKC](https://www.rcsb.org/structure/1HKC) (Rat Hexokinase)
-    9. **Trypsin** – [3TGI](https://www.rcsb.org/structure/3TGI) (Human Trypsin)
-    10. **Carbonic Anhydrase** – [1CA2](https://www.rcsb.org/structure/1CA2) (Human Carbonic Anhydrase II)
-    11. **ATP Synthase** – [1QO1](https://www.rcsb.org/structure/1QO1) (F1 ATP Synthase)
-
-  - Structural components (e.g., collagen, keratin).<br>
-    Structural Components of Proteins and Their PDB Codes
-    1. **Alpha-Helix (Myoglobin as an example)** – [1MBN](https://www.rcsb.org/structure/1MBN) (Sperm Whale Myoglobin)
-    2. **Beta-Sheet (Concanavalin A as an example)** – [3CNA](https://www.rcsb.org/structure/3CNA) (Jack Bean Concanavalin A)
-    3. **Beta-Turn (Bovine Pancreatic Trypsin Inhibitor as an example)** – [5PTI](https://www.rcsb.org/structure/5PTI) (BPTI)
-    4. **Coiled-Coil (GCN4 Leucine Zipper as an example)** – [2ZTA](https://www.rcsb.org/structure/2ZTA) (GCN4 Leucine Zipper)
-    5. **Collagen Triple Helix** – [1BKV](https://www.rcsb.org/structure/1BKV) (Collagen-like Peptide)
-    6. **Zinc Finger (Zif268 as an example)** – [1ZAA](https://www.rcsb.org/structure/1ZAA) (Zif268 Zinc Finger Protein)
+  - Enzymes (catalyze biochemical reactions).
+    - **DNA Polymerase** – [1TAQ](https://www.rcsb.org/structure/1TAQ) (Taq DNA Polymerase)
+    - **RNA Polymerase** – [4JKR](https://www.rcsb.org/structure/4JKR) (Bacterial RNA Polymerase)
+    - **Amylase** – [1SMD](https://www.rcsb.org/structure/1SMD) (Human Salivary Amylase)
+    - **Lipase** – [1LPB](https://www.rcsb.org/structure/1LPB) (Pancreatic Lipase)
+    - **Protease (Trypsin)** – [2PTN](https://www.rcsb.org/structure/2PTN) (Bovine Trypsin)
+    - **Lactase** – [3OBA](https://www.rcsb.org/structure/3OBA) (Beta-Galactosidase, Lactase-related)
+    - **Catalase** – [1DGF](https://www.rcsb.org/structure/1DGF) (Bovine Catalase)
+    - **Hexokinase** – [1HKC](https://www.rcsb.org/structure/1HKC) (Rat Hexokinase)
+    - **Trypsin** – [3TGI](https://www.rcsb.org/structure/3TGI) (Human Trypsin)
+    - **Carbonic Anhydrase** – [1CA2](https://www.rcsb.org/structure/1CA2) (Human Carbonic Anhydrase II)
+    - **ATP Synthase** – [1QO1](https://www.rcsb.org/structure/1QO1) (F1 ATP Synthase)
+  - Structural components (e.g., collagen, keratin).
+    - **Alpha-Helix (Myoglobin as an example)** – [1MBN](https://www.rcsb.org/structure/1MBN) (Sperm Whale Myoglobin
+    - **Beta-Sheet (Concanavalin A as an example)** – [3CNA](https://www.rcsb.org/structure/3CNA) (Jack Bean Concanavalin A)
+    - **Beta-Turn (Bovine Pancreatic Trypsin Inhibitor as an example)** – [5PTI](https://www.rcsb.org/structure/5PTI) (BPTI)
+    - **Coiled-Coil (GCN4 Leucine Zipper as an example)** – [2ZTA](https://www.rcsb.org/structure/2ZTA) (GCN4 Leucine Zipper)
+    - **Collagen Triple Helix** – [1BKV](https://www.rcsb.org/structure/1BKV) (Collagen-like Peptide)**Zinc Finger (Zif268 as an example)** – [1ZAA](https://www.rcsb.org/structure/1ZAA) (Zif268 Zinc Finger Protein)
     7. **Immunoglobulin Fold (Antibody Fab Fragment)** – [1IGT](https://www.rcsb.org/structure/1IGT) (Human Immunoglobulin G1 Fab Fragment)
     8. **TIM Barrel (Triosephosphate Isomerase as an example)** – [1TIM](https://www.rcsb.org/structure/1TIM) (Triosephosphate Isomerase)
     9. **Rossmann Fold (Lactate Dehydrogenase as an example)** – [6LDH](https://www.rcsb.org/structure/6LDH) (Lactate Dehydrogenase)
     10. **Ferritin (Iron Storage Protein with Alpha-Helices)** – [1FHA](https://www.rcsb.org/structure/1FHA) (Human Ferritin)
-  - Transport and storage (e.g., hemoglobin, ferritin)<br>
-    Transport Proteins and Their PDB Codes<br>
-    1. **Hemoglobin (Oxygen Transporter in Blood)** – [1GZX](https://www.rcsb.org/structure/1GZX) (Human Deoxyhemoglobin)
-    2. **Myoglobin (Oxygen Storage in Muscles)** – [1MBN](https://www.rcsb.org/structure/1MBN) (Sperm Whale Myoglobin)
-    3. **Serum Albumin (Carrier of Fatty Acids, Hormones, and Drugs)** – [1E7I](https://www.rcsb.org/structure/1E7I) (Human Serum Albumin)
-    4. **Transferrin (Iron Transport in Blood)** – [1H76](https://www.rcsb.org/structure/1H76) (Human Serum Transferrin)
-    5. **Ferritin (Iron Storage in Cells)** – [1FHA](https://www.rcsb.org/structure/1FHA) (Human Ferritin)
-    6. **Aquaporin (Water Transport Across Membranes)** – [1J4N](https://www.rcsb.org/structure/1J4N) (Aquaporin-1)
-    7. **Glucose Transporter (GLUT1, Facilitates Glucose Uptake)** – [4PYP](https://www.rcsb.org/structure/4PYP) (Human GLUT1)
-    8. **ABC Transporter (ATP-Binding Cassette Transporter, Moves Molecules Across Membranes)** – [3G5U](https://www.rcsb.org/structure/3G5U) (Bacterial ABC Transporter)
-    9. **Lactoferrin (Iron-Binding and Immune Response Protein)** – [1LFG](https://www.rcsb.org/structure/1LFG) (Human Lactoferrin)
-    10. **Vitamin B12 Transporter (Binds and Delivers Vitamin B12 in the Body)** – [2BBC](https://www.rcsb.org/structure/2BBC) (Vitamin B12-Binding Protein)
-  
-  Storage Proteins<br>
-  1. **Ferritin (Stores and Releases Iron in Cells)** – [1FHA](https://www.rcsb.org/structure/1FHA) (Human Ferritin)
-  2. **Casein (Milk Protein, Stores Nutrients for Growth)** – [1GXY](https://www.rcsb.org/structure/1GXY) (Casein Micelle Model)
-  3. **Ovalbumin (Egg White Protein, Nutrient Storage)** – [1OVA](https://www.rcsb.org/structure/1OVA) (Ovalbumin)
-  4. **Leghemoglobin (Stores Oxygen in Leguminous Plants' Root Nodules)** – [1BIN](https://www.rcsb.org/structure/1BIN) (Soybean Leghemoglobin)
-  5. **Zeins (Corn Seed Storage Protein)** – [2GBY](https://www.rcsb.org/structure/2GBY) (Gamma-Zein)
-  6. **Glycogenin (Protein Core of Glycogen, a Glucose Storage Molecule)** – [1LL0](https://www.rcsb.org/structure/1LL0) (Glycogenin-1)
-  7. **Phytochelatin Synthase (Detoxification and Storage of Heavy Metals in Plants)** – [5TP9](https://www.rcsb.org/structure/5TP9) (Phytochelatin Synthase)
+  - Transport and storage (e.g., hemoglobin, ferritin)
+    - Transport Proteins and Their PDB Codes
+      - **Hemoglobin (Oxygen Transporter in Blood)** – [1GZX](https://www.rcsb.org/structure/1GZX) (Human Deoxyhemoglobin)
+      - **Myoglobin (Oxygen Storage in Muscles)** – [1MBN](https://www.rcsb.org/structure/1MBN) (Sperm Whale Myoglobin)
+      - **Serum Albumin (Carrier of Fatty Acids, Hormones, and Drugs)** – [1E7I](https://www.rcsb.org/structure/1E7I) (Human Serum Albumin)
+      - **Transferrin (Iron Transport in Blood)** – [1H76](https://www.rcsb.org/structure/1H76) (Human Serum Transferrin)
+      - **Ferritin (Iron Storage in Cells)** – [1FHA](https://www.rcsb.org/structure/1FHA) (Human Ferritin)
+      - **Aquaporin (Water Transport Across Membranes)** – [1J4N](https://www.rcsb.org/structure/1J4N) (Aquaporin-1)
+      - **Glucose Transporter (GLUT1, Facilitates Glucose Uptake)** – [4PYP](https://www.rcsb.org/structure/4PYP) (Human GLUT1)
+      - **ABC Transporter (ATP-Binding Cassette Transporter, Moves Molecules Across Membranes)** – [3G5U](https://www.rcsb.org/structure/3G5U) (Bacterial ABC Transporter)
+      - **Lactoferrin (Iron-Binding and Immune Response Protein)** – [1LFG](https://www.rcsb.org/structure/1LFG) (Human Lactoferrin)
+      - **Vitamin B12 Transporter (Binds and Delivers Vitamin B12 in the Body)** – [2BBC](https://www.rcsb.org/structure/2BBC) (Vitamin B12-Binding Protein)
+    - Storage Proteins
+      - **Ferritin (Stores and Releases Iron in Cells)** – [1FHA](https://www.rcsb.org/structure/1FHA) (Human Ferritin)
+      - **Casein (Milk Protein, Stores Nutrients for Growth)** – [1GXY](https://www.rcsb.org/structure/1GXY) (Casein Micelle Model)
+      - **Ovalbumin (Egg White Protein, Nutrient Storage)** – [1OVA](https://www.rcsb.org/structure/1OVA) (Ovalbumin)
+      - **Leghemoglobin (Stores Oxygen in Leguminous Plants' Root Nodules)** – [1BIN](https://www.rcsb.org/structure/1BIN) (Soybean Leghemoglobin)
+      - **Zeins (Corn Seed Storage Protein)** – [2GBY](https://www.rcsb.org/structure/2GBY) (Gamma-Zein)
+      - **Glycogenin (Protein Core of Glycogen, a Glucose Storage Molecule)** – [1LL0](https://www.rcsb.org/structure/1LL0) (Glycogenin-1)
+      - **Phytochelatin Synthase (Detoxification and Storage of Heavy Metals in Plants)** – [5TP9](https://www.rcsb.org/structure/5TP9) (Phytochelatin Synthase)
      
   - Signaling (e.g., hormones like insulin).<br>
     Signaling Proteins and Their PDB Codes
