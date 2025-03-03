@@ -6,6 +6,18 @@
 - **Definition**: Proteins are large, complex biomolecules composed of amino acids, essential for the structure, function, and regulation of the body's tissues and organs.
 - **Functions**:
   - Enzymes (catalyze biochemical reactions).
+    Here are the RCSB PDB (Protein Data Bank) codes for these well-known enzymes:
+    DNA Polymerase – 1TAQ (Taq DNA Polymerase)
+    RNA Polymerase – 4JKR (Bacterial RNA Polymerase)
+    Amylase – 1SMD (Human Salivary Amylase)
+    Lipase – 1LPB (Pancreatic Lipase)
+    Protease (Trypsin) – 2PTN (Bovine Trypsin)
+    Lactase – 3OBA (Beta-Galactosidase, Lactase-related)
+    Catalase – 1DGF (Bovine Catalase)
+    Hexokinase – 1HKC (Rat Hexokinase)
+    Trypsin – 3TGI (Human Trypsin)
+    Carbonic Anhydrase – 1CA2 (Human Carbonic Anhydrase II)
+    ATP Synthase – 1QO1 (F1 ATP Synthase)
   - Structural components (e.g., collagen, keratin).
   - Transport and storage (e.g., hemoglobin, ferritin).
   - Signaling (e.g., hormones like insulin).
