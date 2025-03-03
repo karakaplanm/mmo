@@ -28,7 +28,7 @@
     9. **Rossmann Fold (Lactate Dehydrogenase as an example)** – [6LDH](https://www.rcsb.org/structure/6LDH) (Lactate Dehydrogenase)
     10. **Ferritin (Iron Storage Protein with Alpha-Helices)** – [1FHA](https://www.rcsb.org/structure/1FHA) (Human Ferritin)
   - Transport and storage (e.g., hemoglobin, ferritin)
-    - Transport Proteins and Their PDB Codes
+    - Transport Proteins
       - **Hemoglobin (Oxygen Transporter in Blood)** – [1GZX](https://www.rcsb.org/structure/1GZX) (Human Deoxyhemoglobin)
       - **Myoglobin (Oxygen Storage in Muscles)** – [1MBN](https://www.rcsb.org/structure/1MBN) (Sperm Whale Myoglobin)
       - **Serum Albumin (Carrier of Fatty Acids, Hormones, and Drugs)** – [1E7I](https://www.rcsb.org/structure/1E7I) (Human Serum Albumin)
@@ -49,7 +49,6 @@
       - **Phytochelatin Synthase (Detoxification and Storage of Heavy Metals in Plants)** – [5TP9](https://www.rcsb.org/structure/5TP9) (Phytochelatin Synthase)
      
   - Signaling (e.g., hormones like insulin).<br>
-    Signaling Proteins and Their PDB Codes
     - G Protein-Coupled Receptors (GPCRs)
       - **Beta-2 Adrenergic Receptor (GPCR for Epinephrine Signaling)** – [2RH1](https://www.rcsb.org/structure/2RH1)
       - **Rhodopsin (Light-Sensitive GPCR in Vision)** – [1F88](https://www.rcsb.org/structure/1F88)
@@ -77,8 +76,7 @@
       - **Retinoic Acid Receptor (Vitamin A Derivative Signaling)** – [1XAP](https://www.rcsb.org/structure/1XAP)
 
 
-  - Immune response (e.g., antibodies).<br>
-    Immune Response Proteins and Their PDB Codes
+  - Immune response (e.g., antibodies).
     - Antibodies and Immunoglobulins
       - **Immunoglobulin G (IgG) Antibody** – [1IGT](https://www.rcsb.org/structure/1IGT) (Human IgG1 Fab Fragment)
       - **Immunoglobulin A (IgA) Antibody** – [4N02](https://www.rcsb.org/structure/4N02) (Human Secretory IgA)
