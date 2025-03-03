@@ -31,9 +31,85 @@
     8. **TIM Barrel (Triosephosphate Isomerase as an example)** – [1TIM](https://www.rcsb.org/structure/1TIM) (Triosephosphate Isomerase)
     9. **Rossmann Fold (Lactate Dehydrogenase as an example)** – [6LDH](https://www.rcsb.org/structure/6LDH) (Lactate Dehydrogenase)
     10. **Ferritin (Iron Storage Protein with Alpha-Helices)** – [1FHA](https://www.rcsb.org/structure/1FHA) (Human Ferritin)
-  - Transport and storage (e.g., hemoglobin, ferritin).
-  - Signaling (e.g., hormones like insulin).
-  - Immune response (e.g., antibodies).
+  - Transport and storage (e.g., hemoglobin, ferritin)<br>
+    Transport Proteins and Their PDB Codes<br>
+    1. **Hemoglobin (Oxygen Transporter in Blood)** – [1GZX](https://www.rcsb.org/structure/1GZX) (Human Deoxyhemoglobin)
+    2. **Myoglobin (Oxygen Storage in Muscles)** – [1MBN](https://www.rcsb.org/structure/1MBN) (Sperm Whale Myoglobin)
+    3. **Serum Albumin (Carrier of Fatty Acids, Hormones, and Drugs)** – [1E7I](https://www.rcsb.org/structure/1E7I) (Human Serum Albumin)
+    4. **Transferrin (Iron Transport in Blood)** – [1H76](https://www.rcsb.org/structure/1H76) (Human Serum Transferrin)
+    5. **Ferritin (Iron Storage in Cells)** – [1FHA](https://www.rcsb.org/structure/1FHA) (Human Ferritin)
+    6. **Aquaporin (Water Transport Across Membranes)** – [1J4N](https://www.rcsb.org/structure/1J4N) (Aquaporin-1)
+    7. **Glucose Transporter (GLUT1, Facilitates Glucose Uptake)** – [4PYP](https://www.rcsb.org/structure/4PYP) (Human GLUT1)
+    8. **ABC Transporter (ATP-Binding Cassette Transporter, Moves Molecules Across Membranes)** – [3G5U](https://www.rcsb.org/structure/3G5U) (Bacterial ABC Transporter)
+    9. **Lactoferrin (Iron-Binding and Immune Response Protein)** – [1LFG](https://www.rcsb.org/structure/1LFG) (Human Lactoferrin)
+    10. **Vitamin B12 Transporter (Binds and Delivers Vitamin B12 in the Body)** – [2BBC](https://www.rcsb.org/structure/2BBC) (Vitamin B12-Binding Protein)
+  
+  Storage Proteins<br>
+  1. **Ferritin (Stores and Releases Iron in Cells)** – [1FHA](https://www.rcsb.org/structure/1FHA) (Human Ferritin)
+  2. **Casein (Milk Protein, Stores Nutrients for Growth)** – [1GXY](https://www.rcsb.org/structure/1GXY) (Casein Micelle Model)
+  3. **Ovalbumin (Egg White Protein, Nutrient Storage)** – [1OVA](https://www.rcsb.org/structure/1OVA) (Ovalbumin)
+  4. **Leghemoglobin (Stores Oxygen in Leguminous Plants' Root Nodules)** – [1BIN](https://www.rcsb.org/structure/1BIN) (Soybean Leghemoglobin)
+  5. **Zeins (Corn Seed Storage Protein)** – [2GBY](https://www.rcsb.org/structure/2GBY) (Gamma-Zein)
+  6. **Glycogenin (Protein Core of Glycogen, a Glucose Storage Molecule)** – [1LL0](https://www.rcsb.org/structure/1LL0) (Glycogenin-1)
+  7. **Phytochelatin Synthase (Detoxification and Storage of Heavy Metals in Plants)** – [5TP9](https://www.rcsb.org/structure/5TP9) (Phytochelatin Synthase)
+     
+  - Signaling (e.g., hormones like insulin).<br>
+    Signaling Proteins and Their PDB Codes
+    - G Protein-Coupled Receptors (GPCRs)
+      1. **Beta-2 Adrenergic Receptor (GPCR for Epinephrine Signaling)** – [2RH1](https://www.rcsb.org/structure/2RH1)
+      2. **Rhodopsin (Light-Sensitive GPCR in Vision)** – [1F88](https://www.rcsb.org/structure/1F88)
+      3. **Muscarinic Acetylcholine Receptor (GPCR for Neurotransmission)** – [4MQS](https://www.rcsb.org/structure/4MQS)
+      4. **Adenosine A2A Receptor (GPCR for Cardiovascular Function)** – [2YDV](https://www.rcsb.org/structure/2YDV)
+    - Kinases (Protein Phosphorylation Signaling)
+      - **Protein Kinase A (PKA, cAMP-Dependent Signaling)** – [1ATP](https://www.rcsb.org/structure/1ATP)
+      - **Tyrosine Kinase (Src Kinase, Signal Transduction in Growth Control)** – [2SRC](https://www.rcsb.org/structure/2SRC)
+      - **MAP Kinase (Mitogen-Activated Protein Kinase, Cell Growth and Survival)** – [2OJG](https://www.rcsb.org/structure/2OJG)
+      - **EGF Receptor Tyrosine Kinase (Cell Growth and Proliferation)** – [1M17](https://www.rcsb.org/structure/1M17)
+    - Small GTPases (Molecular Switches in Signaling)
+      - **Ras Protein (Cell Growth and Proliferation Signaling)** – [5P21](https://www.rcsb.org/structure/5P21)
+      - **RhoA GTPase (Cytoskeletal Regulation)** – [1A2B](https://www.rcsb.org/structure/1A2B)
+      - **Rab5 (Endocytosis and Vesicle Transport)** – [1R2Q](https://www.rcsb.org/structure/1R2Q)
+    - Signal Transducers and Adapters
+      - **STAT3 (Signal Transducer and Activator of Transcription, JAK-STAT Pathway)** – [1BG1](https://www.rcsb.org/structure/1BG1)
+      - **14-3-3 Protein (Regulatory Adapter Protein in Cell Signaling)** – [1QJA](https://www.rcsb.org/structure/1QJA)
+    - Calcium and Second Messenger Signaling
+      - **Calmodulin (Calcium Sensor in Cell Signaling)** – [1CLL](https://www.rcsb.org/structure/1CLL)
+      - **Protein Kinase C (PKC, Calcium and DAG-Dependent Kinase)** – [2A0M](https://www.rcsb.org/structure/2A0M)
+      - **Adenylyl Cyclase (cAMP Producer in GPCR Signaling)** – [1CJU](https://www.rcsb.org/structure/1CJU)
+    - Nuclear Receptors (Hormone Signaling)
+      - **Glucocorticoid Receptor (Steroid Hormone Receptor)** – [1M2Z](https://www.rcsb.org/structure/1M2Z)
+      - **Estrogen Receptor (Nuclear Receptor for Estrogen Signaling)** – [1G50](https://www.rcsb.org/structure/1G50)
+      - **Retinoic Acid Receptor (Vitamin A Derivative Signaling)** – [1XAP](https://www.rcsb.org/structure/1XAP)
+
+
+  - Immune response (e.g., antibodies).<br>
+    Immune Response Proteins and Their PDB Codes
+    - Antibodies and Immunoglobulins
+      - **Immunoglobulin G (IgG) Antibody** – [1IGT](https://www.rcsb.org/structure/1IGT) (Human IgG1 Fab Fragment)
+      - **Immunoglobulin A (IgA) Antibody** – [4N02](https://www.rcsb.org/structure/4N02) (Human Secretory IgA)
+      - **Immunoglobulin E (IgE) Antibody (Allergy-Related)** – [4J4P](https://www.rcsb.org/structure/4J4P) (Human IgE-Fc)
+      - **T-Cell Receptor (TCR) Complex** – [1TCR](https://www.rcsb.org/structure/1TCR) (TCR Bound to Peptide-MHC)
+      - **Major Histocompatibility Complex I (MHC I, Antigen Presentation)** – [1HLA](https://www.rcsb.org/structure/1HLA) (HLA-A2 MHC Class I)
+      - **Major Histocompatibility Complex II (MHC II, Antigen Presentation)** – [1DLH](https://www.rcsb.org/structure/1DLH) (HLA-DR1 MHC Class II)
+    - Complement System Proteins
+      - **Complement C3 (Central Component of Complement System)** – [2A73](https://www.rcsb.org/structure/2A73) (Human Complement C3)
+      - **Complement C5 (Involved in MAC Complex Formation)** – [3CU7](https://www.rcsb.org/structure/3CU7) (Human Complement C5)
+      - **Membrane Attack Complex (MAC) Component C9** – [6DLR](https://www.rcsb.org/structure/6DLR) (C9 MAC Pore)
+    - Cytokines and Interleukins
+      - **Interleukin-2 (IL-2, T-Cell Growth Factor)** – [1M47](https://www.rcsb.org/structure/1M47) (Human IL-2)
+      - **Interleukin-6 (IL-6, Inflammatory Response Regulator)** – [1ALU](https://www.rcsb.org/structure/1ALU) (Human IL-6)
+      - **Tumor Necrosis Factor Alpha (TNF-α, Pro-Inflammatory Cytokine)** – [2AZ5](https://www.rcsb.org/structure/2AZ5) (Human TNF-α)
+      - **Interferon-Gamma (IFN-γ, Antiviral and Immune Response Mediator)** – [1HIG](https://www.rcsb.org/structure/1HIG) (Human IFN-γ)
+    - Immune Cell Surface Receptors
+      - **CD4 (T-Helper Cell Receptor, HIV Binding Target)** – [1CDH](https://www.rcsb.org/structure/1CDH) (Human CD4)
+      - **CD8 (Cytotoxic T-Cell Co-Receptor)** – [1BQH](https://www.rcsb.org/structure/1BQH) (Human CD8α)
+      - **PD-1 (Programmed Cell Death Protein 1, Immune Checkpoint)** – [3BIK](https://www.rcsb.org/structure/3BIK) (Human PD-1)
+      - **CTLA-4 (Cytotoxic T-Lymphocyte-Associated Protein 4, Immune Regulation)** – [3OSK](https://www.rcsb.org/structure/3OSK) (Human CTLA-4)
+    - Innate Immunity and Pattern Recognition Receptors
+      - **Toll-Like Receptor 4 (TLR4, Pathogen Recognition Receptor)** – [3FXI](https://www.rcsb.org/structure/3FXI) (Human TLR4-MD-2-LPS Complex)
+      - **NOD2 (Intracellular Pattern Recognition Receptor)** – [5IRN](https://www.rcsb.org/structure/5IRN) (Human NOD2)
+      - **C-Reactive Protein (CRP, Acute Phase Inflammation Marker)** – [1B09](https://www.rcsb.org/structure/1B09) (Human CRP)
+
 
 ---
 
