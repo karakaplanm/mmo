@@ -1,4 +1,4 @@
-# Week3: Structure of Proteins and Visualization of a Protein. Classification and Basic Calculations
+# Week 3: Structure of Proteins and Visualization of a Protein. Classification and Basic Calculations
 
 ---
 
