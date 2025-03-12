@@ -6,11 +6,9 @@
 ### Download a PDB file ( e.g., 2F4K.pdb from <a href="https://www.rcsb.org">https://www.rcsb.org</a> ).
 
 ```
-PyMol> fetch 2F4K
+PyMol> fetch 1AKI
 PyMol> remove solvent
-PyMol> select yoket, resi 70
-PyMol> remove yoket 
-PyMol > save 2F4K.pdb, 2F4K
+PyMol > save 1AKI.pdb, 1AKI
 ```
 
 ### Prepare input files:
