@@ -5,6 +5,14 @@
 
 ### Download a PDB file ( e.g., 2F4K.pdb from <a href="https://www.rcsb.org">https://www.rcsb.org</a> ).
 
+```
+PyMol> fetch 2F4K
+PyMol> remove solvent
+PyMol> select yoket, resi 70
+PyMol> remove yoket 
+PyMol > save 2F4K.pdb, 2F4K
+```
+
 ### Prepare input files:
 
 ```console
