@@ -15,7 +15,7 @@ PyMol > save 1AKI.pdb, 1AKI
 
 ```console
 # Convert PDB to GROMACS format
-$ gmx pdb2gmx -f 2F4K.pdb -o protein.gro -water spc
+$ gmx pdb2gmx -f 1AKI.pdb -o protein.gro -water spc
 
 # Generate simulation box
 $ gmx editconf -f protein.gro -o box.gro -c -d 1.0
