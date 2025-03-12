@@ -67,9 +67,10 @@
    - **RMSD**: Compares model to template (lower = better).
 
 ### **3.3 Case Study: Modeling a Kinase**  
-- **Target**: Human kinase (unknown structure).  
-- **Template**: PDB ID 1ATP (ATP-bound kinase, 35% identity).  
-- **Result**: Model identifies ATP-binding pocket and catalytic residues.  
+
+<a href=https://github.com/karakaplanm/mmo/blob/main/gromacs.md> gromacs.md</a>  
+- **Template**: PDB ID 1AKI 
+
 
 ### **3.4 Limitations**  
 - Fails for proteins with no homologs in PDB.  
