@@ -9,31 +9,36 @@ $ sudo apt install gromacs
 ```
 
 ### Installation from Source
+Installing from Ubuntu repos dorsnt support Cuda GPU acceleration. Because of this 
+```
+# Install GCC-12 and G++-12
+sudo apt-get install gcc-12 g++-12
+
+# Set GCC-12 as default
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 100
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-12 100
+
+# Verify
+gcc --version  # Should show "gcc-12"
+```
 
 ```console
-$ tar xfz gromacs-2025.0.tar.gz
-$ cd gromacs-2025.0
+$ wget https://ftp.gromacs.org/gromacs/gromacs-2025.1.tar.gz
+$ tar xfz gromacs-2025.1.tar.gz
+$ cd gromacs-2025.1
 $ mkdir build
 $ sudo apt install cmake build-essential
+$ sudo apt install libfftw3-dev
+
 $ cd build
-$ cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
-$ make
+$ cmake .. -DGMX_GPU=CUDA -DCMAKE_C_COMPILER=gcc-12 -DCMAKE_CXX_COMPILER=g++-12
+$ make -j 8
 $ make check
 $ sudo make install
 $ source /usr/local/gromacs/bin/GMXRC
 ```
 
-Add following options for typical installation
 
-`-DGMX_MPI=on` to build using MPI support
-
-`-DGMX_GPU=CUDA` to build with NVIDIA CUDA support enabled.
-
-Example cmake command
-```console
-$ cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON -DGMX_GPU=CUDA -DCMAKE_CXX_COMPILER=gcc-12 -DCMAKE_C_COMPILER=gcc-12
-$ make -j8
-```
 
 ## Lysozyme In Water
 
