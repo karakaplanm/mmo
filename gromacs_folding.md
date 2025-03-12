@@ -16,11 +16,13 @@ PyMol > save 1AKI.pdb, 1AKI
 ```console
 # Convert PDB to GROMACS format
 $ gmx pdb2gmx -f 1AKI.pdb -o protein.gro -water spc
+# Enter 15
 
 # Generate simulation box
 $ gmx editconf -f protein.gro -o box.gro -c -d 1.0
 
 # Energy minimization
-$ gmx grompp -f em.mdp -c box.gro -p topol.top -o em.tpr
+$ wget http://www.mdtutorials.com/gmx/lysozyme/Files/minim.mdp
+$ gmx grompp -f minim.mdp -c box.gro -p topol.top -o em.tpr
 $ gmx mdrun -v -deffnm em
 ```
