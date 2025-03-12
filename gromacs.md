@@ -83,6 +83,7 @@ $ pymol 1AKI_solv_ions.gro
 ```console
 $ wget http://www.mdtutorials.com/gmx/lysozyme/Files/ions.mdp
 $ gmx grompp -f ions.mdp -c 1AKI_solv.gro -p topol.top -o ions.tpr
+$ gmx genion -s ions.tpr -o 1AKI_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
 ```
 When prompted, choose group 13 "SOL" for embedding ions
   
