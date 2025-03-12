@@ -111,7 +111,7 @@ $ xmgrace potential.xvg
 ```console
 $ wget http://www.mdtutorials.com/gmx/lysozyme/Files/nvt.mdp
 $ gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
-$ gmx mdrun -deffnm nvt
+$ gmx mdrun -deffnm nvt -nb gpu
 ```
 Plot the results
 ```console
@@ -127,7 +127,7 @@ $ xmgrace temperature.xvg
 ```console
 $ wget http://www.mdtutorials.com/gmx/lysozyme/Files/npt.mdp
 $ gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr
-$ gmx mdrun -deffnm npt
+$ gmx mdrun -deffnm npt -nb gpu
 ```
 Plot
 ```console
@@ -146,7 +146,7 @@ $ xmgrace density.xvg
 ```console
 $ wget http://www.mdtutorials.com/gmx/lysozyme/Files/md.mdp
 $ gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
-$ gmx mdrun -deffnm md_0_1
+$ gmx mdrun -deffnm md_0_1 -nb gpu
 ```
 
 ### Step 9: Analysis
@@ -154,11 +154,12 @@ $ gmx mdrun -deffnm md_0_1
 ```console
 $ gmx trjconv -s md_0_1.tpr -f md_0_1.xtc -o md_0_1_noPBC.xtc -pbc mol -center
 ```
+Select 1 for protein 0 fro System
 
 ```console
 $ gmx rms -s md_0_1.tpr -f md_0_1_noPBC.xtc -o rmsd.xvg -tu ns
 ```
-Choose 4 ("Backbone")
+Choose 4 ("Backbone") for both
 ```console
 $ xmgrace rmsd.xvg
 ```
@@ -177,4 +178,13 @@ $ gmx gyrate -s md_0_1.tpr -f md_0_1_noPBC.xtc -o gyrate.xvg
 Choose group 1 (Protein) for analysis.
 
   
-  
+### Step 10: Visualize vith PyMol
+
+```console
+$ gmx trjconv -f md_0_1.xtc  -s md_0_1.gro  -o trajectory.pdb
+# Enter 1 for Protein
+
+$ pymol trajectory.pdb
+```  
+
+
