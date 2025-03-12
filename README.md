@@ -41,7 +41,7 @@
 2. Physical foundations of molecular modeling. Statistical mechanics. Quantum Mechanics -> <a href="https://github.com/karakaplanm/mmo/blob/main/week2.md">Week 2</a>
 3. Introduction to Nucleic Acids Structure. Visualization of Nucleic Acids. Basic Calculations on Nucleic Acids  -> <a href="https://github.com/karakaplanm/mmo/blob/main/week3.md">Week 3</a>
 4. Structure of Proteins and Visualization of a Protein. Classification and basic calculations. -> <a href="https://github.com/karakaplanm/mmo/blob/main/week4.md">Week 4</a>
-5. Structure prediction: Protein Folding. Homology Modeling
+5. Structure prediction: Protein Folding. Homology Modeling. -> <a href="https://github.com/karakaplanm/mmo/blob/main/week5.md">Week 5</a>
 6. Molecular mechanics. Basic assumptions. Force field models.
 7. Potential Energy Surfaces: Saddle Points, First-Order Methods, Second-Order Methods
 8. Molecular Mechanics Examples. Geometry Optimization. Amino Acids
