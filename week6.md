@@ -3,7 +3,7 @@
 
 # Save the lecture notes as a Markdown (.md) file for download
 
-markdown_content = """\
+
 # Molecular Mechanics: Basic Assumptions and Force Field Models
 
 ## Introduction
