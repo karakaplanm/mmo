@@ -1,4 +1,4 @@
-= Week 6: Molecular mechanics. Basic assumptions. Force field models
+# Week 6: Molecular mechanics. Basic assumptions. Force field models
 
 ## Introduction
 Molecular mechanics (MM) is a computational method used to model molecular systems by treating atoms as classical particles and bonds as mechanical springs. This approach is widely used in molecular simulations, including structural optimization, molecular dynamics, and docking studies.
