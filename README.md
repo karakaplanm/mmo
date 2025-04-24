@@ -44,7 +44,7 @@
 5. Structure prediction: Protein Folding. Homology Modeling. -> <a href="https://github.com/karakaplanm/mmo/blob/main/week5.md">Week 5</a>
 6. Molecular mechanics. Basic assumptions. Force field models.  -> <a href="https://github.com/karakaplanm/mmo/blob/main/week6.md">Week 6</a>
 7. Potential Energy Surfaces: Saddle Points, First-Order Methods, Second-Order Methods  -> <a href="https://github.com/karakaplanm/mmo/blob/main/week7.md">Week 7</a>
-8. Molecular Mechanics Examples. Geometry Optimization. Amino Acids
+8. Molecular Mechanics Examples. Geometry Optimization. Amino Acids -> <a href="https://github.com/karakaplanm/mmo/blob/main/week8.md">Week 8</a>
 9. Electrostatics & Solvation in Biomolecules
 10. Introduction to molecular editing and visualization software
 11. Introduction to Drug Design
