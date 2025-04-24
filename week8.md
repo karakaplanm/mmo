@@ -278,21 +278,39 @@ Molecular mechanics plays a crucial role in the analysis and prediction of the s
 Molecular mechanics enables detailed insight into the static and dynamic properties of amino acids. From isolated residue analysis to integration within larger biological assemblies, it remains a cornerstone methodology in structural bioinformatics and computational chemistry.
 
 ```
-start alanine
+start alanine_mm
 
+title "L-Alanine MM Geometry Optimization with AMBER"
+
+# Set the memory and scratch space
+memory total 512 mb
+
+# Define the molecular geometry (simplified neutral alanine)
 geometry units angstrom
-  N  0.0  0.0  0.0
-  H  0.0  0.0  1.0
-  C  1.0  0.0  0.0
-  ...
+  N         -0.5000   1.3000   0.0000
+  H          0.1000   2.0000   0.0000
+  CA         0.0000   0.0000   0.0000
+  HA1        1.0000   0.0000   0.0000
+  HA2       -0.4000  -0.5000   1.0000
+  CB         0.0000  -1.2000  -0.8000
+  HB1       -1.0000  -1.2000  -0.8000
+  HB2        0.4000  -2.0000  -1.4000
+  HB3        0.4000  -1.6000   0.0000
+  C         -1.3000  -0.3000  -0.1000
+  O         -2.0000   0.5000   0.1000
+  OXT       -1.8000  -1.4000  -0.4000
 end
 
-basis
-  * library 6-31G*
-end
-
+# Use AMBER force field parameters
 forcefield amber
 
+# MM tasks
+driver
+  maxiter 200
+  xyz alanine_opt.xyz
+end
+
 task mm optimize
+
 ```
 
