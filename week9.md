@@ -1,4 +1,4 @@
-# **Electrostatics & Solvation in Biomolecules**  
+# **Week 9: Electrostatics & Solvation in Biomolecules**  
 
 ## **1. Introduction to Electrostatics in Biomolecules**  
 Electrostatic interactions play a fundamental role in the structure, stability, and function of biomolecules. Key concepts include:  
