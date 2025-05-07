@@ -1,4 +1,4 @@
-# Week8: Molecular Mechanics Examples: Geometry Optimization and Amino Acids  
+# Week 8: Molecular Mechanics Examples: Geometry Optimization and Amino Acids  
 ### Lecture Notes  
 
 **Topics Covered:**  
