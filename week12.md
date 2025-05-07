@@ -1,4 +1,4 @@
-# **Lecture: Introduction to Monte Carlo Methods**
+# **LWeek 12: Introduction to Monte Carlo Methods**
 
 ## **1. Overview of Monte Carlo Methods**
 Monte Carlo (MC) methods are computational algorithms that rely on repeated random sampling to obtain numerical results. They are particularly useful for:
