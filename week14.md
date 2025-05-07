@@ -1,4 +1,4 @@
-# **Lecture: Applying Biomolecular Modeling to Ongoing Research**
+# **Week 14: Applying Biomolecular Modeling to Ongoing Research**
 
 ## **1. Introduction to Biomolecular Modeling in Research**
 Biomolecular modeling bridges computational and experimental approaches to study biological systems at atomic/molecular levels. Key applications:
