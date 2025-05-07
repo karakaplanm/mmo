@@ -1,4 +1,4 @@
-# **Lecture: Introduction to Molecular Editing and Visualization Software**  
+# **Week 10: Lecture: Introduction to Molecular Editing and Visualization Software**  
 
 ## **1. Overview**  
 Molecular editing and visualization tools are essential for studying biomolecular structures, drug design, and computational chemistry. They allow researchers to:  
