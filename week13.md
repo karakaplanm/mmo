@@ -1,4 +1,4 @@
-# **Lecture: Introduction to Ab Initio Methods**
+# **Week 13: Introduction to Ab Initio Methods**
 
 ## **1. Overview of Ab Initio Methods**
 **Ab initio** (Latin for "from first principles") methods solve quantum mechanical equations without empirical parameters. Key features:
