@@ -45,12 +45,12 @@
 6. Molecular mechanics. Basic assumptions. Force field models.  -> <a href="https://github.com/karakaplanm/mmo/blob/main/week6.md">Week 6</a>
 7. Potential Energy Surfaces: Saddle Points, First-Order Methods, Second-Order Methods  -> <a href="https://github.com/karakaplanm/mmo/blob/main/week7.md">Week 7</a>
 8. Molecular Mechanics Examples. Geometry Optimization. Amino Acids -> <a href="https://github.com/karakaplanm/mmo/blob/main/week8.md">Week 8</a>
-9. Electrostatics & Solvation in Biomolecules
-10. Introduction to molecular editing and visualization software
-11. Introduction to Drug Design
-12. Introduction to Monte Carlo Methods
-13. Ab Initio Methods
-14. Applying biomolecular modeling to ongoing research
+9. Electrostatics & Solvation in Biomolecules -> <a href="https://github.com/karakaplanm/mmo/blob/main/week9.md">Week 9</a>
+10. Introduction to molecular editing and visualization software -> <a href="https://github.com/karakaplanm/mmo/blob/main/week10.md">Week 10</a>
+11. Introduction to Drug Design -> <a href="https://github.com/karakaplanm/mmo/blob/main/week11.md">Week 11</a>
+12. Introduction to Monte Carlo Methods -> <a href="https://github.com/karakaplanm/mmo/blob/main/week12.md">Week 12</a>
+13. Ab Initio Methods -> <a href="https://github.com/karakaplanm/mmo/blob/main/week13.md">Week 13</a>
+14. Applying biomolecular modeling to ongoing research -> <a href="https://github.com/karakaplanm/mmo/blob/main/week14.md">Week 14</a>
     
 
 
