@@ -1,4 +1,4 @@
-# **Lecture: Introduction to Drug Design**  
+# **Week 11: Introduction to Drug Design**  
 
 ## **1. Overview of Drug Design**  
 Drug design is the process of discovering and developing new therapeutics by targeting specific biological molecules (e.g., proteins, nucleic acids).  
