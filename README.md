@@ -9,11 +9,12 @@
   or `$ sudo apt install avogadro`
 + NWChem <a href="https://www.nwchem-sw.org">https://www.nwchem-sw.org</a>
     or `$ sudo apt install nwchem`
-+ Get GitHub Repository account like <a href=https://github.com/karakaplanm> https://github.com/karakaplanm</a></li>
-+ Visit the github page of this lecture <a href=https://github.com/karakaplanm/mmo>https://github.com/karakaplanm/mmo</a></li>
++ Get GitHub Repository account like <a href=https://github.com/karakaplanm> https://github.com/karakaplanm</a>
++ Visit the github page of this lecture <a href=https://github.com/karakaplanm/mmo>https://github.com/karakaplanm/mmo</a>
 + Get Gromacs <a href=https://gromacs.org>https://gromacs.org</a></li>
     or `$ sudo apt install gromacs`
-+ Get AutoDock Vina <a href=https://vina.scripps.edu>https://vina.scripps.edu/</a></li>
++ Get AutoDock Vina <a href=https://vina.scripps.edu>https://vina.scripps.edu/</a>
++ Get MGL Tools <a href=https://ccsb.scripps.edu/mgltools/downloads>mgltools</a>
 + VMD <a href=https://www.ks.uiuc.edu/Research/vmd/>https://www.ks.uiuc.edu/Research/vmd/</a>
 + Install WSL (Windows Subsystem for Linux) to Windows https://learn.microsoft.com/en-us/windows/wsl/install
 + Protein DataBank https://www.rcsb.org
