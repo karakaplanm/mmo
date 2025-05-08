@@ -2,7 +2,7 @@
 
 ## Tools and Links
 
-+ OpenBabel http://openbabel.org/index.html
++ OpenBabel https://openbabel.org/docs/Installation/install.html
    or `$ sudo apt install openbabel openbabel-gui`
 + PyMol <a href="https://github.com/karakaplanm/mmo/blob/main/pymol.md">PyMol Notes</a>
 + Avogadro <a href="https://two.avogadro.cc/install/index.html">https://two.avogadro.cc/install/index.html</a>
