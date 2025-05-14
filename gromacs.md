@@ -36,6 +36,7 @@ $ make -j 8
 $ make check
 $ sudo make install
 $ source /usr/local/gromacs/bin/GMXRC
+$ gmx --version
 ```
 
 
