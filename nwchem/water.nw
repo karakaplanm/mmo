@@ -1,0 +1,25 @@
+start water
+
+title "Water molecule energy calculation"
+
+geometry units angstroms print xyz autosym
+  O       -0.50200        0.37200        0.00000
+  H        0.54700       -0.77600        0.59100
+  H       -1.62300        1.56200       -0.60000
+end
+
+basis
+  * library 6-31g
+end
+
+scf
+  maxiter 200
+end
+
+dft
+  xc b3lyp
+  iterations 200
+  convergence energy 1.0e-6
+end
+
+task dft energy
