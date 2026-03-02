@@ -1,25 +1,51 @@
-start water
+restart water
 
-title "Water molecule energy calculation"
+title "Water molecule - HOMO/LUMO orbital visualization"
 
-geometry units angstroms print xyz autosym
-  O       -0.50200        0.37200        0.00000
-  H        0.54700       -0.77600        0.59100
-  H       -1.62300        1.56200       -0.60000
+permanent_dir /home/muka/mmo/nwchem
+scratch_dir /tmp/nwchem_scratch
+
+geometry units angstroms noautoz
+  O    0.00000000    0.00000000    0.12544922
+  H   -0.76156077    0.00000000   -0.47327461
+  H    0.76156077    0.00000000   -0.47327461
 end
 
 basis
-  * library 6-31g
-end
-
-scf
-  maxiter 200
+  * library 6-31g*
 end
 
 dft
   xc b3lyp
   iterations 200
   convergence energy 1.0e-6
+  vectors input water.movecs
 end
 
-task dft energy
+# HOMO orbital (orbital 5 for water - 10 electrons)
+dplot
+  TITLE HOMO
+  limitXYZ
+  -3.0 3.0 50
+  -3.0 3.0 50
+  -3.0 3.0 50
+  spin total
+  gaussian
+  output /home/muka/mmo/nwchem/water_homo.cube
+  orbitals view; 1; 5
+end
+task dplot
+
+# LUMO orbital (orbital 6)
+dplot
+  TITLE LUMO
+  limitXYZ
+  -3.0 3.0 50
+  -3.0 3.0 50
+  -3.0 3.0 50
+  spin total
+  gaussian
+  output /home/muka/mmo/nwchem/water_lumo.cube
+  orbitals view; 1; 6
+end
+task dplot
