@@ -41,4 +41,10 @@ select ilac, resn DM2
 show spheres, ilac
 color yellow, ilac
 
+## Calculations
+
+get_area
+
+distance mesafe1, (resi 10 and name CA), (resi 25 and name CB)
+distance mesafe1, (resi 128 and name CA), (resi 128 and name NH1)
 
