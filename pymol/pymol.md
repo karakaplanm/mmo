@@ -48,3 +48,8 @@ get_area
 distance mesafe1, (resi 10 and name CA), (resi 25 and name CB)
 distance mesafe1, (resi 128 and name CA), (resi 128 and name NH1)
 
+
+get_angle 77/ND2, 77/CG, 77/CB
+
+get_distance 77/ND2, 77/CG
+
