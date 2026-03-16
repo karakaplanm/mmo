@@ -214,5 +214,5 @@ Proteins can be classified based on:
 - "Introduction to Protein Structure" by Carl Branden and John Tooze.
 - "Protein Structure and Function" by Gregory Petsko and Dagmar Ringe.
 - Online resources: [Protein Data Bank (PDB)](https://www.rcsb.org/), [UniProt](https://www.uniprot.org/).
-
+- AlphaFold Server : [AlphaFold](https://alphafoldserver.com/)
 ---
