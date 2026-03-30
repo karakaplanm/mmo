@@ -79,7 +79,7 @@
 ---
 
 ## **IV. Advances and Tools**  
-- **AlphaFold2**: Deep learning predicts structures with atomic accuracy (no templates needed).  
+- **AlphaFold3**: Deep learning predicts structures with atomic accuracy (no templates needed).  <a href=https://alphafoldserver.com/>https://alphafoldserver.com/</a>
 - **SWISS-MODEL Repository**: Automated homology modeling pipeline.  
 - **CASP (Critical Assessment of Structure Prediction)**: Biennial competition driving innovation.  
 
