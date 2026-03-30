@@ -88,4 +88,12 @@
 ## **V. Summary**  
 - **Protein folding** relies on energy landscapes and computational brute force.  
 - **Homology modeling** leverages evolutionary relationships to build 3D models.  
-- **Validation** ensures models are biophysically plausible.  
+- **Validation** ensures models are biophysically plausible.
+- 
+## **VI. Work Example**
+- Get 1AKI protein in FASTA format from <a href=https://www.rcsb.org/>https://www.rcsb.org/</a>
+
+- Fold 1AKI protein using <a href=https://alphafoldserver.com/>https://alphafoldserver.com/</a>
+
+
+
