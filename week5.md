@@ -1,4 +1,4 @@
-# Lecture 2: Protein Structure Prediction — Protein Folding and Homology Modeling
+# Week 5 : Protein Structure Prediction — Protein Folding and Homology Modeling
 
 ---
 
