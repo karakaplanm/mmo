@@ -17,7 +17,9 @@ A force field is a mathematical model used in molecular mechanics to describe th
 
 ### 1. **Bond Stretching**
 Describes the deviation of bond lengths from their equilibrium values. The potential energy function is typically modeled using Hooke’s Law:
+
 $$E_{bond} = \sum k_b (r - r_0)^2$$
+
 where:
 - $k_b$ is the bond force constant,
 - $r$ is the bond length,
@@ -25,7 +27,9 @@ where:
 
 ### 2. **Angle Bending**
 Describes the deviation of bond angles from their equilibrium values:
+
 $$E_{angle} = \sum k_\theta (\theta - \theta_0)^2$$
+
 where:
 - $k_\theta$ is the angle force constant,
 - $\theta$ is the bond angle,
@@ -33,7 +37,9 @@ where:
 
 ### 3. **Torsional Interactions (Dihedral Angles)**
 Accounts for rotation around bonds, modeled using a periodic function:
+
 $$E_{torsion} = \sum k_\phi (1 + \cos(n\phi - \delta))$$
+
 where:
 - $k_\phi$ is the torsional force constant,
 - $\phi$ is the torsional angle,
@@ -45,7 +51,9 @@ Non-bonded interactions consist of van der Waals forces and electrostatic intera
 
 #### **Lennard-Jones Potential (van der Waals Interactions)**
 Models dispersion and repulsion forces:
+
 $$E_{vdW} = \sum \left[ 4\varepsilon \left( \left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^{6} \right) \right]$$
+
 where:
 - $\varepsilon$ is the well depth (energy minimum),
 - $\sigma$ is the van der Waals radius,
@@ -53,7 +61,9 @@ where:
 
 #### **Coulombic (Electrostatic) Interactions**
 Describes the interactions between partial atomic charges:
+
 $$E_{elec} = \sum \frac{q_i q_j}{4\pi \varepsilon_0 r}$$
+
 where:
 - $q_i, q_j$ are the atomic charges,
 - $\varepsilon_0$ is the permittivity of vacuum,
@@ -73,6 +83,16 @@ Molecular mechanics is widely applied in:
 - **Molecular docking and drug design**
 - **Molecular dynamics simulations**
 - **Material science and polymer modeling**
+
+## Open-Source Software for Force Field Calculations
+There is a vibrant ecosystem of open-source applications that utilize force fields to perform molecular mechanics and molecular dynamics simulations. Some of the most widely used ones include:
+
+- **GROMACS (GROningen MAchine for Chemical Simulations)**: Highly optimized and incredibly fast, it is primarily designed for biochemical molecules like proteins, lipids, and nucleic acids. It supports a wide variety of force fields (AMBER, CHARMM, OPLS-AA, and GROMOS).
+- **LAMMPS (Large-scale Atomic/Molecular Massively Parallel Simulator)**: Extremely versatile and widely used in materials science, solid-state physics, and coarse-grained molecular dynamics.
+- **OpenMM**: A high-performance toolkit that is heavily optimized for GPUs. It features a modern Python API, making it extremely popular for researchers writing custom scripts or AI-driven simulations.
+- **CP2K**: Known for running both classical molecular dynamics and ab initio (QM/MM) calculations, useful for modeling complex phenomena.
+- **Tinker**: A package well-suited for advanced methodologies like polarizable force fields (e.g., AMOEBA).
+- **NWChem**: Primarily renowned for its highly scalable quantum chemistry capabilities, but also includes strong support for classical molecular dynamics and hybrid quantum mechanics/molecular mechanics (QM/MM) simulations.
 
 ## Conclusion
 Molecular mechanics provides a computationally efficient way to model molecular systems by using classical physics principles. The force field approach allows for the simulation and prediction of molecular structures and interactions, playing a crucial role in computational chemistry and biophysics.
