@@ -6,18 +6,18 @@ A **Potential Energy Surface** (PES) describes the energy of a molecular system 
 - **Saddle Points**: Transition states (highest energy point on the shortest path between minima).
 
 Mathematically, the PES is a hyper-surface in high-dimensional space. Critical points (minima, maxima, saddle points) satisfy:
-\[
+$$
 \nabla E(\mathbf{R}) = 0 \quad \text{(gradient is zero)}
-\]
-The nature of these points is determined by the **Hessian matrix** (\(\mathbf{H}\)), the matrix of second derivatives:
-\[
+$$
+The nature of these points is determined by the **Hessian matrix** ($\mathbf{H}$), the matrix of second derivatives:
+$$
 H_{ij} = \frac{\partial^2 E}{\partial R_i \partial R_j}
-\]
+$$
 
 ---
 
 ## 2. Critical Points on the PES
-- **Minima**: All eigenvalues of \(\mathbf{H}\) are positive.
+- **Minima**: All eigenvalues of $\mathbf{H}$ are positive.
 - **Maxima**: All eigenvalues are negative.
 - **Saddle Points**: One negative eigenvalue (reaction coordinate) and others positive (**first-order saddle point**).
 
@@ -25,7 +25,7 @@ H_{ij} = \frac{\partial^2 E}{\partial R_i \partial R_j}
 
 ## 3. Saddle Points and Transition States
 **Saddle points** correspond to **transition states** in chemical reactions. Identifying them allows calculation of:
-- Activation energy (\(E_{\text{act}} = E_{\text{saddle}} - E_{\text{reactant}}\)).
+- Activation energy ($E_{\text{act}} = E_{\text{saddle}} - E_{\text{reactant}}$).
 - Reaction rates (via Transition State Theory).
 
 ---
@@ -33,7 +33,7 @@ H_{ij} = \frac{\partial^2 E}{\partial R_i \partial R_j}
 ## 4. Methods for Locating Saddle Points
 
 ### First-Order Methods (Use Gradients Only)
-**Principle**: Use gradient (\(\nabla E\)) to navigate the PES. Adapted for saddle points by combining ascent/descent steps.
+**Principle**: Use gradient ($\nabla E$) to navigate the PES. Adapted for saddle points by combining ascent/descent steps.
 
 #### Example Methods:
 1. **Dimer Method**:
@@ -54,14 +54,14 @@ H_{ij} = \frac{\partial^2 E}{\partial R_i \partial R_j}
 ---
 
 ### Second-Order Methods (Use Gradients and Hessians)
-**Principle**: Leverage curvature information (\(\mathbf{H}\)) for faster convergence.
+**Principle**: Leverage curvature information ($\mathbf{H}$) for faster convergence.
 
 #### Example Methods:
 1. **Newton-Raphson with Eigenvector Following**:
    - Step direction determined by the Hessian eigenvector with the **lowest eigenvalue**:
-   \[
+   $$
    \mathbf{R}_{n+1} = \mathbf{R}_n - \mathbf{H}^{-1} \nabla E
-   \]
+   $$
    - Modified to follow the unstable mode (negative eigenvalue).
    - *Advantage*: Quadratic convergence near critical points.
 
@@ -70,7 +70,7 @@ H_{ij} = \frac{\partial^2 E}{\partial R_i \partial R_j}
    - Suitable for both minima and saddle points.
 
 #### Limitations of Second-Order Methods:
-- Hessian calculation is expensive (\(O(N^3)\) for \(N\) atoms).
+- Hessian calculation is expensive ($O(N^3)$ for $N$ atoms).
 - Storage challenges for large systems.
 
 ---
@@ -98,3 +98,25 @@ H_{ij} = \frac{\partial^2 E}{\partial R_i \partial R_j}
 - **First-order methods** (Dimer, CI-NEB) are gradient-based and scalable.
 - **Second-order methods** (Newton-Raphson, RFO) use Hessian for rapid convergence but are costly.
 - Hybrid approaches often balance efficiency and accuracy.
+
+---
+
+## 8. Concrete Examples
+
+### Example 1: Ammonia Inversion ($\text{NH}_3$)
+- **System**: The "umbrella flip" of the ammonia molecule.
+- **Minima**: The two stable, pyramidal geometries of $\text{NH}_3$ (where the nitrogen sits above or below the plane of the three hydrogens).
+- **Saddle Point**: The planar trigonal geometry. This is the highest energy point along the lowest energy path connecting the two pyramidal shapes.
+- **Significance**: By locating this saddle point, we can calculate the inversion barrier.
+
+### Example 2: Bimolecular Nucleophilic Substitution ($S_N2$)
+- **System**: A classic substitution reaction, e.g., $\text{Cl}^- + \text{CH}_3\text{Br} \rightarrow \text{CH}_3\text{Cl} + \text{Br}^-$.
+- **Minima**: The separated reactants and the final products.
+- **Saddle Point**: The brief pentacoordinate transition state geometry where both the incoming nucleophile ($\text{Cl}^-$) and the leaving group ($\text{Br}^-$) are partially bonded to the central carbon.
+- **Significance**: Understanding this transition state gives the activation energy ($E_{\text{act}}$) needed for the reaction to occur.
+
+### Example 3: Conformational Analysis of Ethane ($\text{C}_2\text{H}_6$)
+- **System**: Rotation around the single $\text{C-C}$ bond in ethane.
+- **Minima**: The *staggered* conformations, where the hydrogen atoms on adjacent carbons are as far apart as possible.
+- **Saddle Points**: The *eclipsed* conformations, which encounter maximum steric repulsion and represent the energy barrier to rotation.
+- **Significance**: Finding these points allows us to map the 1D potential energy curve of the bond rotation.

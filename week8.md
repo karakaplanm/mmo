@@ -22,41 +22,41 @@ Molecular mechanics (MM) is a computational method used to model molecular syste
 Force fields are mathematical models that describe the potential energy (**𝑉**) of a molecule as a sum of bonded and non-bonded interactions.  
 
 ### General Form of a Force Field:  
-\[
+$$
 V = V_{\text{bonds}} + V_{\text{angles}} + V_{\text{torsions}} + V_{\text{non-bonded}}
-\]
+$$
 
 #### Components:  
 1. **Bond Stretching (𝑉<sub>bonds</sub>)**  
    - Harmonic oscillator approximation:  
-     \[
+     $$
      V_{\text{bonds}} = \sum_{\text{bonds}} \frac{1}{2} k_r (r - r_0)^2
-     \]  
-   - \(k_r\) = force constant, \(r_0\) = equilibrium bond length.  
+     $$  
+   - $k_r$ = force constant, $r_0$ = equilibrium bond length.  
 
 2. **Angle Bending (𝑉<sub>angles</sub>)**  
    - Harmonic potential for bond angles:  
-     \[
+     $$
      V_{\text{angles}} = \sum_{\text{angles}} \frac{1}{2} k_\theta (\theta - \theta_0)^2
-     \]  
-   - \(k_\theta\) = angle force constant, \(\theta_0\) = equilibrium angle.  
+     $$  
+   - $k_\theta$ = angle force constant, $\theta_0$ = equilibrium angle.  
 
 3. **Torsional Rotation (𝑉<sub>torsions</sub>)**  
    - Periodic potential for dihedral angles:  
-     \[
+     $$
      V_{\text{torsions}} = \sum_{\text{torsions}} k_\phi [1 + \cos(n\phi - \delta)]
-     \]  
-   - \(k_\phi\) = torsional barrier, \(n\) = periodicity, \(\delta\) = phase angle.  
+     $$  
+   - $k_\phi$ = torsional barrier, $n$ = periodicity, $\delta$ = phase angle.  
 
 4. **Non-Bonded Interactions (𝑉<sub>non-bonded</sub>)**  
    - **van der Waals (Lennard-Jones potential):**  
-     \[
+     $$
      V_{\text{vdW}} = 4\epsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^6 \right]
-     \]  
+     $$  
    - **Electrostatic (Coulomb’s law):**  
-     \[
+     $$
      V_{\text{elec}} = \sum_{i<j} \frac{q_i q_j}{4\pi \epsilon_0 r_{ij}}
-     \]  
+     $$  
 
 ---
 
@@ -108,13 +108,13 @@ Geometry optimization is the process of finding the **minimum-energy conformatio
 
 ## 2. Mathematical Foundation  
 The energy of a molecule is a function of its atomic coordinates (**𝑹**). Optimization aims to find:  
-\[
+$$
 \frac{\partial E(\mathbf{R})}{\partial \mathbf{R}} = 0 \quad \text{(gradient zero)}  
-\]  
+$$  
 and  
-\[
+$$
 \frac{\partial^2 E(\mathbf{R})}{\partial \mathbf{R}^2} > 0 \quad \text{(positive curvature)}.  
-\]
+$$
 
 ---
 
@@ -123,9 +123,9 @@ and
 ### (A) First-Order Methods  
 #### **Steepest Descent**  
 - Follows the negative gradient direction:  
-  \[
+  $$
   \mathbf{R}_{n+1} = \mathbf{R}_n - \alpha \nabla E(\mathbf{R}_n)  
-  \]  
+  $$  
 - **Pros**: Simple, guaranteed convergence near minima.  
 - **Cons**: Slow (zig-zag path), inefficient for ill-conditioned systems.  
 
@@ -139,11 +139,11 @@ and
 ### (B) Second-Order Methods  
 #### **Newton-Raphson**  
 - Uses Hessian matrix (**H**) for quadratic convergence:  
-  \[
+  $$
   \mathbf{R}_{n+1} = \mathbf{R}_n - \mathbf{H}^{-1} \nabla E(\mathbf{R}_n)  
-  \]  
+  $$  
 - **Pros**: Extremely fast near minima.  
-- **Cons**: Hessian calculation is expensive (𝑂(𝑁^3)).  
+- **Cons**: Hessian calculation is expensive ($O(N^3)$).  
 
 #### **Quasi-Newton (BFGS, L-BFGS)**  
 - Approximates Hessian iteratively.  
@@ -163,8 +163,8 @@ and
 ## 4. Practical Considerations  
 
 ### (A) Convergence Criteria  
-- **Gradient tolerance** (e.g., |∇𝐸| < 0.001 kcal/mol/Å).  
-- **Energy change** (Δ𝐸 < 10⁻⁶ a.u. between steps).  
+- **Gradient tolerance** (e.g., $|\nabla E| < 0.001$ kcal/mol/Å).  
+- **Energy change** ($\Delta E < 10^{-6}$ a.u. between steps).  
 - **Displacement threshold** (max atomic step < 0.01 Å).  
 
 ### (B) Challenges  
