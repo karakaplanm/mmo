@@ -1,2 +1,2 @@
-Put your assignments here
+Push your assignments here
 
