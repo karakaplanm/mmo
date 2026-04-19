@@ -59,7 +59,7 @@ $$ H_{ij} = \frac{\partial^2 E}{\partial R_i \partial R_j} $$
 1. **Newton-Raphson with Eigenvector Following**:
    - Step direction determined by the Hessian eigenvector with the **lowest eigenvalue**:
 
-   $$ \mathbf{R}_{n+1} = \mathbf{R}_n - \mathbf{H}^{-1} \nabla E $$
+$$ \mathbf{R}_{n+1} = \mathbf{R}_n - \mathbf{H}^{-1} \nabla E $$
 
    - Modified to follow the unstable mode (negative eigenvalue).
    - *Advantage*: Quadratic convergence near critical points.
