@@ -22,6 +22,7 @@ Molecular mechanics (MM) is a computational method used to model molecular syste
 Force fields are mathematical models that describe the potential energy (**𝑉**) of a molecule as a sum of bonded and non-bonded interactions.  
 
 ### General Form of a Force Field:  
+
 ```math
 V = V_{\text{bonds}} + V_{\text{angles}} + V_{\text{torsions}} + V_{\text{non-bonded}}
 ```
@@ -29,31 +30,40 @@ V = V_{\text{bonds}} + V_{\text{angles}} + V_{\text{torsions}} + V_{\text{non-bo
 #### Components:  
 1. **Bond Stretching (𝑉<sub>bonds</sub>)**  
    - Harmonic oscillator approximation:  
+
      ```math
      V_{\text{bonds}} = \sum_{\text{bonds}} \frac{1}{2} k_r (r - r_0)^2
      ```  
+
    - $k_r$ = force constant, $r_0$ = equilibrium bond length.  
 
 2. **Angle Bending (𝑉<sub>angles</sub>)**  
    - Harmonic potential for bond angles:  
+
      ```math
      V_{\text{angles}} = \sum_{\text{angles}} \frac{1}{2} k_\theta (\theta - \theta_0)^2
      ```  
+
    - $k_\theta$ = angle force constant, $\theta_0$ = equilibrium angle.  
 
 3. **Torsional Rotation (𝑉<sub>torsions</sub>)**  
    - Periodic potential for dihedral angles:  
+
      ```math
      V_{\text{torsions}} = \sum_{\text{torsions}} k_\phi [1 + \cos(n\phi - \delta)]
      ```  
+
    - $k_\phi$ = torsional barrier, $n$ = periodicity, $\delta$ = phase angle.  
 
 4. **Non-Bonded Interactions (𝑉<sub>non-bonded</sub>)**  
    - **van der Waals (Lennard-Jones potential):**  
+
      ```math
      V_{\text{vdW}} = 4\epsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^6 \right]
      ```  
+
    - **Electrostatic (Coulomb’s law):**  
+
      ```math
      V_{\text{elec}} = \sum_{i<j} \frac{q_i q_j}{4\pi \epsilon_0 r_{ij}}
      ```  
@@ -108,10 +118,13 @@ Geometry optimization is the process of finding the **minimum-energy conformatio
 
 ## 2. Mathematical Foundation  
 The energy of a molecule is a function of its atomic coordinates (**𝑹**). Optimization aims to find:  
+
 ```math
 \frac{\partial E(\mathbf{R})}{\partial \mathbf{R}} = 0 \quad \text{(gradient zero)}  
 ```  
+
 and  
+
 ```math
 \frac{\partial^2 E(\mathbf{R})}{\partial \mathbf{R}^2} > 0 \quad \text{(positive curvature)}.  
 ```
@@ -123,9 +136,11 @@ and
 ### (A) First-Order Methods  
 #### **Steepest Descent**  
 - Follows the negative gradient direction:  
+
   ```math
   \mathbf{R}_{n+1} = \mathbf{R}_n - \alpha \nabla E(\mathbf{R}_n)  
   ```  
+
 - **Pros**: Simple, guaranteed convergence near minima.  
 - **Cons**: Slow (zig-zag path), inefficient for ill-conditioned systems.  
 
@@ -139,9 +154,11 @@ and
 ### (B) Second-Order Methods  
 #### **Newton-Raphson**  
 - Uses Hessian matrix (**H**) for quadratic convergence:  
+
   ```math
   \mathbf{R}_{n+1} = \mathbf{R}_n - \mathbf{H}^{-1} \nabla E(\mathbf{R}_n)  
   ```  
+
 - **Pros**: Extremely fast near minima.  
 - **Cons**: Hessian calculation is expensive ($O(N^3)$).  
 
@@ -278,6 +295,7 @@ Molecular mechanics plays a crucial role in the analysis and prediction of the s
 Molecular mechanics enables detailed insight into the static and dynamic properties of amino acids. From isolated residue analysis to integration within larger biological assemblies, it remains a cornerstone methodology in structural bioinformatics and computational chemistry.
 
 ```
+
 start alanine_mm
 
 title "L-Alanine MM Geometry Optimization with AMBER"
