@@ -54,7 +54,7 @@ $$ V_{\text{vdW}} = 4\epsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \lef
 
    - **Electrostatic (Coulomb’s law):**  
 
-$$ V_{\text{elec}} = \sum_{i<j} \frac{q_i q_j}{4\pi \epsilon_0 r_{ij}} $$
+$$ V_{\text{elec}} = \sum_{i \lt j} \frac{q_i q_j}{4\pi \epsilon_0 r_{ij}} $$
 
 ---
 
@@ -111,7 +111,7 @@ $$ \frac{\partial E(\mathbf{R})}{\partial \mathbf{R}} = 0 \quad \text{(gradient 
 
 and  
 
-$$ \frac{\partial^2 E(\mathbf{R})}{\partial \mathbf{R}^2} > 0 \quad \text{(positive curvature)}. $$
+$$ \frac{\partial^2 E(\mathbf{R})}{\partial \mathbf{R}^2} \gt 0 \quad \text{(positive curvature)}. $$
 
 ---
 
