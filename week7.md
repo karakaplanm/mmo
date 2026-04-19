@@ -6,10 +6,13 @@ A **Potential Energy Surface** (PES) describes the energy of a molecular system 
 - **Saddle Points**: Transition states (highest energy point on the shortest path between minima).
 
 Mathematically, the PES is a hyper-surface in high-dimensional space. Critical points (minima, maxima, saddle points) satisfy:
+
 $$
 \nabla E(\mathbf{R}) = 0 \quad \text{(gradient is zero)}
 $$
+
 The nature of these points is determined by the **Hessian matrix** ($\mathbf{H}$), the matrix of second derivatives:
+
 $$
 H_{ij} = \frac{\partial^2 E}{\partial R_i \partial R_j}
 $$
@@ -59,9 +62,11 @@ $$
 #### Example Methods:
 1. **Newton-Raphson with Eigenvector Following**:
    - Step direction determined by the Hessian eigenvector with the **lowest eigenvalue**:
+
    $$
    \mathbf{R}_{n+1} = \mathbf{R}_n - \mathbf{H}^{-1} \nabla E
    $$
+
    - Modified to follow the unstable mode (negative eigenvalue).
    - *Advantage*: Quadratic convergence near critical points.
 
