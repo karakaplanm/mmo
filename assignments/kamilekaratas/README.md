@@ -4,8 +4,6 @@
 **Institution:** Inonu University - Department of Molecular Biology and Genetics  
 **Course:** Molecular Modeling  
 
-<img width="1086" height="419" alt="cer1_pymol_render" src="https://github.com/user-attachments/assets/c42b562c-a39a-4e4e-8878-ec8b112ede68" />
-
 ## Project Overview
 In this project, the 3D structure of Cerberus (CER1), a multivalent signaling antagonist critical for embryonic head development, was modeled *ab initio*. CER1 is structurally fascinating as it simultaneously binds and neutralizes three completely different signaling molecules: Wnt, Nodal, and BMP. 
 
