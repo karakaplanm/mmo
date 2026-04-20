@@ -4,8 +4,6 @@
 **Institution:** Inonu University - Department of Molecular Biology and Genetics  
 **Course:** Molecular Modeling  
 
-<img width="1086" height="419" alt="shh_pymol_render" src="https://github.com/user-attachments/assets/c1a27dbd-7c2c-4eff-8f3a-5ebbc97590fa" />
-
 ## Project Overview
 In this project, the 3D structure of the Sonic Hedgehog (SHH) pre-protein (462 amino acids), which plays a critical role in embryonic development, tissue differentiation, and organogenesis, was modeled *ab initio*. SHH is a unique target for structural biology due to its autocatalytic cleavage ability and subsequent cholesterol modification in cellular signaling pathways.
 
