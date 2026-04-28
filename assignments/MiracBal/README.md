@@ -1,47 +1,50 @@
-# Human CTLA-4 (3OSK) Protein Model (AlphaFold Prediction)
+Author: Miraç Bal
+Institution: Inonu University - Department of Molecular Biology and Genetics
+Course: Biomolecular Modeling
 
-**Yazar:** Miraç Bal
-**Kurum:** İnönü Üniversitesi - Moleküler Biyoloji ve Genetik Bölümü
-**Ders:** Biyomoleküler Modelleme
+🔬 Overview
+This file contains the predicted three-dimensional structure of the CTLA-4 (Cytotoxic T-Lymphocyte–Associated Protein 4) protein generated using the AlphaFold algorithm[cite: 1]. AlphaFold is an artificial intelligence–based system that predicts protein structures from amino acid sequences with high accuracy[cite: 2].
+
+🧬 What is CTLA-4?
+Gene Name: CTLA4
+
+Protein Type: Immune Checkpoint Receptor
+
+Expression: Primarily found on activated T cells, especially regulatory T cells (Tregs).
+
+Main Functions
+Inhibits T cell activation.
+
+Maintains immune homeostasis by preventing excessive immune responses.
+
+Ligand Interaction and Relationship with CD28
+Ligands: CD80 (B7-1) and CD86 (B7-2).
+
+CTLA-4 binds the same ligands as CD28, but while CD28 promotes activation, CTLA-4 provides an inhibitory signal.
+
+CTLA-4 has a higher affinity for these ligands than CD28.
+
+🛠 Methodology
+A protein was selected and searched on the Protein Data Bank (PDB) website using its nickname.
+
+The protein was retrieved in Fasta format and uploaded to Google AlphaFold.
+
+Among 5 different conformations, model_0 was selected as the reference structure due to its highest global confidence ranking.
+
+📊 Structural Analysis and Visualization (pLDDT)
+AlphaFold models are color-coded based on confidence scores:
+
+🔵 Blue (>90): High accuracy, stable core structures.
+
+🟡 Cyan/Yellow (90-50): Low reliability, flexible linker regions.
+
+🟠 Orange (<50): Disordered end regions compatible with a 24% ratio.
+
+📂 Contents
+fold_2026_03_30_11_26_model_0.cif: The 3D model from Google AlphaFold.
+
+fold_2026_03_30_11_26_summary_confidences_0.json: The confidence metrics.
+
+shh_pymol_render.png: PyMOL visualization.
 
 ---
-
-## 🔬 Genel Bakış
-Bu dosya, **AlphaFold** algoritması kullanılarak tahmin edilen **CTLA-4** (Sitotoksik T-Lenfosit İlişkili Protein 4) proteininin üç boyutlu yapısını içermektedir [cite: 1]. AlphaFold, amino asit dizilerinden protein yapılarını yüksek doğrulukla tahmin eden yapay zeka tabanlı bir sistemdir [cite: 2].
-
-## 🧬 CTLA-4 Nedir?
-* **Gen Adı:** CTLA4 [cite: 3]
-* **Protein Tipi:** İmmün Kontrol Noktası Reseptörü [cite: 3]
-* **Ekspresyon:** Öncelikle aktive edilmiş T hücrelerinde, özellikle düzenleyici T hücrelerinde (Tregs) bulunur [cite: 3].
-
-### Temel Fonksiyonlar
-* T hücresi aktivasyonunu inhibe eder [cite: 3].
-* Aşırı immün yanıtları önleyerek immün homeostazı korur [cite: 3].
-
-### Ligand Etkileşimi ve CD28 İlişkisi
-* **Ligandlar:** CD80 (B7-1) ve CD86 (B7-2) [cite: 3].
-* CTLA-4, CD28 ile aynı ligandlara bağlanır ancak CD28 aktivasyonu teşvik ederken, CTLA-4 inhibitör sinyal sağlar [cite: 3].
-* CTLA-4, bu ligandlara karşı CD28'den daha yüksek afiniteye sahiptir [cite: 3].
-
----
-
-## 🛠 Metodoloji
-1. Protein seçildi ve Protein Data Bank (PDB) üzerinden takma adı ile aratıldı [cite: 3].
-2. Protein **Fasta** formatında indirildi ve Google AlphaFold sistemine yüklendi [cite: 4].
-3. Üretilen 5 farklı konformasyon arasından, en yüksek küresel güven sıralamasına sahip olan **model_0** referans yapı olarak seçildi [cite: 5].
-
----
-
-## 📊 Yapısal Analiz ve Görselleştirme (pLDDT)
-AlphaFold modelleri, güven skorlarına göre renklendirilmiştir [cite: 6]:
-
-* 🔵 **Mavi (>90):** Yüksek doğruluk, stabil çekirdek yapılar [cite: 6].
-* 🟡 **Siyan/Sarı (90-50):** Düşük güvenilirlik, esnek bağlayıcı (linker) bölgeler [cite: 6].
-* 🟠 **Turuncu (<50):** %24 oranında düzensiz (disordered) uç bölgeler [cite: 7].
-
----
-
-## 📂 Dosya İçeriği
-* `fold_2026_03_30_11_26_model_0.cif`: Google AlphaFold'dan alınan 3D model [cite: 8].
-* `fold_2026_03_30_11_26_summary_confidences_0.json`: Güven metrikleri [cite: 8].
-* `shh_pymol_render.png`: PyMOL görselleştirmesi [cite: 8].
