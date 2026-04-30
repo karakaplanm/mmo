@@ -1,17 +1,17 @@
 ;
 ;	File 'mdout.mdp' was generated
 ;	By user: muka (1000)
-;	On host: lydia
-;	At date: Mon Apr  6 11:42:10 2026
+;	On host: plan9
+;	At date: Thu Apr 30 23:31:13 2026
 ;
 ;	Created by:
-;	                     :-) GROMACS - gmx grompp, 2025.3 (-:
+;	                     :-) GROMACS - gmx grompp, 2026.1 (-:
 ;	
 ;	Executable:   /usr/local/gromacs/bin/gmx
 ;	Data prefix:  /usr/local/gromacs
 ;	Working dir:  /home/muka/mmo/work1
 ;	Command line:
-;	  gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
+;	  gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr -maxwarn 1
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -175,7 +175,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen_vel                  = no
 gen-temp                 = 300
-gen-seed                 = -1180698577
+gen-seed                 = -330798
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
@@ -332,3 +332,6 @@ colvars-active           = false
 
 ; Neural Network potential
 nnpot-active             = false
+
+; Fast Multipole Method
+fmm-backend              = inactive
