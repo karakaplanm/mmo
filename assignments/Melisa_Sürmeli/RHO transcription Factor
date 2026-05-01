@@ -4,6 +4,7 @@ File Format Used: 3.CIF (Crystallographic Information File)
 
 Software Used for Folding: AlphaFold Server
 
+
 Information About RHO: The E. coli Rho protein disengages newly transcribed RNA from its DNA template, helping terminate certain transcripts. We have determined the X-ray crystal structure of the RNA-binding domain of Rho complexed to an RNA ligand. Filters that screen both ligand size and chemical functionality line the primary nucleic acid-binding site, imparting sequence specificity to a generic single-stranded nucleic acid-binding fold and explaining the preference of Rho for cytosine-rich RNA. The crystal packing reveals two Rho domain protomers bound to a single RNA with a single base spacer, suggesting that the strong RNA-binding sites of Rho may arise from pairing of RNA-binding modules. Dimerization of symmetric subunits on an asymmetric ligand is developed as a model for allosteric control in the action of the intact Rho hexamer.
 
 
