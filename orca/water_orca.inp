@@ -1,8 +1,9 @@
 # ORCA Geometry Optimization of Water Molecule
 # DFT with B3LYP functional and def2-SVP basis set
-
-! B3LYP def2-TZVP OPT
+! PBE
+! B3LYP def2-TZVP OPT FREQ
 ! PrintBasis
+! LARGEPRINT
 
 %maxcore 2000
 
