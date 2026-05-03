@@ -16,7 +16,7 @@
 #   xtbrestart   – restart information
 # ============================================================
 
-XTB="/home/muka/Downloads/xtb-dist/bin/xtb"
+XTB="xtb"
 MOL="ethanol.xyz"
 
 echo "========================================"
