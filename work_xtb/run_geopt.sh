@@ -16,7 +16,6 @@
 #   xtbrestart   – restart information
 # ============================================================
 
-XTB="xtb"
 MOL="ethanol.xyz"
 
 echo "========================================"
@@ -26,7 +25,7 @@ echo "========================================"
 # --gfn 2       : use GFN2-xTB parametrization (default, shown explicitly)
 # -c 0          : neutral molecule
 # --uhf 0       : closed-shell (no unpaired electrons)
-$XTB "$MOL" --opt --gfn 2 -c 0 --uhf 0 2>&1 | tee opt_basic.log
+xtb "$MOL" --opt --gfn 2 -c 0 --uhf 0 2>&1 | tee opt_basic.log
 
 # Save optimized structure
 cp xtbopt.xyz ethanol_opt_basic.xyz
@@ -40,7 +39,7 @@ echo "========================================"
 # --ohess tight : optimize at 'tight' level, then compute Hessian
 #                 to verify the structure is a true minimum
 #                 (no imaginary frequencies)
-$XTB "$MOL" --ohess tight --gfn 2 2>&1 | tee opt_ohess.log
+xtb "$MOL" --ohess tight --gfn 2 2>&1 | tee opt_ohess.log
 
 cp xtbopt.xyz ethanol_opt_tight.xyz
 echo ""
@@ -53,7 +52,7 @@ echo " 3) Optimization in Water Solvent (ALPB)"
 echo "========================================"
 # --alpb water  : use the Analytical Linearized Poisson-Boltzmann
 #                 implicit solvation model with water as solvent
-$XTB "$MOL" --opt --gfn 2 --alpb water 2>&1 | tee opt_solvent.log
+xtb "$MOL" --opt --gfn 2 --alpb water 2>&1 | tee opt_solvent.log
 
 cp xtbopt.xyz ethanol_opt_water.xyz
 echo ""
