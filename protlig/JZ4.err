@@ -1,0 +1,25 @@
+CHARMM General Force Field (CGenFF) program version 4.0
+released June 2024
+Copyright (C) 2020 SilcBio LLC
+and University of Maryland, School of Pharmacy. All Rights Reserved.
+
+Licensed to:
+academic user
+academicnuniversity
+
+License expires: Thu Dec 31 00:00:00 2026
+
+readprm warning: IMPROPER parameter not in canonical format
+CG2R64 NG2R62 CG2RC0 NG2S3     40.00  0     0.00 !A base, adm
+
+readpar warning: DIHEDRAL parameters not sorted
+readpar warning: IMPROPER parameters not sorted
+readpar debug: read 1305 bonds, 6776 angles, 29044 dihedrals, 487 impropers
+               and 1034333 characters worth of comments.
+Now processing molecule JZ4 ...
+ringper debug: stored 6-membered ring in stage 1.
+resonance debug: found perfect resonance chain with
+charge 0 ( 0 positive and 0 negative centers) and 0 potential aromatic rings
+paranalogy debug: finding analogy for dihedral CG2R61 CG321 CG321 CG331
+paranalogy debug: finding analogy for dihedral OG311 CG2R61 CG2R61 CG321
+paranalogy debug: finding analogy for dihedral CG2R61 CG321 CG321 CG331
