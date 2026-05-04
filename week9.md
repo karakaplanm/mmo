@@ -7,10 +7,25 @@ Electrostatic interactions play a fundamental role in the structure, stability, 
 - **Charge Distributions**: Biomolecules contain partial and full charges (e.g., amino acids, nucleic acids, and metal ions).  
 
 ## **2. Poisson-Boltzmann Equation (PBE)**  
-A key theoretical framework for modeling electrostatics in biomolecules:  
-- **Poisson Equation**: Relates electrostatic potential (ψ) to charge distribution (ρ).  
-- **Boltzmann Distribution**: Accounts for mobile ions in solution (Debye-Hückel theory).  
-- **Applications**: Used in software like APBS and DelPhi to compute electrostatic potentials around proteins/DNA.  
+The Poisson-Boltzmann equation is a key theoretical framework for modeling electrostatics in biomolecules, combining the Poisson equation for electrostatics with the Boltzmann distribution for mobile ions in solution.
+
+**The Equation:**
+∇ · [ε(r)∇ψ(r)] = -ρ_f(r) - Σ c_i q_i exp(-q_i ψ(r) / k_B T)
+
+Where:
+- **ψ(r)**: Electrostatic potential at position r.
+- **ε(r)**: Position-dependent dielectric constant (varies between solute and solvent).
+- **ρ_f(r)**: Fixed charge distribution of the biomolecule (e.g., atomic partial charges).
+- **c_i**: Bulk concentration of ion type i.
+- **q_i**: Charge of ion type i.
+- **k_B**: Boltzmann constant.
+- **T**: Absolute temperature.
+
+Key concepts include:  
+- **Poisson Equation**: Relates the electrostatic potential (ψ) to the spatial charge distribution (ρ).  
+- **Boltzmann Distribution**: Accounts for the statistical distribution and screening effect of mobile ions in the solvent (Debye-Hückel theory).  
+- **Linearized PBE (LPBE)**: For regions with low electrostatic potentials, the exponential term can be linearized to simplify the mathematical solution.
+- **Applications**: Essential for implicit solvent models and implemented in software like APBS and DelPhi to compute electrostatic potentials and solvation energies around proteins/DNA.
 
 ## **3. Solvation Effects**  
 Water and ions significantly modulate biomolecular electrostatics:  
@@ -38,3 +53,25 @@ Water and ions significantly modulate biomolecular electrostatics:
 
 ## **Conclusion**  
 Understanding electrostatics and solvation is essential for predicting biomolecular behavior, drug design, and enzyme engineering. Advances in computational methods continue to improve our ability to model these complex interactions accurately.  
+
+
+## Application
+Installation of PDB2PQR in Ubuntu
+
+```
+sudo apt install pdb2pqr
+```
+
+Start Pymol
+
+```
+pymol
+```
+
+Load a protein structure
+
+```
+fetch 3htb 
+```
+
+Run Plugin -> APBS 
