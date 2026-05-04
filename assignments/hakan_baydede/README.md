@@ -70,8 +70,3 @@ This protein is the **human Beta-2 adrenergic receptor (ADRB2)** , a member of t
 ## 3. Conclusion and Final Interpretation
 
 > **This AlphaFold model is a highly reliable representation of the human Beta-2 adrenergic receptor. With a pTM score of 0.71, the global folding is correct. With plDDT > 90 in key regions, side chain positions are predicted with excellent accuracy. This model can be confidently used for drug interaction studies, molecular simulations, and structural comparisons. The only limitation is that it represents the inactive conformation; for active-state studies, comparison with agonist-bound structures (e.g., PDB 3SN6) is recommended.**
-
----
-
-**Report date:** 2026-05-04  
-**Source:** AlphaFold output - 2RH1 | pdb_00002rh1
