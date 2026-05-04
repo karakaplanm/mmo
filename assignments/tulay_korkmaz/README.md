@@ -1,67 +1,67 @@
-# 1M47 (Human Interleukin‑2) – Ökaryotik Sitokin
+# 1M47 (Human Interleukin‑2) – Eukaryotic Cytokine
 
-## Protein Tanıtımı ve İşlevi
+## Protein Introduction and Function
 
-**1M47**, insan (*Homo sapiens*) kaynaklı **Interleukin‑2 (IL‑2)** proteininin kristal yapısını temsil eden bir PDB dosyasıdır. IL‑2, bağışıklık sisteminin en önemli düzenleyici moleküllerinden biri olup, **T hücreleri**, **B hücreleri** ve **doğal öldürücü (NK) hücreler** üzerinde etkili olan bir sitokindir. Hücreler arası sinyal iletişimini sağlayarak bağışıklık yanıtının başlatılması, sürdürülmesi ve sonlandırılmasında kritik roller oynar.
+**1M47** represents the crystal structure of **Interleukin‑2 (IL‑2)** protein from human (*Homo sapiens*). IL‑2 is one of the most important regulatory molecules of the immune system, acting as a cytokine that affects **T cells**, **B cells**, and **natural killer (NK) cells**. By facilitating intercellular signaling, it plays critical roles in the initiation, maintenance, and termination of immune responses.
 
-### Biyolojik Fonksiyonu
+### Biological Function
 
-- **T hücre proliferasyonu:** IL‑2, aktiflenmiş T hücrelerinin klonal olarak genişlemesini tetikler. Bu sayede vücut, enfeksiyon veya tümörle savaşacak yeterli sayıda savaşçı T hücresi üretebilir.
+- **T cell proliferation:** IL‑2 triggers the clonal expansion of activated T cells. This allows the body to produce sufficient numbers of fighter T cells to combat infections or tumors.
 
-- **Düzenleyici T hücre (Treg) kontrolü:** IL‑2, Treg hücrelerinin hayatta kalması ve fonksiyonu için gereklidir. Düşük doz IL‑2 Treg'leri destekleyerek otoimmüniteyi engellerken, yüksek doz IL‑2 efektör T hücrelerini aktive eder.
+- **Regulatory T cell (Treg) control:** IL‑2 is essential for the survival and function of Treg cells. Low-dose IL‑2 supports Tregs to prevent autoimmunity, while high-dose IL‑2 activates effector T cells.
 
-- **NK hücre ve B hücre aktivasyonu:** IL‑2, NK hücrelerinin sitotoksik aktivitesini artırır ve B hücrelerinden antikor üretimini teşvik eder.
+- **NK cell and B cell activation:** IL‑2 enhances the cytotoxic activity of NK cells and promotes antibody production from B cells.
 
-- **Sinyal iletimi:** IL‑2, reseptörüne (IL‑2Rα/β/γ) bağlanarak JAK‑STAT, PI3K‑Akt ve MAPK sinyal yollarını aktive eder.
+- **Signal transduction:** Upon binding to its receptor (IL‑2Rα/β/γ), IL‑2 activates the JAK‑STAT, PI3K‑Akt, and MAPK signaling pathways.
 
-### Yapısal Özellikleri
+### Structural Features
 
-- **Uzunluk:** 133 amino asit (olgun form)
-- **Molekül ağırlığı:** ~15,4 kDa
-- **Disülfid bağı:** Cys58 ile Cys105 arasında bir adet disülfid köprüsü bulunur; bu bağ yapısal stabiliteye katkıda bulunur.
-- **Katlanma:** Dört ana α‑sarmaldan oluşan "up‑up‑down‑down" tipi sarmal demet yapısı. β‑tabaka içermez.
-- **Aktif bölge / reseptör bağlanma yüzeyi:** Helix A ve D üzerindeki hidrofobik ve polar kalıntılar, IL‑2 reseptörüne bağlanmayı sağlar.
+- **Length:** 133 amino acids (mature form)
+- **Molecular weight:** ~15.4 kDa
+- **Disulfide bond:** One disulfide bridge between Cys58 and Cys105; this bond contributes to structural stability.
+- **Folding:** Four-helix bundle structure with an "up-up-down-down" topology. Contains no β‑sheets.
+- **Active site / receptor binding surface:** Hydrophobic and polar residues on helix A and D mediate binding to the IL‑2 receptor.
 
-### Kullanım Alanları
+### Applications
 
-- **Kanser immünoterapisi:** Rekombinant IL‑2 (aldesleukin, Proleukin®), metastatik böbrek hücreli karsinom ve malign melanom tedavisinde FDA onaylıdır.
+- **Cancer immunotherapy:** Recombinant IL‑2 (aldesleukin, Proleukin®) is FDA‑approved for the treatment of metastatic renal cell carcinoma and malignant melanoma.
 
-- **Otoimmün hastalıklar:** Düşük doz IL‑2, Tip 1 diyabet, sistemik lupus eritematozus (SLE) ve multipl skleroz gibi hastalıklarda Treg hücrelerini artırarak bağışıklık toleransını yeniden sağlamayı hedefler.
+- **Autoimmune diseases:** Low‑dose IL‑2 aims to restore immune tolerance by increasing Treg cells in diseases such as type 1 diabetes, systemic lupus erythematosus (SLE), and multiple sclerosis.
 
-- **Temel bilim:** Sitokin katlanması, sarmal demet yapıları ve reseptör‑ligand tanıma mekanizmaları için paradigmatik bir model protein.
+- **Basic science:** A paradigmatic model protein for cytokine folding, helical bundle structures, and receptor‑ligand recognition mechanisms.
 
-- **İlaç hedeflemesi:** Günümüzde IL‑2 varyantları (superkine, bypass mutants) ile Treg/efektör T hücreleri arasında seçicilik sağlanmaya çalışılmaktadır.
+- **Drug targeting:** Current research focuses on IL‑2 variants (superkines, bypass mutants) to achieve selectivity between Treg and effector T cells.
 
 ---
 
-## AlphaFold Tahminlerinin Değerlendirilmesi – 1M47 (Human Interleukin‑2)
+## Evaluation of AlphaFold Predictions – 1M47 (Human Interleukin‑2)
 
-### Genel Model Kalitesi
+### Overall Model Quality
 
-AlphaFold ile yapılan tahmin sonucunda elde edilen **summary_confidences** dosyasına göre:
+According to the **summary_confidences** file obtained from the AlphaFold prediction:
 
-- **ptm (pTM) skoru = 0.85**  
-  Bu skor, 0.5 eşiğinin oldukça üzerindedir. **pTM > 0.5**, tahmin edilen genel katlanmanın (backbone ve topoloji) doğru olduğunu gösterir. 0.85 gibi yüksek bir değer, bu proteinin **çok yüksek güvenle** modellendiğini ve deneysel yapıyla (1M47, X‑ışını kristalografisi 2.0 Å) büyük uyum içinde olduğunu kanıtlar.
+- **ptm (pTM) score = 0.85**  
+  This score is well above the 0.5 threshold. **pTM > 0.5** indicates that the predicted global folding (backbone and topology) is correct. A high value of 0.85 demonstrates that this protein has been modeled with **very high confidence** and shows strong agreement with the experimental structure (1M47, X‑ray crystallography at 2.0 Å).
 
-- **ipTM (interface pTM) = 0.85** (chain_pair_iptm'den alınmıştır)  
-  Bu protein **tek zincirli** (monomer) olmasına rağmen ipTM değeri 0.85 gibi yüksek çıkmıştır. Bu, proteinin **yapısal bütünlüğünün ve sıkı paketlenmesinin** bir göstergesidir. Multimer benzeri bir değerlendirme protokolünden kaynaklanabilir.
+- **ipTM (interface pTM) = 0.85** (derived from chain_pair_iptm)  
+  Although this protein is **monomeric** (single chain), the ipTM value is as high as 0.85. This reflects the **structural integrity and tight packing** of the protein. It may arise from a multimer‑like evaluation protocol.
 
-- **pTM ve ranking_score = 0.85**  
-  Ranking_score, modelin diğer alternatif tahminler arasında en iyi sıralamayı aldığını gösterir. 0.85, çok yüksek bir sıralama puanıdır.
+- **pTM and ranking_score = 0.85**  
+  The ranking_score indicates that this model ranks highest among alternative predictions. A score of 0.85 is a very high ranking score.
 
 - **num_recycles = 10.0**  
-  AlphaFold’un 10 döngü (recycle) kullanarak modeli iyileştirdiğini belirtir.
+  Indicates that AlphaFold used 10 recycling iterations to refine the model.
 
-- **has_clash = 0.0** ve **fraction_disordered = 0.0**  
-  Tahmin edilen modelde **hiçbir atom çakışması** yoktur ve proteinin hiçbir bölgesi **düzensiz (disordered)** olarak işaretlenmemiştir. Bu, IL‑2’nin tamamının stabil ve katlanmış olduğu anlamına gelir.
+- **has_clash = 0.0** and **fraction_disordered = 0.0**  
+  The predicted model contains **no atomic clashes** and no region is marked as **disordered**. This means that the entire IL‑2 protein is stable and well‑folded.
 
 - **pAE_min (chain_pair_pae_min) = 0.76**  
-  Çok düşük tahmini hata mesafesi (0.76 Å), komşu kalıntılar arasındaki göreceli konumların çok yüksek doğrulukta olduğunu gösterir.
+  The very low predicted alignment error (0.76 Å) indicates that the relative positions of neighboring residues are predicted with very high accuracy.
 
-### pLDDT Değerlendirmesi
+### pLDDT Assessment
 
-Mevcut JSON dosyası per-kalıntı pLDDT değerlerini içermediği için tabloda “bilgi yok” olarak belirtilmiştir. Ancak, IL‑2’nin kompakt dört sarmallı bir sitokin olması ve ptm = 0.85 değeri, **tüm kalıntıların yüksek veya çok yüksek pLDDT (>70)** aralığında olmasını beklememiz için yeterli bir kanıttır.
+The available JSON file does not contain per‑residue pLDDT values. However, given that IL‑2 is a compact four‑helix bundle cytokine and the pTM score is 0.85, it is reasonable to expect that **all residues fall within the high or very high pLDDT range (>70)**.
 
-### Sonuç
+### Conclusion
 
-AlphaFold, **1M47 (Human Interleukin‑2)** proteinini **son derece güvenilir bir şekilde** modellemiştir. 0.85’lik pTM skoru, deneysel kristal yapıyla (2.0 Å çözünürlük) tutarlı bir tahmin yapıldığını gösterir. Bu model, IL‑2’nin reseptör bağlanma bölgesi, disülfid bağı ve varyant tasarımı hakkında yapılacak ileri çalışmalar için sağlam bir temel oluşturmaktadır.
+AlphaFold has modeled the **1M47 (Human Interleukin‑2)** protein with **exceptional reliability**. The pTM score of 0.85 demonstrates consistent agreement with the experimental crystal structure (2.0 Å resolution). This model provides a solid foundation for future studies on the receptor binding site, disulfide bond, and variant design of IL‑2.
