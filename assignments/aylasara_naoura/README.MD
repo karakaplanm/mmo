@@ -1,37 +1,39 @@
-# Rapor: 4PYP Proteininin AlphaFold ile Katlanması ve Model Kalite Değerlendirmesi
+```markdown
+# Report: Folding of 4PYP Protein with AlphaFold and Model Quality Assessment
 
-## 1. Protein Hakkında Kısa Bilgi
+## 1. Brief Information About the Protein
 
-4PYP, Halorhodospira halophila (fotosentetik mor bakteri) türünde bulunan Photoactive Yellow Protein (PYP)’nin Protein Data Bank (PDB) kimlik numarasıdır. PYP, yaklaşık 125 amino asit uzunluğunda, küçük, çözünür ve ışığa duyarlı bir fotoreseptör proteindir.
+4PYP is the Protein Data Bank (PDB) identifier for Photoactive Yellow Protein (PYP) found in *Halorhodospira halophila* (a photosynthetic purple bacterium). PYP is a small, soluble, light‑sensitive photoreceptor protein of approximately 125 amino acids.
 
-Biyolojik işlevi, bakterinin mavi ışığı algılamasını ve buna bağlı olarak negatif fototaksi (ışıktan uzaklaşma) yanıtını başlatmasıdır. Bu sayede bakteri yoğun ışık altında hasar görmekten korunur.
+Its biological function is to enable the bacterium to detect blue light and trigger a **negative phototaxis** (movement away from light) response, thereby protecting the bacterium from damage under intense light.
 
-Yapısal olarak PYP, α/β katlama motifi sergiler. Tipik olarak altı β-telinden oluşan bir β-levha ve bu levhanın etrafında yer alan dört α-sarmal içerir. Proteinin en önemli özelliği, p‑hidroksisinamil kromoforunu (fotoreseptör grubu) kovalent olarak bağlamasıdır. Bu kromofor, bir tiyoester bağı ile aktif bölgedeki Cys69 amino asidine bağlanır.
+Structurally, PYP exhibits an α/β folding motif. It typically consists of a β‑sheet formed by six β‑strands and four α‑helices surrounding this sheet. The most important feature of the protein is that it covalently binds a **p‑hydroxycinnamyl chromophore** (photoreceptor group) via a thioester bond to the active‑site residue Cys69.
 
-Işık uyarımı ile kromofor trans → cis izomerizasyonu yapar ve bu da proteinde büyük konformasyonel değişikliklere yol açar. Bu değişimler, aşağı akış sinyal iletimini başlatan protein-protein etkileşimlerini tetikler. PYP, bu mekanizmasıyla fotosiklin anlaşılması için model bir sistem olarak kabul edilir ve aynı zamanda PAS (Per-Arnt-Sim) domain ailesinin yapısal-fonksiyonel çalışmalarına da ışık tutar.
+Upon light excitation, the chromophore undergoes a *trans→cis* isomerisation, leading to major conformational changes in the protein. These changes trigger protein‑protein interactions that initiate downstream signal transduction. Due to this mechanism, PYP is considered a **model system for understanding photocycles** and also provides insights into the structural and functional studies of the PAS (Per‑Arnt‑Sim) domain family.
 
-Deneysel olarak, PYP’nin hem karanlık (Ground state) hem de ışık uyarılmış ara formlarının yüksek çözünürlüklü yapıları (X-ışını kristalografisi ve NMR ile) çözülmüştür. 4PYP kodu, bu yapılardan birine (genellikle karanlık durum) karşılık gelir.
+Experimentally, high‑resolution structures of both the dark (ground) state and light‑induced intermediate states of PYP have been solved using X‑ray crystallography and NMR. The code 4PYP corresponds to one of these structures (usually the dark state).
 
-## 2. Katlama Yöntemi
+## 2. Folding Method
 
-Katlama işlemi **AlphaFold** kullanılarak yapılmıştır. Herhangi bir multimer bilgisi girilmediği için ipTM değeri çizgi (`-`) olarak raporlanmıştır (monomerik form hedeflenmiştir).
+The folding was performed using **AlphaFold**. No multimer information was provided, so the ipTM value is reported as a dash (`-`), indicating that a monomeric form was targeted.
 
-## 3. Sonuçların Değerlendirilmesi
+## 3. Evaluation of the Results
 
-Elde edilen **pTM skoru 0,84**’tür. Bu değer, modelin genel yapısal doğruluğunun **çok yüksek** olduğunu gösterir (0,5 üzeri iyi, 0,8 üzeri mükemmel kabul edilir).
+The obtained **pTM score is 0.84**. This value indicates that the overall structural accuracy of the model is **very high** (values above 0.5 are considered good, above 0.8 excellent).
 
-## 4. Modelin Yorumu
+## 4. Interpretation of the Model
 
-- **0,84 pTM değeri**, katlanmış yapının globüler çekirdeğinin deneysel yapıyla (PDB:4PYP) büyük uyum içinde olduğunu kanıtlar.
+- The **pTM value of 0.84** demonstrates that the globular core of the folded structure is in excellent agreement with the experimental structure (PDB:4PYP).
 
-## 5. Katlama Şeklinin Özeti
+## 5. Summary of the Folding Outcome
 
-AlphaFold, 4PYP sekansını alarak **yüksek güvenilir bir monomerik model** oluşturmuştur.
+AlphaFold has produced a **high‑confidence monomeric model** for the 4PYP sequence.
 
-- **Globüler domain** (yaklaşık kalıntı 10‑110) plDDT ortalaması **85’in üzerinde** olup neredeyse kristalografik kalitededir.
-- **Kromofor bağlanma cebi** (Tyr42, Glu46, Cys69 gibi kalıntıları içeren bölge) çok yüksek güvenle (>90) konumlanmıştır.
-- **Esnek döngüler** (özellikle 55‑70 arası kalıntılar) daha düşük güvenle modellenmiştir. Bu bölgeler fotosikl sırasında konformasyon değiştirdiğinden, AlphaFold’un tek bir yapı yerine olasılıksal bir dağılım vermesi beklenir.
+- The **globular domain** (approximately residues 10‑110) has an average plDDT **above 85**, approaching crystallographic quality.
+- The **chromophore binding pocket** (including residues such as Tyr42, Glu46, and Cys69) is positioned with very high confidence (>90).
+- **Flexible loops** (particularly residues 55‑70) are modelled with lower confidence. Because these regions undergo conformational changes during the photocycle, AlphaFold is expected to produce a probabilistic distribution rather than a single static structure.
 
-## Sonuç
+## Conclusion
 
-Elde edilen model, **moleküler yerleştirme** (docking), **dinamik simülasyon** (ön ısıtma için) ve **mutasyon etkisi tahmini** gibi ileri analizlerde doğrudan kullanılabilir. Düşük güvenli bölgeler için AlphaFold’un çoklu çıktı modelleri incelenerek alternatif katlama konformasyonları değerlendirilmelidir.
+The obtained model can be used directly in advanced analyses such as **molecular docking**, **molecular dynamics simulations** (for equilibration), and **mutation effect prediction**. For low‑confidence regions, alternative folding conformations should be examined by inspecting AlphaFold’s multiple output models.
+```
