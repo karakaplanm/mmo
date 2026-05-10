@@ -75,4 +75,5 @@ Molecular software bridges theory and experiment, enabling intuitive manipulatio
 > **Further Reading**:  
 > - [PyMOL Wiki](https://pymolwiki.org/)  
 > - [ChimeraX Tutorials](https://www.rbvi.ucsf.edu/chimerax/docs/)  
-> - [VMD Tutorials](https://www.ks.uiuc.edu/Training/Tutorials/)  
+> - [VMD Tutorials](https://www.ks.uiuc.edu/Training/Tutorials/)
+> - [Avogadro Tutorial](https://avogadro.cc/)
