@@ -1,0 +1,13 @@
+REMARK  FOO                                                                           
+REMARK   DATE:    10/ 1/13     18: 4:39      CREATED BY USER: prabhu                  
+ATOM      1  CG  IMIA    1      -0.052  -0.082   0.076  1.00  0.00      IMIA
+ATOM      2  HG  IMIA    1      -0.739  -0.913   0.001  1.00  0.00      IMIA
+ATOM      3  CD2 IMIA    1       1.306  -0.083   0.169  1.00  0.00      IMIA
+ATOM      4  HD2 IMIA    1       1.998  -0.917   0.188  1.00  0.00      IMIA
+ATOM      5  ND1 IMIA    1      -0.430   1.243   0.096  1.00  0.00      IMIA
+ATOM      6  HD1 IMIA    1      -1.371   1.602   0.044  1.00  0.00      IMIA
+ATOM      7  CE1 IMIA    1       0.717   1.978   0.199  1.00  0.00      IMIA
+ATOM      8  HE1 IMIA    1       0.729   3.070   0.237  1.00  0.00      IMIA
+ATOM      9  NE2 IMIA    1       1.788   1.213   0.246  1.00  0.00      IMIA
+TER      10      IMIA     1
+END

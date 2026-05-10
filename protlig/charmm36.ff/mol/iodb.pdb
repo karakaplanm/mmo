@@ -1,0 +1,16 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     9/10/12     11:26: 0      CREATED BY USER: prabhu                  
+ATOM      1  C1  IODB    1      -0.013  -0.023   0.000  1.00  0.00      IODB
+ATOM      2  H1  IODB    1      -0.558  -0.955  -0.000  1.00  0.00      IODB
+ATOM      3  C2  IODB    1       1.389  -0.023   0.000  1.00  0.00      IODB
+ATOM      4  H2  IODB    1       1.928  -0.960   0.000  1.00  0.00      IODB
+ATOM      5  C3  IODB    1       2.090   1.191   0.000  1.00  0.00      IODB
+ATOM      6  H3  IODB    1       3.171   1.191   0.000  1.00  0.00      IODB
+ATOM      7  C4  IODB    1       1.389   2.405   0.000  1.00  0.00      IODB
+ATOM      8  H4  IODB    1       1.928   3.341   0.000  1.00  0.00      IODB
+ATOM      9  C5  IODB    1      -0.013   2.404   0.000  1.00  0.00      IODB
+ATOM     10  H5  IODB    1      -0.558   3.336  -0.000  1.00  0.00      IODB
+ATOM     11  C6  IODB    1      -0.713   1.191  -0.000  1.00  0.00      IODB
+ATOM     12  I6  IODB    1      -2.827   1.191  -0.000  1.00  0.00      IODB
+TER      13      IODB     1
+END

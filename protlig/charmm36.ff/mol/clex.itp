@@ -1,0 +1,88 @@
+;
+;	File 'system.top' was generated
+;	By user: wenbo (1609)
+;	On host: ocracoke
+;	At date: Mon Sep 11 01:32:09 2016
+;
+;	This is a standalone topology file
+;
+;	It was generated using program:
+;	pdb2gmx - VERSION 4.6.3
+;
+;	Command line was:
+;	pdb2gmx -f charmm36.ff/mol/clet.pdb -p clet.top -ff charmm36 -water tip3p 
+;
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+CLEX              3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 CLEX rtp CLEX q  0.0
+     1      CG321      1   CLEX     C1      1       0.07     12.011   ; 
+     2      CLGA1      1   CLEX    CL1      1      -0.10     35.453   ; 
+     3       HGA2      1   CLEX    H12      1       0.14      1.008   ; 
+     4       HGA2      1   CLEX    H13      1       0.14      1.008   ; 
+     5      CG331      1   CLEX     C2      1      -0.52     12.011   ; 
+     6       HGA3      1   CLEX    H21      1       0.09      1.008   ; 
+     7       HGA3      1   CLEX    H22      1       0.09      1.008   ; 
+     8       HGA3      1   CLEX    H23      1       0.09      1.008   ; 
+     9         LP      1   CLEX    LPA      1      0.000      0.000   ;
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     2     1 
+    1     3     1 
+    1     4     1 
+    1     5     1 
+    5     6     1 
+    5     7     1 
+    5     8     1 
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+    2     6     1 
+    2     7     1 
+    2     8     1 
+    3     6     1 
+    3     7     1 
+    3     8     1 
+    4     6     1 
+    4     7     1 
+    4     8     1 
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+    2     1     3     5 
+    2     1     4     5 
+    2     1     5     5 
+    3     1     4     5 
+    3     1     5     5 
+    4     1     5     5 
+    1     5     6     5 
+    1     5     7     5 
+    1     5     8     5 
+    6     5     7     5 
+    6     5     8     5 
+    7     5     8     5 
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+    2     1     5     6     9 
+    2     1     5     7     9 
+    2     1     5     8     9 
+    3     1     5     6     9 
+    3     1     5     7     9 
+    3     1     5     8     9 
+    4     1     5     6     9 
+    4     1     5     7     9 
+    4     1     5     8     9 
+
+[ virtual_sites2 ]
+; Vsite from                    funct   a 
+9       1        5       1      0.500
+
+

@@ -1,0 +1,18 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     5/26/16     16:50:16      CREATED BY USER: wenbo                  
+ATOM      1  C6  CLBX    1      -0.424   0.000   0.000  1.00  0.00      CLBX
+ATOM      2  CL  CLBX    1      -2.177   0.000   0.000  1.00  0.00      CLBX
+ATOM      3  C5  CLBX    1       0.262   1.226   0.000  1.00  0.00      CLBX
+ATOM      4  H5  CLBX    1      -0.297   2.165   0.000  1.00  0.00      CLBX
+ATOM      5  C1  CLBX    1       0.262  -1.226   0.000  1.00  0.00      CLBX
+ATOM      6  H1  CLBX    1      -0.298  -2.165   0.000  1.00  0.00      CLBX
+ATOM      7  C4  CLBX    1       1.669   1.217   0.000  1.00  0.00      CLBX
+ATOM      8  H4  CLBX    1       2.211   2.167   0.000  1.00  0.00      CLBX
+ATOM      9  C2  CLBX    1       1.669  -1.217   0.000  1.00  0.00      CLBX
+ATOM     10  H2  CLBX    1       2.211  -2.167   0.000  1.00  0.00      CLBX
+ATOM     11  C3  CLBX    1       2.376  -0.000   0.000  1.00  0.00      CLBX
+ATOM     12  H3  CLBX    1       3.469  -0.000   0.000  1.00  0.00      CLBX
+ATOM     13  LPA CLBX    1       0.976   0.000   0.000  1.00  0.00      CLBX
+ATOM     14  LP  CLBX    1      -3.817  -0.000   0.000  1.00  0.00      CLBX
+TER      15      CLBX     1
+END

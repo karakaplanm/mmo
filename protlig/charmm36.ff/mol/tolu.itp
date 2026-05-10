@@ -1,0 +1,148 @@
+;
+;	File 'tolu.top' was generated
+;	By user: onbekend (0)
+;	On host: onbekend
+;	At date: Fri May  4 17:46:43 2012
+;
+;	This is a standalone topology file
+;
+;	It was generated using program:
+;	pdb2gmx - VERSION 4.5.4
+;
+;	Command line was:
+;	pdb2gmx -f tolu.pdb -p tolu.top -ff gd-charmm27 -water tip3p 
+;
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+TOLU                3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 TOLU rtp TOLU q  0.0
+     1     CG2R61      1   TOLU     CG      1     -0.115     12.011   ; qtot -0.115
+     2      HGR61      1   TOLU     HG      2      0.115      1.008   ; qtot 0
+     3     CG2R61      1   TOLU    CD1      3     -0.115     12.011   ; qtot -0.115
+     4      HGR61      1   TOLU    HD1      4      0.115      1.008   ; qtot 0
+     5     CG2R61      1   TOLU    CD2      5     -0.115     12.011   ; qtot -0.115
+     6      HGR61      1   TOLU    HD2      6      0.115      1.008   ; qtot 0
+     7     CG2R61      1   TOLU    CE1      7     -0.115     12.011   ; qtot -0.115
+     8      HGR61      1   TOLU    HE1      8      0.115      1.008   ; qtot 0
+     9     CG2R61      1   TOLU    CE2      9     -0.115     12.011   ; qtot -0.115
+    10      HGR61      1   TOLU    HE2     10      0.115      1.008   ; qtot 0
+    11     CG2R61      1   TOLU     CZ     11          0     12.011   ; qtot 0
+    12      CG331      1   TOLU     CT     12      -0.27     12.011   ; qtot -0.27
+    13       HGA3      1   TOLU    H11     13       0.09      1.008   ; qtot -0.18
+    14       HGA3      1   TOLU    H12     14       0.09      1.008   ; qtot -0.09
+    15       HGA3      1   TOLU    H13     15       0.09      1.008   ; qtot 0
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     2     1 
+    1     3     1 
+    1     5     1 
+    3     4     1 
+    3     7     1 
+    5     6     1 
+    5     9     1 
+    7     8     1 
+    7    11     1 
+    9    10     1 
+    9    11     1 
+   11    12     1 
+   12    13     1 
+   12    14     1 
+   12    15     1 
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     8     1 
+    1    10     1 
+    1    11     1 
+    2     4     1 
+    2     6     1 
+    2     7     1 
+    2     9     1 
+    3     6     1 
+    3     9     1 
+    3    12     1 
+    4     5     1 
+    4     8     1 
+    4    11     1 
+    5     7     1 
+    5    12     1 
+    6    10     1 
+    6    11     1 
+    7    10     1 
+    7    13     1 
+    7    14     1 
+    7    15     1 
+    8     9     1 
+    8    12     1 
+    9    13     1 
+    9    14     1 
+    9    15     1 
+   10    12     1 
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+    2     1     3     5 
+    2     1     5     5 
+    3     1     5     5 
+    1     3     4     5 
+    1     3     7     5 
+    4     3     7     5 
+    1     5     6     5 
+    1     5     9     5 
+    6     5     9     5 
+    3     7     8     5 
+    3     7    11     5 
+    8     7    11     5 
+    5     9    10     5 
+    5     9    11     5 
+   10     9    11     5 
+    7    11     9     5 
+    7    11    12     5 
+    9    11    12     5 
+   11    12    13     5 
+   11    12    14     5 
+   11    12    15     5 
+   13    12    14     5 
+   13    12    15     5 
+   14    12    15     5 
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+    2     1     3     4     9 
+    2     1     3     7     9 
+    5     1     3     4     9 
+    5     1     3     7     9 
+    2     1     5     6     9 
+    2     1     5     9     9 
+    3     1     5     6     9 
+    3     1     5     9     9 
+    1     3     7     8     9 
+    1     3     7    11     9 
+    4     3     7     8     9 
+    4     3     7    11     9 
+    1     5     9    10     9 
+    1     5     9    11     9 
+    6     5     9    10     9 
+    6     5     9    11     9 
+    3     7    11     9     9 
+    3     7    11    12     9 
+    8     7    11     9     9 
+    8     7    11    12     9 
+    5     9    11     7     9 
+    5     9    11    12     9 
+   10     9    11     7     9 
+   10     9    11    12     9 
+    7    11    12    13     9 
+    7    11    12    14     9 
+    7    11    12    15     9 
+    9    11    12    13     9 
+    9    11    12    14     9 
+    9    11    12    15     9 
+

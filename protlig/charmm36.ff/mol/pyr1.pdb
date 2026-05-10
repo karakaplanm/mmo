@@ -1,0 +1,15 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     9/10/12     11:30:23      CREATED BY USER: prabhu                  
+ATOM      1  N1  PYR1    1       0.005   0.064  -0.000  1.00  0.00      PYR1
+ATOM      2  C2  PYR1    1       1.335  -0.012   0.000  1.00  0.00      PYR1
+ATOM      3  C3  PYR1    1       2.144   1.136   0.000  1.00  0.00      PYR1
+ATOM      4  C4  PYR1    1       1.518   2.393   0.000  1.00  0.00      PYR1
+ATOM      5  C5  PYR1    1       0.115   2.454   0.000  1.00  0.00      PYR1
+ATOM      6  C6  PYR1    1      -0.605   1.248  -0.000  1.00  0.00      PYR1
+ATOM      7  H2  PYR1    1       1.782  -0.998   0.000  1.00  0.00      PYR1
+ATOM      8  H3  PYR1    1       3.218   1.048   0.000  1.00  0.00      PYR1
+ATOM      9  H4  PYR1    1       2.106   3.299   0.000  1.00  0.00      PYR1
+ATOM     10  H5  PYR1    1      -0.402   3.400   0.000  1.00  0.00      PYR1
+ATOM     11  H6  PYR1    1      -1.688   1.257  -0.000  1.00  0.00      PYR1
+TER      12      PYR1     1
+END

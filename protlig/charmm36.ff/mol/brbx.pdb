@@ -1,0 +1,18 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     5/26/16     16:50:16      CREATED BY USER: wenbo                  
+ATOM      1  C6  BRBX    1       0.264   0.000   0.000  1.00  0.00      BRBX
+ATOM      2  BR  BRBX    1      -1.632  -0.000   0.000  1.00  0.00      BRBX
+ATOM      3  C5  BRBX    1       0.953  -1.225   0.000  1.00  0.00      BRBX
+ATOM      4  H5  BRBX    1       0.399  -2.167   0.000  1.00  0.00      BRBX
+ATOM      5  C1  BRBX    1       0.953   1.225   0.000  1.00  0.00      BRBX
+ATOM      6  H1  BRBX    1       0.399   2.167   0.000  1.00  0.00      BRBX
+ATOM      7  C4  BRBX    1       2.360  -1.217   0.000  1.00  0.00      BRBX
+ATOM      8  H4  BRBX    1       2.902  -2.168   0.000  1.00  0.00      BRBX
+ATOM      9  C2  BRBX    1       2.360   1.217   0.000  1.00  0.00      BRBX
+ATOM     10  H2  BRBX    1       2.902   2.167   0.000  1.00  0.00      BRBX
+ATOM     11  C3  BRBX    1       3.067  -0.000   0.000  1.00  0.00      BRBX
+ATOM     12  H3  BRBX    1       4.160   0.000   0.000  1.00  0.00      BRBX
+ATOM     13  LPA BRBX    1       1.402   0.000   0.000  1.00  0.00      BRBX
+ATOM     14  LP  BRBX    1      -3.522  -0.000   0.000  1.00  0.00      BRBX
+TER      15      BRBX     1
+END

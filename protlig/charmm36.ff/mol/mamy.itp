@@ -1,0 +1,86 @@
+;
+;	File 'mamm.top' was generated
+;	By user: onbekend (0)
+;	On host: onbekend
+;	At date: Fri Feb 10 17:17:55 2012
+;
+;	This is a standalone topology file
+;
+;	It was generated using program:
+;	pdb2gmx - VERSION 4.5.4
+;
+;	Command line was:
+;	pdb2gmx -f mamm_charmm.pdb -o mamm.pdb -p mamm.top -ff gd-charmm27 -water tip3p 
+;
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+MAMY                3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 MAMY rtp MAMY q +1.0
+     1      CG334      1   MAMY     CE      1       0.16     12.011   ; qtot 0.16
+     2      NG3P3      1   MAMY     NZ      1       -0.3     14.007   ; qtot -0.14
+     3       HGA3      1   MAMY    HE1      1       0.05      1.008   ; qtot -0.09
+     4       HGA3      1   MAMY    HE2      1       0.05      1.008   ; qtot -0.04
+     5       HGA3      1   MAMY    HE3      1       0.05      1.008   ; qtot 0.01
+     6       HGP2      1   MAMY    HZ1      1       0.33      1.008   ; qtot 0.34
+     7       HGP2      1   MAMY    HZ2      1       0.33      1.008   ; qtot 0.67
+     8       HGP2      1   MAMY    HZ3      1       0.33      1.008   ; qtot 1
+     9         LQ      1   MAMY    LPA      1       0.00      0.000   ; qtot 1
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     2     1 
+    1     3     1 
+    1     4     1 
+    1     5     1 
+    2     6     1 
+    2     7     1 
+    2     8     1 
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+    3     6     1 
+    3     7     1 
+    3     8     1 
+    4     6     1 
+    4     7     1 
+    4     8     1 
+    5     6     1 
+    5     7     1 
+    5     8     1 
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+    2     1     3     5 
+    2     1     4     5 
+    2     1     5     5 
+    3     1     4     5 
+    3     1     5     5 
+    4     1     5     5 
+    1     2     6     5 
+    1     2     7     5 
+    1     2     8     5 
+    6     2     7     5 
+    6     2     8     5 
+    7     2     8     5 
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+    3     1     2     6     9 
+    3     1     2     7     9 
+    3     1     2     8     9 
+    4     1     2     6     9 
+    4     1     2     7     9 
+    4     1     2     8     9 
+    5     1     2     6     9 
+    5     1     2     7     9 
+    5     1     2     8     9 
+
+[ virtual_sites2 ]
+; Vsite from                    funct   a 
+9       1       2       1      0.5

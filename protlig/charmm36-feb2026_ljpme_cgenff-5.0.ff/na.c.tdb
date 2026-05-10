@@ -1,0 +1,27 @@
+; CHARMM-port for GROMACS
+; created with charmm2gmx version 1.0.4.dev2+gfb5404623 on 2026-02-27 09:23:01.411087
+; Code: https://gitlab.com/awacha/charmm2gmx
+; Documentation: https://awacha.gitlab.com/charmm2gmx
+; Citation: András F. Wacha and Justin A. Lemkul: "charmm2gmx: An Automated 
+;      Method to Port the CHARMM Additive Force Field to GROMACS". Journal of
+;      Chemical Information and Modeling 2023, 63(14), 4246-4252.
+;      DOI: 10.1021/acs.jcim.3c00860
+;
+; Charmm2GMX written by András Wacha and Justin Lemkul, based on the original
+; port by E. Prabhu Raman, Justin A. Lemkul, Robert Best and Alexander D. 
+; MacKerell, Jr.
+; Termini database from the CHARMM force field
+
+[ None ]
+; Empty, do-nothing terminus
+
+; residue topologies from file ../toppar_c36_releases/charmm/toppar/top_all36_na.rtf
+
+[ 3TER ]
+; 3'terminal HYDROXYL patch, from MeOH
+[ replace ]
+C3'    CN7       12.011000   0.1400
+O3'    ON5       15.999400  -0.6600
+[ add ]
+1   2   H3T   O3'    C3'    C2'   
+  HN5        1.008000   0.4300  -1

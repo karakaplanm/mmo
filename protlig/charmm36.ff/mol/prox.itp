@@ -1,0 +1,126 @@
+;
+;	File 'pro2.top' was generated
+;	By user: onbekend (0)
+;	On host: onbekend
+;	At date: Mon Feb 13 16:44:30 2012
+;
+;	This is a standalone topology file
+;
+;	It was generated using program:
+;	pdb2gmx - VERSION 4.5.4
+;
+;	Command line was:
+;	pdb2gmx -f pro2.pdb -p pro2.top -ff gd-charmm27 -water tip3p 
+;
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+PROX               3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 PROX rtp PROX q  0.0
+     1      CG311      1   PROX     C2      1       0.14     12.011   ; qtot 0.14
+     2      OG311      1   PROX     O2      1      -0.65    15.9994   ; qtot -0.51
+     3       HGP1      1   PROX    HO2      1       0.42      1.008   ; qtot -0.09
+     4       HGA1      1   PROX    H21      1       0.09      1.008   ; qtot 0
+     5      CG331      1   PROX     C1      1      -0.27     12.011   ; qtot -0.27
+     6       HGA3      1   PROX    H11      1       0.09      1.008   ; qtot -0.18
+     7       HGA3      1   PROX    H12      1       0.09      1.008   ; qtot -0.09
+     8       HGA3      1   PROX    H13      1       0.09      1.008   ; qtot 0
+     9      CG331      1   PROX     C3      1      -0.27     12.011   ; qtot -0.27
+    10       HGA3      1   PROX    H31      1       0.09      1.008   ; qtot -0.18
+    11       HGA3      1   PROX    H32      1       0.09      1.008   ; qtot -0.09
+    12       HGA3      1   PROX    H33      1       0.09      1.008   ; qtot 0
+    13         LP      1   PROX    LPA      1       0.00      0.000   ; qtot 0
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     2     1 
+    1     4     1 
+    1     5     1 
+    1     9     1 
+    2     3     1 
+    5     6     1 
+    5     7     1 
+    5     8     1 
+    9    10     1 
+    9    11     1 
+    9    12     1 
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+    2     6     1 
+    2     7     1 
+    2     8     1 
+    2    10     1 
+    2    11     1 
+    2    12     1 
+    3     4     1 
+    3     5     1 
+    3     9     1 
+    4     6     1 
+    4     7     1 
+    4     8     1 
+    4    10     1 
+    4    11     1 
+    4    12     1 
+    5    10     1 
+    5    11     1 
+    5    12     1 
+    6     9     1 
+    7     9     1 
+    8     9     1 
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+    2     1     4     5 
+    2     1     5     5 
+    2     1     9     5 
+    4     1     5     5 
+    4     1     9     5 
+    5     1     9     5 
+    1     2     3     5 
+    1     5     6     5 
+    1     5     7     5 
+    1     5     8     5 
+    6     5     7     5 
+    6     5     8     5 
+    7     5     8     5 
+    1     9    10     5 
+    1     9    11     5 
+    1     9    12     5 
+   10     9    11     5 
+   10     9    12     5 
+   11     9    12     5 
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+    4     1     2     3     9 
+    5     1     2     3     9 
+    9     1     2     3     9 
+    2     1     5     6     9 
+    2     1     5     7     9 
+    2     1     5     8     9 
+    4     1     5     6     9 
+    4     1     5     7     9 
+    4     1     5     8     9 
+    9     1     5     6     9 
+    9     1     5     7     9 
+    9     1     5     8     9 
+    2     1     9    10     9 
+    2     1     9    11     9 
+    2     1     9    12     9 
+    4     1     9    10     9 
+    4     1     9    11     9 
+    4     1     9    12     9 
+    5     1     9    10     9 
+    5     1     9    11     9 
+    5     1     9    12     9 
+
+[ virtual_sites2 ]
+; Vsite from                    funct   a 
+13      2       1       1      0.99
+

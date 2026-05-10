@@ -1,0 +1,97 @@
+; Created by atomgroup.write_gmx.itp()
+
+[ moleculetype ]
+; Name            nrexcl
+PYR1              3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 PYR1 rtp PYR1 q  qsum
+     1     NG2R60      1   PYR1     N1      1     -0.600     14.007   ;
+     2     CG2R61      1   PYR1     C2      2      0.180     12.011   ;
+     3     CG2R61      1   PYR1     C3      3     -0.115     12.011   ;
+     4     CG2R61      1   PYR1     C4      4     -0.115     12.011   ;
+     5     CG2R61      1   PYR1     C5      5     -0.115     12.011   ;
+     6     CG2R61      1   PYR1     C6      6      0.180     12.011   ;
+     7      HGR62      1   PYR1     H2      7      0.120      1.008   ;
+     8      HGR61      1   PYR1     H3      8      0.115      1.008   ;
+     9      HGR61      1   PYR1     H4      9      0.115      1.008   ;
+    10      HGR61      1   PYR1     H5     10      0.115      1.008   ;
+    11      HGR62      1   PYR1     H6     11      0.120      1.008   ;
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     2     1
+    1     6     1
+    2     3     1
+    2     7     1
+    3     4     1
+    3     8     1
+    4     9     1
+    4     5     1
+    5    10     1
+    5     6     1
+    6    11     1
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+    1    10     1
+    1     4     1
+    1     8     1
+    2     9     1
+    2    11     1
+    2     5     1
+    3    10     1
+    3     6     1
+    4    11     1
+    4     7     1
+    5     8     1
+    6     9     1
+    6     7     1
+    7     8     1
+    8     9     1
+    9    10     1
+   10    11     1
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+    2     1     6    5
+    1     2     3    5
+    1     2     7    5
+    3     2     7    5
+    2     3     4    5
+    2     3     8    5
+    4     3     8    5
+    9     4     3    5
+    9     4     5    5
+    3     4     5    5
+   10     5     4    5
+   10     5     6    5
+    4     5     6    5
+    1     6    11    5
+    1     6     5    5
+   11     6     5    5
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+    6     1     2     3     9
+    6     1     2     7     9
+    2     1     6    11     9
+    2     1     6     5     9
+    1     2     3     4     9
+    1     2     3     8     9
+    7     2     3     4     9
+    7     2     3     8     9
+    2     3     4     9     9
+    2     3     4     5     9
+    8     3     4     9     9
+    8     3     4     5     9
+    9     4     5    10     9
+    9     4     5     6     9
+    3     4     5    10     9
+    3     4     5     6     9
+   10     5     6     1     9
+   10     5     6    11     9
+    4     5     6     1     9
+    4     5     6    11     9
+

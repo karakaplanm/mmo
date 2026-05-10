@@ -1,0 +1,80 @@
+; Created by atomgroup.write_gmx.itp()
+
+[ moleculetype ]
+; Name            nrexcl
+IMIA              3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 IMIA rtp IMIA q  qsum
+     1     CG2R51      1   IMIA     CG      1     -0.050     12.011   ;
+     2      HGR52      1   IMIA     HG      2      0.090      1.008   ;
+     3     CG2R51      1   IMIA    CD2      3      0.220     12.011   ;
+     4      HGR52      1   IMIA    HD2      4      0.100      1.008   ;
+     5     NG2R51      1   IMIA    ND1      5     -0.360     14.007   ;
+     6       HGP1      1   IMIA    HD1      6      0.320      1.008   ;
+     7     CG2R53      1   IMIA    CE1      7      0.250     12.011   ;
+     8      HGR52      1   IMIA    HE1      8      0.130      1.008   ;
+     9     NG2R50      1   IMIA    NE2      9     -0.700     14.007   ;
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     2     1
+    1     3     1
+    1     5     1
+    3     9     1
+    3     4     1
+    5     6     1
+    5     7     1
+    7     9     1
+    7     8     1
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     8     1
+    2     9     1
+    2     4     1
+    2     6     1
+    2     7     1
+    3     6     1
+    3     8     1
+    4     5     1
+    4     7     1
+    6     9     1
+    6     8     1
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+    2     1     3    5
+    2     1     5    5
+    3     1     5    5
+    9     3     1    5
+    9     3     4    5
+    1     3     4    5
+    1     5     6    5
+    1     5     7    5
+    6     5     7    5
+    9     7     5    5
+    9     7     8    5
+    5     7     8    5
+    3     9     7    5
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+    2     1     3     9     9
+    2     1     3     4     9
+    5     1     3     9     9
+    5     1     3     4     9
+    2     1     5     6     9
+    2     1     5     7     9
+    3     1     5     6     9
+    3     1     5     7     9
+    1     3     9     7     9
+    4     3     9     7     9
+    1     5     7     9     9
+    1     5     7     8     9
+    6     5     7     9     9
+    6     5     7     8     9
+    5     7     9     3     9
+    8     7     9     3     9
+

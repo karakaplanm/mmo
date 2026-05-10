@@ -1,0 +1,12 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     4/17/12     15:27:58      CREATED BY USER: prabhu                  
+ATOM      1  C1  ACEY    1       0.003   0.010   0.000  1.00  0.00      ACEY
+ATOM      2  C2  ACEY    1       1.510   0.004  -0.000  1.00  0.00      ACEY
+ATOM      3  H1  ACEY    1      -0.367   1.055   0.000  1.00  0.00      ACEY
+ATOM      4  H2  ACEY    1      -0.356  -0.516   0.906  1.00  0.00      ACEY
+ATOM      5  H3  ACEY    1      -0.356  -0.516  -0.906  1.00  0.00      ACEY
+ATOM      6  O1  ACEY    1       2.064   1.131   0.000  1.00  0.00      ACEY
+ATOM      7  O2  ACEY    1       2.041  -1.134  -0.000  1.00  0.00      ACEY
+ATOM      8  LPA ACEY    1       1.610   0.003  -0.000  1.00  0.00      ACEY
+TER       9      ACEY     1
+END

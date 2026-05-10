@@ -1,0 +1,16 @@
+REMARK  FOO                                                                           
+REMARK   DATE:    11/ 8/11     10:56:41      CREATED BY USER: prabhu                  
+ATOM      1  H11 PRPX    1      -0.382   1.043   0.000  1.00  0.00      PRPX
+ATOM      2  H12 PRPX    1      -0.382  -0.522  -0.904  1.00  0.00      PRPX
+ATOM      3  H13 PRPX    1      -0.382  -0.522   0.904  1.00  0.00      PRPX
+ATOM      4  C1  PRPX    1       0.000   0.000   0.000  1.00  0.00      PRPX
+ATOM      5  C2  PRPX    1       1.528   0.000   0.000  1.00  0.00      PRPX
+ATOM      6  H21 PRPX    1       1.910  -0.522   0.904  1.00  0.00      PRPX
+ATOM      7  H22 PRPX    1       1.910  -0.522  -0.904  1.00  0.00      PRPX
+ATOM      8  H31 PRPX    1       1.352   2.169   0.000  1.00  0.00      PRPX
+ATOM      9  H32 PRPX    1       2.781   1.533   0.904  1.00  0.00      PRPX
+ATOM     10  H33 PRPX    1       2.781   1.533  -0.904  1.00  0.00      PRPX
+ATOM     11  C3  PRPX    1       2.149   1.396   0.000  1.00  0.00      PRPX
+ATOM     12  LPA PRPX    1       1.474   0.084   0.000  1.00  0.00      PRPX
+TER      13      PRPX     1
+END

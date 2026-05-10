@@ -1,0 +1,13 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     2/10/12     17:33:14      CREATED BY USER: prabhu                  
+ATOM      1  CE  MAMX    1       1.090  -0.004   0.000  1.00  0.00      MAMX
+ATOM      2  NZ  MAMX    1       1.554   1.405   0.000  1.00  0.00      MAMX
+ATOM      3  HE1 MAMX    1       1.475  -0.514   0.909  1.00  0.00      MAMX
+ATOM      4  HE2 MAMX    1       1.475  -0.514  -0.909  1.00  0.00      MAMX
+ATOM      5  HE3 MAMX    1      -0.021  -0.021   0.000  1.00  0.00      MAMX
+ATOM      6  HZ1 MAMX    1       1.201   1.897   0.847  1.00  0.00      MAMX
+ATOM      7  HZ2 MAMX    1       1.201   1.897  -0.847  1.00  0.00      MAMX
+ATOM      8  HZ3 MAMX    1       2.595   1.438   0.000  1.00  0.00      MAMX
+ATOM      9  LPA MAMX    1       1.611   1.448   0.070  1.00  0.00      MAMX
+TER      10      MAMX     1
+END

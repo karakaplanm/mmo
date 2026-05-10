@@ -1,0 +1,7 @@
+REMARK  FOO                                                                           
+REMARK   DATE:    11/ 3/11     18: 5:14      CREATED BY USER: prabhu                  
+ATOM      1  OW  SOL     1       0.000  -0.391   0.000  1.00  0.00      SOL
+ATOM      2  HW1 SOL     1       0.757   0.195   0.000  1.00  0.00      SOL
+ATOM      3  HW2 SOL     1      -0.757   0.195   0.000  1.00  0.00      SOL
+TER       4      SOL     1
+END

@@ -1,0 +1,10 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     2/13/12     12:28: 4      CREATED BY USER: prabhu                  
+ATOM      1  HA  FORM    1       1.773  -1.015   0.000  1.00  0.00      FORM
+ATOM      2  C   FORM    1       1.344  -0.007   0.000  1.00  0.00      FORM
+ATOM      3  N   FORM    1      -0.007  -0.013   0.000  1.00  0.00      FORM
+ATOM      4  HC  FORM    1      -0.453   0.878   0.000  1.00  0.00      FORM
+ATOM      5  HT  FORM    1      -0.514  -0.869   0.000  1.00  0.00      FORM
+ATOM      6  O   FORM    1       1.993   1.036   0.000  1.00  0.00      FORM
+TER       7      FORM     1
+END

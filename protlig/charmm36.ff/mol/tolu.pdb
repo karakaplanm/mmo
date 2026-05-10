@@ -1,0 +1,19 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     5/ 4/12     17:43:49      CREATED BY USER: prabhu                  
+ATOM      1  CG  TOLU    1      -0.001  -0.002  -0.002  1.00  0.00      TOLU
+ATOM      2  HG  TOLU    1      -0.541  -0.938  -0.005  1.00  0.00      TOLU
+ATOM      3  CD1 TOLU    1       1.400  -0.002  -0.000  1.00  0.00      TOLU
+ATOM      4  HD1 TOLU    1       1.941  -0.938  -0.004  1.00  0.00      TOLU
+ATOM      5  CD2 TOLU    1      -0.702   1.212  -0.000  1.00  0.00      TOLU
+ATOM      6  HD2 TOLU    1      -1.782   1.212  -0.004  1.00  0.00      TOLU
+ATOM      7  CE1 TOLU    1       2.100   1.212   0.003  1.00  0.00      TOLU
+ATOM      8  HE1 TOLU    1       3.180   1.214   0.002  1.00  0.00      TOLU
+ATOM      9  CE2 TOLU    1      -0.000   2.425   0.003  1.00  0.00      TOLU
+ATOM     10  HE2 TOLU    1      -0.538   3.361   0.002  1.00  0.00      TOLU
+ATOM     11  CZ  TOLU    1       1.403   2.430   0.010  1.00  0.00      TOLU
+ATOM     12  CT  TOLU    1       2.151   3.726   0.002  1.00  0.00      TOLU
+ATOM     13  H11 TOLU    1       2.326   4.029  -1.053  1.00  0.00      TOLU
+ATOM     14  H12 TOLU    1       3.124   3.599   0.524  1.00  0.00      TOLU
+ATOM     15  H13 TOLU    1       1.555   4.505   0.524  1.00  0.00      TOLU
+TER      16      TOLU     1
+END

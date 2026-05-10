@@ -1,0 +1,10 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     2/13/12     11:21:53      CREATED BY USER: prabhu                  
+ATOM      1  CB  MEOH    1       1.358   1.366   0.000  1.00  0.00      MEOH
+ATOM      2  OG  MEOH    1       0.951  -0.001   0.000  1.00  0.00      MEOH
+ATOM      3  HG1 MEOH    1      -0.011  -0.027   0.000  1.00  0.00      MEOH
+ATOM      4  HB1 MEOH    1       2.469   1.423   0.000  1.00  0.00      MEOH
+ATOM      5  HB2 MEOH    1       0.977   1.886   0.907  1.00  0.00      MEOH
+ATOM      6  HB3 MEOH    1       0.977   1.886  -0.907  1.00  0.00      MEOH
+TER       7      MEOH     1
+END

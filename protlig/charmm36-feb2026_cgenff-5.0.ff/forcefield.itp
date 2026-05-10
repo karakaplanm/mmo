@@ -1,0 +1,33 @@
+; CHARMM-port for GROMACS
+; created with charmm2gmx version 1.0.4.dev2+gfb5404623 on 2026-02-26 12:16:58.951248
+; Code: https://gitlab.com/awacha/charmm2gmx
+; Documentation: https://awacha.gitlab.com/charmm2gmx
+; Citation: András F. Wacha and Justin A. Lemkul: "charmm2gmx: An Automated 
+;      Method to Port the CHARMM Additive Force Field to GROMACS". Journal of
+;      Chemical Information and Modeling 2023, 63(14), 4246-4252.
+;      DOI: 10.1021/acs.jcim.3c00860
+;
+; Charmm2GMX written by András Wacha and Justin Lemkul, based on the original
+; port by E. Prabhu Raman, Justin A. Lemkul, Robert Best and Alexander D. 
+; MacKerell, Jr.
+; please see forcefield.doc for a list of source files and references
+
+#define _FF_CHARMM
+
+[ defaults ]
+; nbfunc	comb-rule	gen-pairs	fudgeLJ	fudgeQQ
+       1           2         yes       1.0     1.0
+
+#include "ffnonbonded.itp"
+#include "ffbonded.itp"
+; implicit solvent parameters are not supported as of GROMACS 2019:
+; https://manual.gromacs.org/documentation/2019/release-notes/2019/major/removed-functionality.html
+
+; The original port supported old CHARMM36 CMAP parameters. We do not do it.
+#ifdef USE_OLD_C36
+#error This port does not support the old CHARMM36 CMAP parameters.
+#endif
+
+#include "cmap.itp"
+
+#include "nbfix.itp"

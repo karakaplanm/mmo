@@ -1,0 +1,11 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     2/13/12     12:43:43      CREATED BY USER: prabhu                  
+ATOM      1  HA  FORX    1       1.773  -1.015   0.000  1.00  0.00      FORX
+ATOM      2  C   FORX    1       1.344  -0.007   0.000  1.00  0.00      FORX
+ATOM      3  N   FORX    1      -0.007  -0.013   0.000  1.00  0.00      FORX
+ATOM      4  HC  FORX    1      -0.453   0.878   0.000  1.00  0.00      FORX
+ATOM      5  HT  FORX    1      -0.514  -0.869   0.000  1.00  0.00      FORX
+ATOM      6  O   FORX    1       1.993   1.036   0.000  1.00  0.00      FORX
+ATOM      7  LPA FORX    1       1.288   0.076   0.000  1.00  0.00      FORX
+TER       8      FORX     1
+END

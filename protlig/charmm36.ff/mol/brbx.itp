@@ -1,0 +1,145 @@
+;
+;	File 'system.top' was generated
+;	By user: wenbo (0)
+;	On host: ocracoke
+;	At date: Sun May  1 18:01:36 2016
+;
+;	This is a standalone topology file
+;
+;	It was generated using program:
+;	pdb2gmx - VERSION 4.5.4
+;
+;	Command line was:
+;	pdb2gmx -f files/flbx.mod.pdb -water tip3p -p system.top -o system.pdb -ff prot36-cgenff 
+;
+;	Force field was read from current directory or a relative path - path added.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+BRBX              3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 BRBX rtp BRBX q  0.0
+     1     CG2R61      1   BRBX     C6      1     -0.050     12.011   ;
+     2      BRGR1      1   BRBX     BR      1     -0.180     79.904   ;
+     3     CG2R61      1   BRBX     C5      1     -0.060     12.011   ;
+     4      HGR62      1   BRBX     H5      1      0.150      1.008   ;
+     5     CG2R61      1   BRBX     C1      1     -0.060     12.011   ;
+     6      HGR62      1   BRBX     H1      1      0.150      1.008   ;
+     7     CG2R61      1   BRBX     C4      1     -0.115     12.011   ;
+     8      HGR61      1   BRBX     H4      1      0.115      1.008   ;
+     9     CG2R61      1   BRBX     C2      1     -0.115     12.011   ;
+    10      HGR61      1   BRBX     H2      1      0.115      1.008   ;
+    11     CG2R61      1   BRBX     C3      1     -0.115     12.011   ;
+    12      HGR61      1   BRBX     H3      1      0.115      1.008   ;
+    13         LP      1   BRBX    LPA      1      0.000      0.000   ;
+    14        LPH      1   BRBX     LP      1      0.050      0.000   ;
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     2     1 
+    1     3     1 
+    1     5     1 
+    3     4     1 
+    3     7     1 
+    5     6     1 
+    5     9     1 
+    7     8     1 
+    7    11     1 
+    9    10     1 
+    9    11     1 
+   11    12     1 
+
+[ pairs ]
+;  ai    aj funct            c0            c1            c2            c3
+    1     8     1 
+    1    10     1 
+    1    11     1 
+    2     4     1 
+    2     6     1 
+    2     7     1 
+    2     9     1 
+    3     6     1 
+    3     9     1 
+    3    12     1 
+    4     5     1 
+    4     8     1 
+    4    11     1 
+    5     7     1 
+    5    12     1 
+    6    10     1 
+    6    11     1 
+    7    10     1 
+    8     9     1 
+    8    12     1 
+   10    12     1 
+; wenbo - add missing pairs, same as parent halogen atom
+   14     4     1 
+   14     6     1 
+   14     7     1 
+   14     9     1 
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+    2     1     3     5 
+    2     1     5     5 
+    3     1     5     5 
+    1     3     4     5 
+    1     3     7     5 
+    4     3     7     5 
+    1     5     6     5 
+    1     5     9     5 
+    6     5     9     5 
+    3     7     8     5 
+    3     7    11     5 
+    8     7    11     5 
+    5     9    10     5 
+    5     9    11     5 
+   10     9    11     5 
+    7    11     9     5 
+    7    11    12     5 
+    9    11    12     5 
+
+[ dihedrals ]
+;  ai    aj    ak    al funct            c0            c1            c2            c3            c4            c5
+    2     1     3     4     9 
+    2     1     3     7     9 
+    5     1     3     4     9 
+    5     1     3     7     9 
+    2     1     5     6     9 
+    2     1     5     9     9 
+    3     1     5     6     9 
+    3     1     5     9     9 
+    1     3     7     8     9 
+    1     3     7    11     9 
+    4     3     7     8     9 
+    4     3     7    11     9 
+    1     5     9    10     9 
+    1     5     9    11     9 
+    6     5     9    10     9 
+    6     5     9    11     9 
+    3     7    11     9     9 
+    3     7    11    12     9 
+    8     7    11     9     9 
+    8     7    11    12     9 
+    5     9    11     7     9 
+    5     9    11    12     9 
+   10     9    11     7     9 
+   10     9    11    12     9 
+
+; wenbo - exclusions are needed
+[ exclusions ]
+; LP  BR  C6  C5  H5 C1 H1 C2 C4
+  14  2  1   3  4  5  6  9  7 
+
+[ virtual_sites2 ]
+; Vsite from                    funct   a 
+13       1       11       1      0.500
+
+[ virtual_sites3 ]
+; Site   from        funct theta d
+  14   2  1   3  3     180     0.189
+
+

@@ -1,0 +1,17 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     2/13/12     16:42:50      CREATED BY USER: prabhu                  
+ATOM      1  C2  PROX    1       1.532  -0.026   0.014  1.00  0.00      PROX
+ATOM      2  O2  PROX    1       1.956  -0.691  -1.158  1.00  0.00      PROX
+ATOM      3  HO2 PROX    1       1.603  -1.581  -1.100  1.00  0.00      PROX
+ATOM      4  H21 PROX    1       1.897  -0.583   0.910  1.00  0.00      PROX
+ATOM      5  C1  PROX    1       0.005   0.011   0.003  1.00  0.00      PROX
+ATOM      6  H11 PROX    1      -0.419  -1.015   0.007  1.00  0.00      PROX
+ATOM      7  H12 PROX    1      -0.358   0.542  -0.903  1.00  0.00      PROX
+ATOM      8  H13 PROX    1      -0.371   0.551   0.898  1.00  0.00      PROX
+ATOM      9  C3  PROX    1       2.142   1.374   0.001  1.00  0.00      PROX
+ATOM     10  H31 PROX    1       3.251   1.312  -0.021  1.00  0.00      PROX
+ATOM     11  H32 PROX    1       1.834   1.942   0.903  1.00  0.00      PROX
+ATOM     12  H33 PROX    1       1.806   1.930  -0.901  1.00  0.00      PROX
+ATOM     13  LPA PROX    1       1.478   0.058   0.013  1.00  0.00      PROX
+TER      14      PROX     1
+END

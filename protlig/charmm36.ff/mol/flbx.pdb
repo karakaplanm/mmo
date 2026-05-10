@@ -1,0 +1,17 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     5/26/16     16:50:16      CREATED BY USER: wenbo                  
+ATOM      1  C6  FLBX    1      -0.013  -0.023   0.000  1.00  0.00      FLBX
+ATOM      2  F6  FLBX    1      -0.692  -1.199   0.000  1.00  0.00      FLBX
+ATOM      3  C5  FLBX    1       1.388  -0.023   0.000  1.00  0.00      FLBX
+ATOM      4  H5  FLBX    1       1.929  -0.959   0.000  1.00  0.00      FLBX
+ATOM      5  C1  FLBX    1      -0.714   1.191   0.000  1.00  0.00      FLBX
+ATOM      6  H1  FLBX    1      -1.795   1.191   0.000  1.00  0.00      FLBX
+ATOM      7  C4  FLBX    1       2.089   1.191   0.000  1.00  0.00      FLBX
+ATOM      8  H4  FLBX    1       3.170   1.191   0.000  1.00  0.00      FLBX
+ATOM      9  C2  FLBX    1      -0.013   2.405   0.000  1.00  0.00      FLBX
+ATOM     10  H2  FLBX    1      -0.554   3.340   0.000  1.00  0.00      FLBX
+ATOM     11  C3  FLBX    1       1.388   2.405   0.000  1.00  0.00      FLBX
+ATOM     12  H3  FLBX    1       1.929   3.340   0.000  1.00  0.00      FLBX
+ATOM     13  LPA FLBX    1       0.674   1.168   0.000  1.00  0.00      FLBX
+TER      14      FLBX     1
+END

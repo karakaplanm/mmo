@@ -1,0 +1,13 @@
+REMARK  FOO
+REMARK   DATE:     9/11/16      2:11:41      CREATED BY USER: wenbo                   
+ATOM      1  C1  DMEE    1       0.000   0.000   0.000  1.00  0.00      DMEE
+ATOM      2  H11 DMEE    1      -0.360  -1.051  -0.000  1.00  0.00      DMEE
+ATOM      3  H12 DMEE    1      -0.360   0.526   0.910  1.00  0.00      DMEE
+ATOM      4  H13 DMEE    1      -0.360   0.526  -0.910  1.00  0.00      DMEE
+ATOM      5  O2  DMEE    1       1.415   0.000   0.000  1.00  0.00      DMEE
+ATOM      6  C3  DMEE    1       1.892   1.332   0.000  1.00  0.00      DMEE
+ATOM      7  H31 DMEE    1       3.003   1.316   0.000  1.00  0.00      DMEE
+ATOM      8  H32 DMEE    1       1.518   1.848  -0.910  1.00  0.00      DMEE
+ATOM      9  H33 DMEE    1       1.518   1.848   0.910  1.00  0.00      DMEE
+TER      10      DMEE     1
+END

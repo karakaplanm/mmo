@@ -1,0 +1,12 @@
+; for SILCS, pram
+
+[ atomtypes ]
+;type atnum         mass   charge  ?           sigma  epsilon
+; special dummy-type particles
+LP      0       0.000000        0.00    A       0.0     0.0    ; pram
+LQ      0       0.000000        0.00    A       0.0     0.0    ; pram
+
+; NBFIX for LP, rmin=1.2/2^(1/6), eps=4.184*.01
+[ nonbond_params ]
+LP     LP  1  1.069078461768  0.041840000000                 ; pram
+LQ     LQ  1  1.069078461768  0.041840000000                 ; pram

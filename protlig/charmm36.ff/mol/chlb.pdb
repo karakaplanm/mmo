@@ -1,0 +1,16 @@
+REMARK  FOO                                                                           
+REMARK   DATE:    12/13/11     16:55:28      CREATED BY USER: prabhu                  
+ATOM      1  C1  CHLB    1      -0.012  -0.022   0.000  1.00  0.00      CHLB
+ATOM      2  H1  CHLB    1      -0.560  -0.952   0.000  1.00  0.00      CHLB
+ATOM      3  C2  CHLB    1       1.390  -0.024   0.000  1.00  0.00      CHLB
+ATOM      4  H2  CHLB    1       1.929  -0.960   0.000  1.00  0.00      CHLB
+ATOM      5  C3  CHLB    1       2.090   1.191   0.000  1.00  0.00      CHLB
+ATOM      6  H3  CHLB    1       3.171   1.191   0.000  1.00  0.00      CHLB
+ATOM      7  C4  CHLB    1       1.390   2.405   0.000  1.00  0.00      CHLB
+ATOM      8  H4  CHLB    1       1.929   3.341   0.000  1.00  0.00      CHLB
+ATOM      9  C5  CHLB    1      -0.012   2.404   0.000  1.00  0.00      CHLB
+ATOM     10  H5  CHLB    1      -0.560   3.334   0.000  1.00  0.00      CHLB
+ATOM     11  C6  CHLB    1      -0.712   1.191   0.000  1.00  0.00      CHLB
+ATOM     12  CL  CHLB    1      -2.451   1.191   0.000  1.00  0.00      CHLB
+TER      13      CHLB     1
+END

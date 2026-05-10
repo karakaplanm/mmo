@@ -1,0 +1,16 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     4/19/12     20:46: 4      CREATED BY USER: prabhu                  
+ATOM      1  CG  BENZ    1      -0.013  -0.023   0.000  1.00  0.00      BENZ
+ATOM      2  HG  BENZ    1      -0.554  -0.959   0.000  1.00  0.00      BENZ
+ATOM      3  CD1 BENZ    1       1.388  -0.023   0.000  1.00  0.00      BENZ
+ATOM      4  HD1 BENZ    1       1.929  -0.959   0.000  1.00  0.00      BENZ
+ATOM      5  CD2 BENZ    1      -0.714   1.191  -0.000  1.00  0.00      BENZ
+ATOM      6  HD2 BENZ    1      -1.795   1.191  -0.000  1.00  0.00      BENZ
+ATOM      7  CE1 BENZ    1       2.089   1.191   0.000  1.00  0.00      BENZ
+ATOM      8  HE1 BENZ    1       3.170   1.191   0.000  1.00  0.00      BENZ
+ATOM      9  CE2 BENZ    1      -0.013   2.405  -0.000  1.00  0.00      BENZ
+ATOM     10  HE2 BENZ    1      -0.554   3.340  -0.000  1.00  0.00      BENZ
+ATOM     11  CZ  BENZ    1       1.388   2.405  -0.000  1.00  0.00      BENZ
+ATOM     12  HZ  BENZ    1       1.929   3.340  -0.000  1.00  0.00      BENZ
+TER      13      BENZ     1
+END

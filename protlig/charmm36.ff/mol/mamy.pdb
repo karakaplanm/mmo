@@ -1,0 +1,13 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     2/10/12     17:33:14      CREATED BY USER: prabhu                  
+ATOM      1  CE  MAMY    1       1.090  -0.004   0.000  1.00  0.00      MAMY
+ATOM      2  NZ  MAMY    1       1.554   1.405   0.000  1.00  0.00      MAMY
+ATOM      3  HE1 MAMY    1       1.475  -0.514   0.909  1.00  0.00      MAMY
+ATOM      4  HE2 MAMY    1       1.475  -0.514  -0.909  1.00  0.00      MAMY
+ATOM      5  HE3 MAMY    1      -0.021  -0.021   0.000  1.00  0.00      MAMY
+ATOM      6  HZ1 MAMY    1       1.201   1.897   0.847  1.00  0.00      MAMY
+ATOM      7  HZ2 MAMY    1       1.201   1.897  -0.847  1.00  0.00      MAMY
+ATOM      8  HZ3 MAMY    1       2.595   1.438   0.000  1.00  0.00      MAMY
+ATOM      9  LPA MAMY    1       1.611   1.448   0.070  1.00  0.00      MAMY
+TER      10      MAMY     1
+END

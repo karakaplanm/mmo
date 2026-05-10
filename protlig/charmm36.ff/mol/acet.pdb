@@ -1,0 +1,11 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     4/17/12     15:27:58      CREATED BY USER: prabhu                  
+ATOM      1  C1  ACET    1       0.003   0.010   0.000  1.00  0.00      ACET
+ATOM      2  C2  ACET    1       1.510   0.004  -0.000  1.00  0.00      ACET
+ATOM      3  H1  ACET    1      -0.367   1.055   0.000  1.00  0.00      ACET
+ATOM      4  H2  ACET    1      -0.356  -0.516   0.906  1.00  0.00      ACET
+ATOM      5  H3  ACET    1      -0.356  -0.516  -0.906  1.00  0.00      ACET
+ATOM      6  O1  ACET    1       2.064   1.131   0.000  1.00  0.00      ACET
+ATOM      7  O2  ACET    1       2.041  -1.134  -0.000  1.00  0.00      ACET
+TER       8      ACET     1
+END

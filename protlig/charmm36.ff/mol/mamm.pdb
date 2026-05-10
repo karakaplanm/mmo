@@ -1,0 +1,12 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     2/13/12     11:46:18      CREATED BY USER: prabhu                  
+ATOM      1  CE  MAMM    1       1.090  -0.004   0.000  1.00  0.00      MAMM
+ATOM      2  NZ  MAMM    1       1.554   1.405   0.000  1.00  0.00      MAMM
+ATOM      3  HE1 MAMM    1       1.475  -0.514   0.909  1.00  0.00      MAMM
+ATOM      4  HE2 MAMM    1       1.475  -0.514  -0.909  1.00  0.00      MAMM
+ATOM      5  HE3 MAMM    1      -0.021  -0.021   0.000  1.00  0.00      MAMM
+ATOM      6  HZ1 MAMM    1       1.201   1.897   0.847  1.00  0.00      MAMM
+ATOM      7  HZ2 MAMM    1       1.201   1.897  -0.847  1.00  0.00      MAMM
+ATOM      8  HZ3 MAMM    1       2.595   1.438   0.000  1.00  0.00      MAMM
+TER       9      MAMM     1
+END

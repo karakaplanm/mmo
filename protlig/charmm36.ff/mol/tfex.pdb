@@ -1,0 +1,13 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     5/26/16     16:50:16      CREATED BY USER: wenbo                  
+ATOM      1  H11 TFEX    1       1.467  -0.536   0.902  1.00  0.00      TFEX
+ATOM      2  H12 TFEX    1       1.467  -0.536  -0.902  1.00  0.00      TFEX
+ATOM      3  H13 TFEX    1       0.003   0.011  -0.000  1.00  0.00      TFEX
+ATOM      4  C1  TFEX    1       1.112   0.004   0.000  1.00  0.00      TFEX
+ATOM      5  F21 TFEX    1       2.980   1.448   0.000  1.00  0.00      TFEX
+ATOM      6  F22 TFEX    1       1.233   2.101   1.077  1.00  0.00      TFEX
+ATOM      7  F23 TFEX    1       1.233   2.101  -1.077  1.00  0.00      TFEX
+ATOM      8  C2  TFEX    1       1.642   1.419   0.000  1.00  0.00      TFEX
+ATOM      9  LPA TFEX    1       1.377   0.712   0.000  1.00  0.00      TFEX
+TER      10      TFEX     1
+END

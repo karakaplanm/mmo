@@ -1,0 +1,11 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     2/13/12     12: 1:45      CREATED BY USER: prabhu                  
+ATOM      1  CB  MEOX    1       1.358   1.366   0.000  1.00  0.00      MEOX
+ATOM      2  OG  MEOX    1       0.951  -0.001   0.000  1.00  0.00      MEOX
+ATOM      3  HG1 MEOX    1      -0.011  -0.027   0.000  1.00  0.00      MEOX
+ATOM      4  HB1 MEOX    1       2.469   1.423   0.000  1.00  0.00      MEOX
+ATOM      5  HB2 MEOX    1       0.977   1.886   0.907  1.00  0.00      MEOX
+ATOM      6  HB3 MEOX    1       0.977   1.886  -0.907  1.00  0.00      MEOX
+ATOM      7  LPA MEOX    1       0.990  -0.093   0.000  1.00  0.00      MEOX
+TER       8      MEOX     1
+END

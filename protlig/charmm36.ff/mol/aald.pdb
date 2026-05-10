@@ -1,0 +1,11 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     4/19/12     11:27:19      CREATED BY USER: prabhu                  
+ATOM      1  HA  AALD    1       2.006  -1.020  -0.072  1.00  0.00      AALD
+ATOM      2  C   AALD    1       1.514  -0.026  -0.023  1.00  0.00      AALD
+ATOM      3  O   AALD    1       2.214   0.964   0.012  1.00  0.00      AALD
+ATOM      4  CB  AALD    1       0.015  -0.015  -0.004  1.00  0.00      AALD
+ATOM      5  HB1 AALD    1      -0.346   1.035   0.046  1.00  0.00      AALD
+ATOM      6  HB2 AALD    1      -0.383  -0.487  -0.927  1.00  0.00      AALD
+ATOM      7  HB3 AALD    1      -0.362  -0.567   0.883  1.00  0.00      AALD
+TER       8      AALD     1
+END

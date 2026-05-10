@@ -1,0 +1,16 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     9/10/12     11:10:52      CREATED BY USER: prabhu                  
+ATOM      1  C1  FLUB    1      -0.011  -0.027   0.000  1.00  0.00      FLUB
+ATOM      2  H1  FLUB    1      -0.560  -0.956   0.000  1.00  0.00      FLUB
+ATOM      3  C2  FLUB    1       1.391  -0.026   0.000  1.00  0.00      FLUB
+ATOM      4  H2  FLUB    1       1.933  -0.960   0.000  1.00  0.00      FLUB
+ATOM      5  C3  FLUB    1       2.086   1.191   0.000  1.00  0.00      FLUB
+ATOM      6  H3  FLUB    1       3.167   1.192   0.000  1.00  0.00      FLUB
+ATOM      7  C4  FLUB    1       1.391   2.408   0.000  1.00  0.00      FLUB
+ATOM      8  H4  FLUB    1       1.933   3.343   0.000  1.00  0.00      FLUB
+ATOM      9  C5  FLUB    1      -0.012   2.409   0.000  1.00  0.00      FLUB
+ATOM     10  H5  FLUB    1      -0.561   3.338   0.000  1.00  0.00      FLUB
+ATOM     11  C6  FLUB    1      -0.686   1.191  -0.000  1.00  0.00      FLUB
+ATOM     12  F6  FLUB    1      -2.043   1.191  -0.000  1.00  0.00      FLUB
+TER      13      FLUB     1
+END

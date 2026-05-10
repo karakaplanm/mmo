@@ -1,0 +1,17 @@
+REMARK  FOO                                                                           
+REMARK   DATE:     9/10/12     11:42: 7      CREATED BY USER: prabhu                  
+ATOM      1  CG  PHEN    1      -0.014  -0.024   0.000  1.00  0.00      PHEN
+ATOM      2  HG  PHEN    1      -0.553  -0.961   0.000  1.00  0.00      PHEN
+ATOM      3  CD1 PHEN    1       1.388  -0.024   0.000  1.00  0.00      PHEN
+ATOM      4  HD1 PHEN    1       1.930  -0.958   0.000  1.00  0.00      PHEN
+ATOM      5  CD2 PHEN    1      -0.716   1.189  -0.000  1.00  0.00      PHEN
+ATOM      6  HD2 PHEN    1      -1.797   1.187  -0.000  1.00  0.00      PHEN
+ATOM      7  CE1 PHEN    1       2.086   1.192   0.000  1.00  0.00      PHEN
+ATOM      8  HE1 PHEN    1       3.166   1.200   0.000  1.00  0.00      PHEN
+ATOM      9  CE2 PHEN    1      -0.015   2.405  -0.000  1.00  0.00      PHEN
+ATOM     10  HE2 PHEN    1      -0.561   3.335  -0.000  1.00  0.00      PHEN
+ATOM     11  CZ  PHEN    1       1.386   2.404  -0.000  1.00  0.00      PHEN
+ATOM     12  OH  PHEN    1       2.098   3.619  -0.000  1.00  0.00      PHEN
+ATOM     13  HH  PHEN    1       1.456   4.330  -0.000  1.00  0.00      PHEN
+TER      14      PHEN     1
+END

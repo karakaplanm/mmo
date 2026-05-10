@@ -1,0 +1,14 @@
+; CHARMM-port for GROMACS
+; created with charmm2gmx version 1.0.4.dev2+gfb5404623 on 2026-02-27 09:23:01.421152
+; Code: https://gitlab.com/awacha/charmm2gmx
+; Documentation: https://awacha.gitlab.com/charmm2gmx
+; Citation: András F. Wacha and Justin A. Lemkul: "charmm2gmx: An Automated 
+;      Method to Port the CHARMM Additive Force Field to GROMACS". Journal of
+;      Chemical Information and Modeling 2023, 63(14), 4246-4252.
+;      DOI: 10.1021/acs.jcim.3c00860
+;
+; Charmm2GMX written by András Wacha and Justin Lemkul, based on the original
+; port by E. Prabhu Raman, Justin A. Lemkul, Robert Best and Alexander D. 
+; MacKerell, Jr.
+; Residue to rtp building block table
+;    PDB midchain    start      end     2ter
