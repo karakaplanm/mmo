@@ -1,0 +1,490 @@
+MODEL        1
+USER    Run = 1
+USER    DPF = mydock.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -3.34 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    3.55 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -3.94 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -3.96 kcal/mol
+USER        Electrostatic Energy            =   +0.02 kcal/mol
+USER    (2) Final Total Internal Energy     =   -0.20 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.60 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   -0.20 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ligand.pdbqt
+USER    NEWDPF about 22.714000 -25.263000 -3.283000
+USER    NEWDPF tran0 26.752299 -11.574141 -9.731702
+USER    NEWDPF quaternion0 0.111736 -0.549210 -0.763148 0.321697
+USER    NEWDPF axisangle0 0.118009 -0.580044 -0.805992 142.468857
+USER    NEWDPF quat0 0.118009 -0.580044 -0.805992 142.468857
+USER    NEWDPF dihe0 118.58 17.42 
+USER  keepresnum = 1 
+USER  
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  JZ4 A 167      28.690 -12.386 -10.927 -0.38 +0.00    -0.000 A 
+ATOM      2  C8  JZ4 A 167      27.785 -13.394 -11.292 -0.38 -0.00    +0.002 A 
+ATOM      3  C9  JZ4 A 167      26.542 -13.513 -10.705 -0.13 -0.01    +0.027 A 
+ATOM      4  C10 JZ4 A 167      26.198 -12.576  -9.728 -0.28 -0.06    +0.127 A 
+ATOM      5  C11 JZ4 A 167      28.331 -11.424  -9.991 -0.31 +0.00    -0.002 A 
+ATOM      6  C12 JZ4 A 167      27.066 -11.554  -9.376 -0.44 -0.00    +0.003 A 
+ATOM      7  OAB JZ4 A 167      24.963 -12.609  -9.168 -0.49 +0.10    -0.191 OA
+ENDROOT
+BRANCH   6   8
+ATOM      8  C13 JZ4 A 167      26.694 -10.485  -8.401 -0.53 -0.00    +0.028 C 
+BRANCH   8   9
+ATOM      9  C14 JZ4 A 167      25.492  -9.780  -9.073 -0.51 -0.00    +0.005 C 
+ATOM     10  C4  JZ4 A 167      25.794  -9.262 -10.438 -0.50 -0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
+TER
+ENDMDL
+MODEL        2
+USER    Run = 2
+USER    DPF = mydock.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -3.83 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    1.55 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -4.43 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -4.37 kcal/mol
+USER        Electrostatic Energy            =   -0.05 kcal/mol
+USER    (2) Final Total Internal Energy     =   -0.22 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.60 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   -0.22 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ligand.pdbqt
+USER    NEWDPF about 22.714000 -25.263000 -3.283000
+USER    NEWDPF tran0 27.528988 -11.369551 -9.781407
+USER    NEWDPF quaternion0 -0.237683 -0.605377 -0.561838 0.511238
+USER    NEWDPF axisangle0 -0.276556 -0.704386 -0.653726 118.507319
+USER    NEWDPF quat0 -0.276556 -0.704386 -0.653726 118.507319
+USER    NEWDPF dihe0 -129.24 144.27 
+USER  keepresnum = 1 
+USER  
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  JZ4 A 167      27.777 -13.232 -11.302 -0.39 +0.00    -0.000 A 
+ATOM      2  C8  JZ4 A 167      26.375 -13.201 -11.240 -0.48 -0.00    +0.002 A 
+ATOM      3  C9  JZ4 A 167      25.698 -12.417 -10.330 -0.43 -0.02    +0.027 A 
+ATOM      4  C10 JZ4 A 167      26.459 -11.628  -9.465 -0.36 -0.05    +0.127 A 
+ATOM      5  C11 JZ4 A 167      28.535 -12.412 -10.476 -0.37 +0.00    -0.002 A 
+ATOM      6  C12 JZ4 A 167      27.844 -11.621  -9.531 -0.41 -0.00    +0.003 A 
+ATOM      7  OAB JZ4 A 167      25.841 -10.789  -8.596 -0.42 +0.04    -0.191 OA
+ENDROOT
+BRANCH   6   8
+ATOM      8  C13 JZ4 A 167      28.684 -10.724  -8.682 -0.59 -0.02    +0.028 C 
+BRANCH   8   9
+ATOM      9  C14 JZ4 A 167      28.418 -11.227  -7.243 -0.46 -0.00    +0.005 C 
+ATOM     10  C4  JZ4 A 167      28.706 -12.678  -7.059 -0.45 -0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
+TER
+ENDMDL
+MODEL        3
+USER    Run = 3
+USER    DPF = mydock.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -3.69 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    1.98 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -4.28 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -4.23 kcal/mol
+USER        Electrostatic Energy            =   -0.05 kcal/mol
+USER    (2) Final Total Internal Energy     =   -0.20 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.60 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   -0.20 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ligand.pdbqt
+USER    NEWDPF about 22.714000 -25.263000 -3.283000
+USER    NEWDPF tran0 27.516892 -11.389432 -9.804618
+USER    NEWDPF quaternion0 -0.269634 -0.570603 -0.507626 0.586536
+USER    NEWDPF axisangle0 -0.332913 -0.704516 -0.626759 108.176797
+USER    NEWDPF quat0 -0.332913 -0.704516 -0.626759 108.176797
+USER    NEWDPF dihe0 -104.09 142.05 
+USER  keepresnum = 1 
+USER  
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  JZ4 A 167      27.490 -13.318 -11.261 -0.39 +0.00    -0.000 A 
+ATOM      2  C8  JZ4 A 167      26.120 -13.015 -11.295 -0.51 -0.00    +0.002 A 
+ATOM      3  C9  JZ4 A 167      25.554 -12.082 -10.451 -0.29 -0.03    +0.027 A 
+ATOM      4  C10 JZ4 A 167      26.400 -11.425  -9.555 -0.36 -0.06    +0.127 A 
+ATOM      5  C11 JZ4 A 167      28.341 -12.631 -10.405 -0.36 +0.00    -0.002 A 
+ATOM      6  C12 JZ4 A 167      27.761 -11.688  -9.528 -0.41 -0.00    +0.003 A 
+ATOM      7  OAB JZ4 A 167      25.905 -10.452  -8.749 -0.40 +0.05    -0.191 OA
+ENDROOT
+BRANCH   6   8
+ATOM      8  C13 JZ4 A 167      28.705 -10.940  -8.645 -0.58 -0.02    +0.028 C 
+BRANCH   8   9
+ATOM      9  C14 JZ4 A 167      28.222 -11.285  -7.216 -0.46 -0.00    +0.005 C 
+ATOM     10  C4  JZ4 A 167      28.707 -12.607  -6.728 -0.47 +0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
+TER
+ENDMDL
+MODEL        4
+USER    Run = 4
+USER    DPF = mydock.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -3.69 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    1.96 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -4.29 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -4.33 kcal/mol
+USER        Electrostatic Energy            =   +0.04 kcal/mol
+USER    (2) Final Total Internal Energy     =   -0.19 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.60 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   -0.19 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ligand.pdbqt
+USER    NEWDPF about 22.714000 -25.263000 -3.283000
+USER    NEWDPF tran0 26.882320 -11.649785 -8.989742
+USER    NEWDPF quaternion0 0.067813 -0.382278 -0.241923 -0.889235
+USER    NEWDPF axisangle0 0.148240 -0.835669 -0.528850 -54.445535
+USER    NEWDPF quat0 0.148240 -0.835669 -0.528850 -54.445535
+USER    NEWDPF dihe0 -36.52 -170.08 
+USER  keepresnum = 1 
+USER  
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  JZ4 A 167      26.049 -12.848 -10.916 -0.50 +0.00    -0.000 A 
+ATOM      2  C8  JZ4 A 167      27.399 -12.767 -11.292 -0.41 -0.00    +0.002 A 
+ATOM      3  C9  JZ4 A 167      28.306 -11.986 -10.606 -0.33 -0.02    +0.027 A 
+ATOM      4  C10 JZ4 A 167      27.838 -11.276  -9.498 -0.33 -0.07    +0.127 A 
+ATOM      5  C11 JZ4 A 167      25.592 -12.181  -9.786 -0.37 +0.00    -0.002 A 
+ATOM      6  C12 JZ4 A 167      26.515 -11.368  -9.093 -0.47 -0.00    +0.003 A 
+ATOM      7  OAB JZ4 A 167      28.703 -10.545  -8.750 -0.50 +0.13    -0.191 OA
+ENDROOT
+BRANCH   6   8
+ATOM      8  C13 JZ4 A 167      26.004 -10.692  -7.862 -0.53 +0.00    +0.028 C 
+BRANCH   8   9
+ATOM      9  C14 JZ4 A 167      25.082  -9.578  -8.412 -0.52 -0.00    +0.005 C 
+ATOM     10  C4  JZ4 A 167      23.934  -9.261  -7.515 -0.35 +0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
+TER
+ENDMDL
+MODEL        5
+USER    Run = 5
+USER    DPF = mydock.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -3.58 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    2.38 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -4.18 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -4.12 kcal/mol
+USER        Electrostatic Energy            =   -0.06 kcal/mol
+USER    (2) Final Total Internal Energy     =   -0.19 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.60 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   -0.19 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ligand.pdbqt
+USER    NEWDPF about 22.714000 -25.263000 -3.283000
+USER    NEWDPF tran0 26.609493 -11.718377 -8.477756
+USER    NEWDPF quaternion0 0.327094 -0.555427 -0.451287 -0.617130
+USER    NEWDPF axisangle0 0.415694 -0.705878 -0.573529 -103.786246
+USER    NEWDPF quat0 0.415694 -0.705878 -0.573529 -103.786246
+USER    NEWDPF dihe0 -77.89 -164.73 
+USER  keepresnum = 1 
+USER  
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  JZ4 A 167      27.073 -11.470 -10.837 -0.41 +0.00    -0.000 A 
+ATOM      2  C8  JZ4 A 167      28.346 -11.886 -10.419 -0.35 -0.00    +0.002 A 
+ATOM      3  C9  JZ4 A 167      28.686 -11.984  -9.086 -0.40 -0.01    +0.027 A 
+ATOM      4  C10 JZ4 A 167      27.704 -11.666  -8.145 -0.33 -0.02    +0.127 A 
+ATOM      5  C11 JZ4 A 167      26.080 -11.200  -9.903 -0.44 +0.00    -0.002 A 
+ATOM      6  C12 JZ4 A 167      26.430 -11.283  -8.538 -0.45 -0.00    +0.003 A 
+ATOM      7  OAB JZ4 A 167      27.966 -11.810  -6.821 -0.85 -0.03    -0.191 OA
+ENDROOT
+BRANCH   6   8
+ATOM      8  C13 JZ4 A 167      25.333 -11.022  -7.558 -0.12 +0.01    +0.028 C 
+BRANCH   8   9
+ATOM      9  C14 JZ4 A 167      25.023  -9.518  -7.747 -0.49 +0.00    +0.005 C 
+ATOM     10  C4  JZ4 A 167      23.732  -9.262  -8.447 -0.28 -0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
+TER
+ENDMDL
+MODEL        6
+USER    Run = 6
+USER    DPF = mydock.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -3.81 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    1.60 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -4.41 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -4.44 kcal/mol
+USER        Electrostatic Energy            =   +0.03 kcal/mol
+USER    (2) Final Total Internal Energy     =   -0.20 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.60 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   -0.20 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ligand.pdbqt
+USER    NEWDPF about 22.714000 -25.263000 -3.283000
+USER    NEWDPF tran0 26.783735 -10.843743 -9.300436
+USER    NEWDPF quaternion0 0.097862 0.592098 0.245548 0.761281
+USER    NEWDPF axisangle0 0.150923 0.913137 0.378686 80.845509
+USER    NEWDPF quat0 0.150923 0.913137 0.378686 80.845509
+USER    NEWDPF dihe0 26.08 -4.46 
+USER  keepresnum = 1 
+USER  
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  JZ4 A 167      26.329 -12.587 -10.911 -0.48 +0.00    -0.000 A 
+ATOM      2  C8  JZ4 A 167      27.690 -12.854 -10.697 -0.35 -0.00    +0.002 A 
+ATOM      3  C9  JZ4 A 167      28.502 -11.999  -9.982 -0.35 -0.02    +0.027 A 
+ATOM      4  C10 JZ4 A 167      27.918 -10.844  -9.456 -0.35 -0.08    +0.127 A 
+ATOM      5  C11 JZ4 A 167      25.735 -11.465 -10.347 -0.40 +0.00    -0.002 A 
+ATOM      6  C12 JZ4 A 167      26.569 -10.579  -9.630 -0.46 -0.00    +0.003 A 
+ATOM      7  OAB JZ4 A 167      28.658 -10.004  -8.689 -0.59 +0.14    -0.191 OA
+ENDROOT
+BRANCH   6   8
+ATOM      8  C13 JZ4 A 167      25.896  -9.400  -9.006 -0.51 -0.01    +0.028 C 
+BRANCH   8   9
+ATOM      9  C14 JZ4 A 167      25.557  -9.886  -7.577 -0.48 +0.00    +0.005 C 
+ATOM     10  C4  JZ4 A 167      24.321  -9.269  -7.017 -0.46 +0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
+TER
+ENDMDL
+MODEL        7
+USER    Run = 7
+USER    DPF = mydock.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -3.38 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    3.31 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -3.98 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -4.01 kcal/mol
+USER        Electrostatic Energy            =   +0.03 kcal/mol
+USER    (2) Final Total Internal Energy     =   -0.16 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.60 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   -0.16 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ligand.pdbqt
+USER    NEWDPF about 22.714000 -25.263000 -3.283000
+USER    NEWDPF tran0 26.999602 -10.443539 -9.342327
+USER    NEWDPF quaternion0 -0.924627 -0.365140 -0.034900 -0.102566
+USER    NEWDPF axisangle0 -0.929529 -0.367076 -0.035085 -168.226127
+USER    NEWDPF quat0 -0.929529 -0.367076 -0.035085 -168.226127
+USER    NEWDPF dihe0 -129.54 164.79 
+USER  keepresnum = 1 
+USER  
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  JZ4 A 167      24.828 -10.008  -8.374 -0.37 +0.00    -0.000 A 
+ATOM      2  C8  JZ4 A 167      25.536 -10.259  -7.189 -0.43 +0.00    +0.002 A 
+ATOM      3  C9  JZ4 A 167      26.821 -10.761  -7.193 -0.21 +0.01    +0.027 A 
+ATOM      4  C10 JZ4 A 167      27.414 -11.004  -8.434 -0.38 -0.03    +0.127 A 
+ATOM      5  C11 JZ4 A 167      25.434 -10.203  -9.610 -0.29 +0.00    -0.002 A 
+ATOM      6  C12 JZ4 A 167      26.742 -10.734  -9.616 -0.46 -0.00    +0.003 A 
+ATOM      7  OAB JZ4 A 167      28.699 -11.435  -8.494 -0.39 +0.08    -0.191 OA
+ENDROOT
+BRANCH   6   8
+ATOM      8  C13 JZ4 A 167      27.380 -10.899 -10.957 -0.39 -0.02    +0.028 C 
+BRANCH   8   9
+ATOM      9  C14 JZ4 A 167      27.156 -12.393 -11.288 -0.49 -0.00    +0.005 C 
+ATOM     10  C4  JZ4 A 167      25.723 -12.804 -11.239 -0.60 -0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
+TER
+ENDMDL
+MODEL        8
+USER    Run = 8
+USER    DPF = mydock.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -2.98 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    6.53 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -3.58 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -3.66 kcal/mol
+USER        Electrostatic Energy            =   +0.08 kcal/mol
+USER    (2) Final Total Internal Energy     =   -0.24 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.60 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   -0.24 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ligand.pdbqt
+USER    NEWDPF about 22.714000 -25.263000 -3.283000
+USER    NEWDPF tran0 26.316285 -10.857124 -9.614529
+USER    NEWDPF quaternion0 -0.536666 0.420479 0.671551 -0.290183
+USER    NEWDPF axisangle0 -0.560797 0.439386 0.701746 -146.262123
+USER    NEWDPF quat0 -0.560797 0.439386 0.701746 -146.262123
+USER    NEWDPF dihe0 103.26 -146.71 
+USER  keepresnum = 1 
+USER  
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  JZ4 A 167      28.649 -10.579  -9.047 -0.46 +0.00    -0.000 A 
+ATOM      2  C8  JZ4 A 167      28.706 -11.903  -9.511 -0.41 -0.00    +0.002 A 
+ATOM      3  C9  JZ4 A 167      27.569 -12.632  -9.788 -0.26 -0.01    +0.027 A 
+ATOM      4  C10 JZ4 A 167      26.336 -12.002  -9.604 -0.34 -0.06    +0.127 A 
+ATOM      5  C11 JZ4 A 167      27.426  -9.934  -8.909 -0.43 +0.00    -0.002 A 
+ATOM      6  C12 JZ4 A 167      26.261 -10.685  -9.175 -0.47 -0.00    +0.003 A 
+ATOM      7  OAB JZ4 A 167      25.190 -12.653  -9.925 -0.39 +0.17    -0.191 OA
+ENDROOT
+BRANCH   6   8
+ATOM      8  C13 JZ4 A 167      24.963  -9.955  -9.054 -0.36 -0.02    +0.028 C 
+BRANCH   8   9
+ATOM      9  C14 JZ4 A 167      25.061  -9.262  -7.674 -0.35 +0.00    +0.005 C 
+ATOM     10  C4  JZ4 A 167      24.957 -10.207  -6.526 -0.20 +0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
+TER
+ENDMDL
+MODEL        9
+USER    Run = 9
+USER    DPF = mydock.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -3.75 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =    1.79 mM (millimolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -4.34 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -4.39 kcal/mol
+USER        Electrostatic Energy            =   +0.04 kcal/mol
+USER    (2) Final Total Internal Energy     =   -0.25 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.60 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   -0.25 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ligand.pdbqt
+USER    NEWDPF about 22.714000 -25.263000 -3.283000
+USER    NEWDPF tran0 26.389233 -10.729867 -10.044780
+USER    NEWDPF quaternion0 0.078866 -0.835360 0.448130 0.308438
+USER    NEWDPF axisangle0 0.082909 -0.878176 0.471098 144.069702
+USER    NEWDPF quat0 0.082909 -0.878176 0.471098 144.069702
+USER    NEWDPF dihe0 -129.63 -34.79 
+USER  keepresnum = 1 
+USER  
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  JZ4 A 167      26.547 -10.819  -7.635 -0.42 -0.00    -0.000 A 
+ATOM      2  C8  JZ4 A 167      25.489  -9.902  -7.739 -0.46 +0.00    +0.002 A 
+ATOM      3  C9  JZ4 A 167      25.119  -9.343  -8.944 -0.41 -0.01    +0.027 A 
+ATOM      4  C10 JZ4 A 167      25.829  -9.732 -10.081 -0.31 -0.09    +0.127 A 
+ATOM      5  C11 JZ4 A 167      27.223 -11.244  -8.771 -0.47 +0.00    -0.002 A 
+ATOM      6  C12 JZ4 A 167      26.857 -10.660 -10.004 -0.44 -0.00    +0.003 A 
+ATOM      7  OAB JZ4 A 167      25.462  -9.262 -11.300 -0.38 +0.18    -0.191 OA
+ENDROOT
+BRANCH   6   8
+ATOM      8  C13 JZ4 A 167      27.577 -11.163 -11.212 -0.41 -0.02    +0.028 C 
+BRANCH   8   9
+ATOM      9  C14 JZ4 A 167      27.190 -12.659 -11.272 -0.49 -0.00    +0.005 C 
+ATOM     10  C4  JZ4 A 167      25.718 -12.892 -11.295 -0.61 -0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
+TER
+ENDMDL
+MODEL       10
+USER    Run = 10
+USER    DPF = mydock.dpf
+USER  
+USER    Estimated Free Energy of Binding    =   -4.28 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER    Estimated Inhibition Constant, Ki   =  732.10 uM (micromolar)  [Temperature = 298.15 K]
+USER    
+USER    (1) Final Intermolecular Energy     =   -4.87 kcal/mol
+USER        vdW + Hbond + desolv Energy     =   -4.81 kcal/mol
+USER        Electrostatic Energy            =   -0.07 kcal/mol
+USER    (2) Final Total Internal Energy     =   -0.20 kcal/mol
+USER    (3) Torsional Free Energy           =   +0.60 kcal/mol
+USER    (4) Unbound System's Energy  [=(2)] =   -0.20 kcal/mol
+USER    
+USER    
+USER    NEWDPF move ligand.pdbqt
+USER    NEWDPF about 22.714000 -25.263000 -3.283000
+USER    NEWDPF tran0 27.264718 -10.471836 -8.716355
+USER    NEWDPF quaternion0 0.892354 0.234331 0.349773 -0.162640
+USER    NEWDPF axisangle0 0.904396 0.237493 0.354493 -161.279700
+USER    NEWDPF quat0 0.904396 0.237493 0.354493 -161.279700
+USER    NEWDPF dihe0 97.45 -128.92 
+USER  keepresnum = 1 
+USER  
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C7  JZ4 A 167      25.341  -9.351  -9.656 -0.36 +0.00    -0.000 A 
+ATOM      2  C8  JZ4 A 167      24.961  -9.314  -8.306 -0.44 -0.00    +0.002 A 
+ATOM      3  C9  JZ4 A 167      25.645 -10.013  -7.332 -0.41 +0.01    +0.027 A 
+ATOM      4  C10 JZ4 A 167      26.754 -10.761  -7.733 -0.33 +0.01    +0.127 A 
+ATOM      5  C11 JZ4 A 167      26.472 -10.055 -10.050 -0.46 +0.00    -0.002 A 
+ATOM      6  C12 JZ4 A 167      27.162 -10.785  -9.058 -0.48 -0.00    +0.003 A 
+ATOM      7  OAB JZ4 A 167      27.499 -11.413  -6.806 -0.95 -0.06    -0.191 OA
+ENDROOT
+BRANCH   6   8
+ATOM      8  C13 JZ4 A 167      28.394 -11.503  -9.504 -0.47 -0.02    +0.028 C 
+BRANCH   8   9
+ATOM      9  C14 JZ4 A 167      28.083 -11.888 -10.970 -0.43 -0.00    +0.005 C 
+ATOM     10  C4  JZ4 A 167      27.175 -13.064 -11.095 -0.47 -0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
+TER
+ENDMDL

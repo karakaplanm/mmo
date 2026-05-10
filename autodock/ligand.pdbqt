@@ -1,0 +1,21 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_1382  and  C13_1383 
+REMARK    2  A    between atoms: C13_1383  and  C14_1384 
+ROOT
+HETATM    1  C7  JZ4 A 167      21.553 -27.214  -4.112  1.00 16.92    -0.000 A 
+HETATM    2  C8  JZ4 A 167      22.068 -26.747  -5.331  1.00 14.84     0.002 A 
+HETATM    3  C9  JZ4 A 167      22.671 -25.512  -5.448  1.00 15.93     0.027 A 
+HETATM    4  C10 JZ4 A 167      22.769 -24.730  -4.295  1.00 15.43     0.127 A 
+HETATM    5  C11 JZ4 A 167      21.693 -26.459  -2.954  1.00 16.72    -0.002 A 
+HETATM    6  C12 JZ4 A 167      22.294 -25.187  -3.075  1.00 14.13     0.003 A 
+HETATM    7  OAB JZ4 A 167      23.412 -23.536  -4.342  1.00 13.88    -0.191 OA
+ENDROOT
+BRANCH   6   8
+HETATM    8  C13 JZ4 A 167      22.463 -24.414  -1.808  1.00 15.94     0.028 C 
+BRANCH   8   9
+HETATM    9  C14 JZ4 A 167      23.925 -24.704  -1.394  1.00 15.28     0.005 C 
+HETATM   10  C4  JZ4 A 167      24.294 -24.124  -0.071  1.00 16.39     0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   6   8
+TORSDOF 2
