@@ -30,12 +30,11 @@ $ adt
 
 
 ## Receptor Steps
+
 - Open adt
 - File -> Read Molecule -> load 3HTB_clean.pdb
 - Edit -> Hydrogens -> Add -> Polar Only 
 - Grid -> Macromolecule -> Choose -> protein -> Select Molecule -> Save As ->protein.pdbqt
-
-
 - Grid -> Set Map Types -> Open Ligand -> ligand.pdbqt -> Open 
 - Grid -> Grid Box Where we select the docking area
 - Grid Box -> Close Saving Curent 
@@ -48,7 +47,14 @@ $ adt
 - Docking -> Ouput -> Lamarkian GA -> Docking results
 
 ## Docking steps Command line
+
 ```
 autogrid4 -p mydock.gpf -l protein.dlg
 autodock4 -p mydock.dpf -l ligand.dlg
+```
+
+## Analysis Docking results
+
+```
+pymol ligand.dlg
 ```
