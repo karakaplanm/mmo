@@ -9,6 +9,7 @@ AutoDock is a suite of automated docking tools designed to predict how small mol
 ## Download and Install
 
 https://ccsb.scripps.edu/mgltools/downloads/
+https://autodock.scripps.edu/download-autodock4/
 
 ```
 $ cd mgltools_x86_64Linux2_X.X.X
