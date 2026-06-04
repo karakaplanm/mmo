@@ -1,0 +1,11 @@
+# Structural and Functional Characterization of the Multidrug Transcriptional Regulator QacR
+
+## Abstract / Introduction Section
+
+QacR (Quaternary ammonium compound resistance repressor), a transcriptional repressor belonging to the TetR protein family, serves as a master regulator of the multidrug resistance (MDR) mechanism in the opportunistic pathogen *Staphylococcus aureus*. The primary cellular function of QacR is to tightly regulate the genetic expression of the QacA efflux pump, a plasma membrane-bound transporter responsible for extruding a wide array of toxic amphipathic cations from the bacterial cell. 
+
+Under physiological conditions in the absence of toxic substrates, QacR binds with high affinity as a homodimer to the operator region of the *qacA* gene, sterically hindering RNA polymerase, thus repressing transcription and preventing unnecessary metabolic expenditure. However, upon the cellular entry of noxious agents—such as the bivalent diamidine Berenil (Diminazene) or various lipophilic cations—these ligands bind directly within the spacious, flexible, and multidrug-binding (promiscuous) pocket of QacR. This ligand-protein interaction triggers an allosteric conformational change, shifting the DNA-binding helix-turn-helix (HTH) motifs away from each other, thereby abolishing its affinity for the operator DNA. The subsequent derepression activates *qacA* transcription, leading to the synthesis and membrane insertion of efflux pumps that actively expel the therapeutic or toxic agents, ensuring bacterial survival.
+
+## AlphaFold Modeling Context
+
+In this study, the three-dimensional tertiary structure of the QacR protein was predicted using the AlphaFold deep-learning algorithm. The computational modeling aimed to evaluate the overall folding topology, the spatial arrangement of the dimeric interface, the DNA-interaction surface, and the conformational characteristics of its highly flexible ligand-binding pocket. *In silico* structural alignments between the AlphaFold prediction and experimentally determined holo-structures (such as the Berenil-bound complex deposited under PDB ID: 2GBY) provide critical insights into the structural plasticity and derepression dynamics of QacR, contributing to a deeper understanding of bacterial resistance mechanics at the atomic level.
